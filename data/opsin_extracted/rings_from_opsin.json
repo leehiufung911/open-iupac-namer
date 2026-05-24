@@ -1,0 +1,3527 @@
+[
+  {
+    "name": "benzo|benz",
+    "smiles": "c1ccccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "naphthyridino",
+    "smiles": "c1cccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenanthrolino",
+    "smiles": "c1cccc2ccc3ccccc3c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "aceanthryleno",
+    "smiles": "c1cc2cccc3cc4ccccc4c1c23",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "acenaphthyleno|acenaphth|acenaphtho",
+    "smiles": "c1cc2cccc3cccc1c23",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "acephenanthryleno",
+    "smiles": "c1ccc2ccc3cc4ccccc4c1c23",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "acridarsino",
+    "smiles": "c1cccc2[as]c3ccccc3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "acridino",
+    "smiles": "c1cccc2nc3ccccc3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "acridophosphino",
+    "smiles": "c1cccc2pc3ccccc3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "acrindolino",
+    "smiles": "c1cccc2c3ccc4cc5ccccc5nc4c3nc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "anthyridino",
+    "smiles": "n1cccc2cc3cccnc3nc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "anthraceno|anthra",
+    "smiles": "c1cccc2cc3ccccc3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "anthrazino",
+    "smiles": "c1cccc2cc3c4nc5ccc6cc7ccccc7cc6c5nc4ccc3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "arsanthreno",
+    "smiles": "c1cccc2[as]c3ccccc3[as]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "arsanthridino",
+    "smiles": "c1cccc2[as]cc3ccccc3c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "arsindolizino",
+    "smiles": "c1cc[as]2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "arsindolo",
+    "smiles": "[asH]1ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "arsinolino",
+    "smiles": "[as]1cccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "arsinolizino",
+    "smiles": "c1cc[cH2][as]2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "azuleno",
+    "smiles": "c1ccc2cccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "benzeno",
+    "smiles": "c1ccccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "betacarbolino|beta-carbolino|b-carbolino",
+    "smiles": "c1nccc2c3ccccc3[nH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "biphenyleno",
+    "smiles": "c1cccc2c3ccccc3c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "boranthreno",
+    "smiles": "C1=CC=CC=2B=C3C=CC=CC3=BC12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "carbazolo",
+    "smiles": "c1cccc2c3ccccc3[nH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "chinolino",
+    "smiles": "n1cccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "chromeno",
+    "smiles": "o1[cH2]ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "thiochromeno",
+    "smiles": "s1[cH2]ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "selenochromeno",
+    "smiles": "[se]1[cH2]ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "tellurochromeno",
+    "smiles": "[te]1[cH2]ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "chryseno",
+    "smiles": "c1cccc2c3ccc4ccccc4c3ccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "cinnolino",
+    "smiles": "n1nccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "coroneno",
+    "smiles": "c1cc2ccc3ccc4ccc5ccc6ccc71.c28c3c4c5c6c78",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "fluorantheno",
+    "smiles": "c1ccc2cccc3c4ccccc4c1c23",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "fluoreno",
+    "smiles": "c1cccc2c3ccccc3[cH2]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "furano",
+    "smiles": "o1cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "furazano",
+    "smiles": "o1nccn1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "furo",
+    "smiles": "o1cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "imidazolo|imidazo",
+    "smiles": "[nH]1cncc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "as-indaceno",
+    "smiles": "c1ccc2ccc3cccc3c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "s-indaceno",
+    "smiles": "c1ccc2cc3cccc3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "indazolo",
+    "smiles": "[nH]1ncc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "indeno",
+    "smiles": "[cH2]1ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "indolizidino",
+    "smiles": "C1CCN2CCCCC12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "indolizino",
+    "smiles": "c1ccn2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "indolo",
+    "smiles": "[nH]1ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isoarsindolo",
+    "smiles": "c1[asH]cc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isoarsinolino",
+    "smiles": "c1[as]ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isobenzofurano|isobenzofuro",
+    "smiles": "c1occ2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isochinolino",
+    "smiles": "c1nccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isochromeno",
+    "smiles": "[cH2]1occc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isothiochromeno",
+    "smiles": "[cH2]1sccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isoselenochromeno",
+    "smiles": "[cH2]1[se]ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isotellurochromeno",
+    "smiles": "[cH2]1[te]ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isoindolo",
+    "smiles": "c1[nH]cc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isooxazolo|isoxazolo",
+    "smiles": "o1nccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isophosphindolo",
+    "smiles": "c1[pH]cc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isophosphinolino",
+    "smiles": "c1pccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isoquino|isoquinolino",
+    "smiles": "c1nccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isoselenazolo",
+    "smiles": "[se]1nccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isotellurazolo",
+    "smiles": "[te]1nccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "isothiazolo",
+    "smiles": "s1nccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "mercuranthreno",
+    "smiles": "c1cccc2[Hg]c3ccccc3[Hg]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "naphthaceno",
+    "smiles": "c1cccc2cc3cc4ccccc4cc3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "naphthaleno|naphthalino|naphth|naphtho",
+    "smiles": "c1cccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "ovaleno",
+    "smiles": "c1cc2ccc3ccc4cc5ccc6ccc7ccc8cc91.c19c2c3c4c9c5c6c7c8c19",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "oxanthreno",
+    "smiles": "c1cccc2oc3ccccc3oc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "perimidino",
+    "smiles": "[nH]1cnc2cccc3cccc1c23",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "peryleno|perylo",
+    "smiles": "c1ccc2cccc3c4cccc5cccc6c71.c237.c456",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenaleno",
+    "smiles": "[cH2]1ccc2cccc3cccc1c23",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenanthrazino",
+    "smiles": "c1cccc2c3ccccc3c4nc5c6ccccc6c7ccccc7c5nc4c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenanthreno",
+    "smiles": "c1cccc2c3ccccc3ccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenanthridino",
+    "smiles": "c1cccc2ncc3ccccc3c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenanthro",
+    "smiles": "c1cccc2c3ccccc3ccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenazino",
+    "smiles": "c1cccc2nc3ccccc3nc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoxazino",
+    "smiles": "c1cccc2oc3ccccc3[nH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenothiazino",
+    "smiles": "c1cccc2sc3ccccc3[nH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoselenazino",
+    "smiles": "c1cccc2[se]c3ccccc3[nH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenotellurazino",
+    "smiles": "c1cccc2[te]c3ccccc3[nH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenophosphazinino|phenophosphazino",
+    "smiles": "c1cccc2nc3ccccc3pc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenarsazinino",
+    "smiles": "c1cccc2nc3ccccc3[as]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenazasilino",
+    "smiles": "c1cccc2nc3ccccc3[siH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoarsazino",
+    "smiles": "c1cccc2nc3ccccc3[as]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenomercurazino|phenomercazino",
+    "smiles": "c1cccc2[nH]c3ccccc3[Hg]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoxathiino",
+    "smiles": "c1cccc2oc3ccccc3sc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoxaselenino",
+    "smiles": "c1cccc2oc3ccccc3[se]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoxasilin",
+    "smiles": "c1cccc2oc3ccccc3[siH2]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoxatellurino",
+    "smiles": "c1cccc2oc3ccccc3[te]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoxaphosphinino|phenoxaphosphino",
+    "smiles": "c1cccc2oc3ccccc3[pH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoxarsinino|phenoxarsino",
+    "smiles": "c1cccc2oc3ccccc3[asH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenoxastibinino|phenoxantimonino",
+    "smiles": "c1cccc2oc3ccccc3[sbH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenothiarsinino|phenothiarsino",
+    "smiles": "c1cccc2sc3ccccc3[asH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phenomercurino",
+    "smiles": "c1cccc2[Hg]c3ccccc3[Hg]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phosphanthreno",
+    "smiles": "c1cccc2pc3ccccc3pc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phosphanthridino",
+    "smiles": "c1cccc2pcc3ccccc3c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phosphindolo",
+    "smiles": "[pH]1ccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phosphindolizino",
+    "smiles": "c1ccp2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phosphinolino",
+    "smiles": "p1cccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phosphinolizino",
+    "smiles": "c1cc[cH2]p2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phthalazino",
+    "smiles": "c1nncc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "phthaloperino",
+    "smiles": "c1ccc2cccc3nc4c5ccccc5cn4c1c23",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "piceno",
+    "smiles": "c1cccc2ccc3c4ccc5ccccc5c4ccc3c21",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pleiadeno",
+    "smiles": "c1ccc2cccc3cc4ccccc4cc51.c235",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pteridino",
+    "smiles": "n1cncc2nccnc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "purino",
+    "smiles": "n1cnc2nc[nH]c2c1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyrano",
+    "smiles": "o1[cH2]cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "thiopyrano",
+    "smiles": "s1[cH2]cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "selenopyrano",
+    "smiles": "[se]1[cH2]cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "telluropyrano",
+    "smiles": "[te]1[cH2]cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyranthreno",
+    "smiles": "c1cccc2c3cc4ccc5cc6ccccc6c6cc7ccc8cc12.c38c7c4c56",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyrazino",
+    "smiles": "n1ccncc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyrazolo",
+    "smiles": "[nH]1nccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyreno",
+    "smiles": "c1ccc2ccc3cccc4ccc1c2c34",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyridazino",
+    "smiles": "n1ncccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyridino|pyrido",
+    "smiles": "n1ccccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyrimidino|pyrimido",
+    "smiles": "n1cnccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyrrolizidino",
+    "smiles": "C1CCN2CCCC12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyrrolizino",
+    "smiles": "[cH2]1ccn2cccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "pyrrolo",
+    "smiles": "[nH]1cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "quinazolino",
+    "smiles": "n1cncc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "quindolino",
+    "smiles": "c1cccc2nc3c4ccccc4nc3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "quinindolino",
+    "smiles": "c1cccc2nc3nc4ccccc4c3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "quino|quinolino",
+    "smiles": "n1cccc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "quinolizidino",
+    "smiles": "C1CCCN2CCCCC12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "quinolizino",
+    "smiles": "c1cc[cH2]n2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "quinoxalino",
+    "smiles": "n1ccnc2ccccc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "rubiceno",
+    "smiles": "c1ccc2c3ccccc3c3c4cccc5c6ccccc6c6c71.c237.c456",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "selenanthreno",
+    "smiles": "c1cccc2[se]c3ccccc3[se]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "selenopheno",
+    "smiles": "[se]1cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "silanthreno",
+    "smiles": "c1cccc2[siH]c3ccccc3[siH]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "s-triazino|sym-triazino",
+    "smiles": "n1cncnc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "s-triazolo|sym-triazolo",
+    "smiles": "[nH]1ncnc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "telluranthreno",
+    "smiles": "c1cccc2[te]c3ccccc3[te]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "telluropheno",
+    "smiles": "[te]1cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "thebenidino",
+    "smiles": "c1ccc2ncc3cccc4ccc1c2c34",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "thianthreno",
+    "smiles": "c1cccc2sc3ccccc3sc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "thieno|thiopheno",
+    "smiles": "s1cccc1",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "trindeno",
+    "smiles": "[cH2]1ccc2c3cccc3c4cccc4c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "trinaphthyleno",
+    "smiles": "c1cccc2cc3c4cc5ccccc5cc4c4cc5ccccc5cc4c3cc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "triphenodioxazino",
+    "smiles": "c1cccc2oc3cc4nc5ccccc5oc4cc3nc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "triphenodithiazino",
+    "smiles": "c1cccc2sc3cc4nc5ccccc5sc4cc3nc12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "triphenyleno",
+    "smiles": "c1cccc2c3ccccc3c3ccccc3c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "xantheno",
+    "smiles": "c1cccc2oc3ccccc3[cH2]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "thioxantheno",
+    "smiles": "c1cccc2sc3ccccc3[cH2]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "selenoxantheno",
+    "smiles": "c1cccc2[se]c3ccccc3[cH2]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "telluroxantheno",
+    "smiles": "c1cccc2[te]c3ccccc3[cH2]c12",
+    "source": "fusionComponents.xml"
+  },
+  {
+    "name": "3-pyrazolone|3-pyrazolon",
+    "smiles": "N1NC(=O)C=C1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "4-pyrazolone|4-pyrazolon",
+    "smiles": "N1N=CC(=O)C1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5-pyrazolone|5-pyrazolon",
+    "smiles": "N1N=CCC1=O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "alpha-asarone|alpha-asaron",
+    "smiles": "C/C=C/C1=C(OC)C=C(OC)C(OC)=C1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "beta-asarone|beta-asaron",
+    "smiles": "C/C=C\\C1=C(OC)C=C(OC)C(OC)=C1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "alpha-furil|2,2'-furil",
+    "smiles": "o1cccc1C(=O)C(=O)c2ccco2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "2,2'-furoin",
+    "smiles": "o1cccc1C(=O)C(O)c2ccco2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "abietamide|abietamid",
+    "smiles": "C[C@@]1([C@H]2[C@@](CCC1)(C)[C@H]3CCC(C(C)C)=CC3=CC2)C(=O)N",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "acetovanillone|acetovanillon",
+    "smiles": "CC(=O)c1cc(OC)c(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "anise alcohol",
+    "smiles": "OCc1ccc(OC)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "anisil|p-anisil",
+    "smiles": "c1(ccc(OC)cc1)C(=O)C(=O)c2ccc(OC)cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "anisoin|p-anisoin",
+    "smiles": "c1(ccc(OC)cc1)C(=O)C(O)c2ccc(OC)cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "anthra-1,2-quinone|anthra-1,2-quinon",
+    "smiles": "c1(=O)c(=O)ccc2cc3ccccc3cc12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "anthra-1,4-quinone|anthra-1,4-quinon",
+    "smiles": "c1(=O)ccc(=O)c2cc3ccccc3cc12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "anthra-9,10-quinone|anthra-9,10-quinon",
+    "smiles": "c1cccc2c(=O)c3ccccc3c(=O)c12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "anthranil",
+    "smiles": "n1occ2ccccc12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "apocynin",
+    "smiles": "CC(=O)c1cc(OC)c(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "barbituric|barbituricacid|barbituric acid",
+    "smiles": "N1C(=O)NC(=O)CC(=O)1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "benzil",
+    "smiles": "c1(ccccc1)C(=O)C(=O)c2ccccc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "benzo-1,2-quinone|benzo-1,2-quinon",
+    "smiles": "c1(=O)c(=O)cccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "benzo-1,4-quinone|benzo-1,4-quinon",
+    "smiles": "c1(=O)ccc(=O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "benzol",
+    "smiles": "c1ccccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "benzopinacol",
+    "smiles": "c1(ccccc1)C(O)(c2ccccc2)C(O)(c3ccccc3)c4ccccc4",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "benzopinacolone|benzopinacolon",
+    "smiles": "c1(ccccc1)C(c2ccccc2)(c3ccccc3)C(=O)c4ccccc4",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "benzosemiquinone|benzosemiquinon",
+    "smiles": "c1ccccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "bisphenol a|bisphenol-a",
+    "smiles": "Oc1ccc(cc1)C(C)(C)c2ccc(cc2)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "bourbonal",
+    "smiles": "O=Cc1cc(OCC)c(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "carvacrol",
+    "smiles": "c1c(O)c(C)ccc1C(C)C",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "catecholate|catecholat",
+    "smiles": "c1([O-])c([O-])cccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "chavicol",
+    "smiles": "c1(ccc(CC=C)cc1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "coniferol",
+    "smiles": "OC/C=C/c1cc(OC)c(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "creosol",
+    "smiles": "c1(c(OC)cc(C)cc1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cumaldehyde|cumaldehyd",
+    "smiles": "O=Cc1ccc(C(C)C)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cuminic acid|cuminicacid|cumic acid|cumicacid",
+    "smiles": "OC(=O)c1ccc(C(C)C)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cuminal|cuminaldehyde|cuminaldehyd",
+    "smiles": "O=Cc1ccc(C(C)C)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cuminol",
+    "smiles": "OCc1ccc(C(C)C)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "curcumin",
+    "smiles": "COc1cc(ccc1O)\\C=C\\C(=O)CC(=O)\\C=C\\c1ccc(O)c(OC)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyanuramide|cyanurotriamide|cyanurotriamine|cyanuramid|cyanurotriamid|cyanurotriamin",
+    "smiles": "n1c(N)nc(N)nc1N",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyanuric bromide|cyanuryl bromide|cyanuric bromid|cyanuryl bromid",
+    "smiles": "n1c(Br)nc(Br)nc1Br",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyanuric chloride|cyanuryl chloride|cyanuric chlorid|cyanuryl chlorid",
+    "smiles": "n1c(Cl)nc(Cl)nc1Cl",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyanuric fluoride|cyanuryl fluoride|cyanuric fluorid|cyanuryl fluorid",
+    "smiles": "n1c(F)nc(F)nc1F",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyanuric iodide|cyanuryl iodide|cyanuric iodid|cyanuryl iodid",
+    "smiles": "n1c(I)nc(I)nc1I",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyclopentadienide|cyclopentadienid",
+    "smiles": "[CH-]1C=CC=C1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyclopentadienylium",
+    "smiles": "[CH+]1C=CC=C1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyclotetraphosphazene|cyclotetraphosphazen",
+    "smiles": "N1=PN=PN=PN=P1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "cyclotriphosphazene|cyclotriphosphazen",
+    "smiles": "N1=PN=PN=P1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "dibenzamide|dibenzamid",
+    "smiles": "c1ccccc1C(=O)NC(=O)c2ccccc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "diphenate",
+    "smiles": "c1(c(C(=O)[O-])cccc1)c2c(C(=O)[O-])cccc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "diphenic|diphenicacid|diphenic acid",
+    "smiles": "c1(c(C(=O)O)cccc1)c2c(C(=O)O)cccc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "durohydroquinone|durohydroquinon",
+    "smiles": "c1(c(C)c(C)c(O)c(C)c1C)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "dypnone",
+    "smiles": "CC(c1ccccc1)=CC(c2ccccc2)=O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "elemicin",
+    "smiles": "COc1c(OC)c(OC)cc(CC=C)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "estragole|estragol",
+    "smiles": "c1(ccc(CC=C)cc1)OC",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "ethyl vanillin|ethylvanillin",
+    "smiles": "O=Cc1cc(OCC)c(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "homoisovanillin",
+    "smiles": "O=CCc1cc(O)c(OC)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "homovanillin",
+    "smiles": "O=CCc1cc(OC)c(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "o-homovanillin",
+    "smiles": "O=CCc1c(O)c(OC)ccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "imidazolate|imidazolat",
+    "smiles": "[n-]1cncc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "isatic|isaticacid|isatic acid",
+    "smiles": "c1(c(N)cccc1)C(=O)C(=O)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "isatoic|isatoicacid|isatoic acid",
+    "smiles": "c1(C(=O)O)c(NC(=O)O)cccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "isoelemicin",
+    "smiles": "COc1c(OC)c(OC)cc(C=CC)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "isoeugenol",
+    "smiles": "c1(c(O)ccc(C=CC)c1)OC",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "isophthalyl alcohol",
+    "smiles": "OCc1cc(CO)ccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "isovanillin",
+    "smiles": "O=Cc1cc(O)c(OC)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "lutidine|lutidin",
+    "smiles": "n1ccccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "melamine|melamin",
+    "smiles": "n1c(N)nc(N)nc1N",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "quinol",
+    "smiles": "c1(O)ccc(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "mesitylenate|mesitylenat",
+    "smiles": "c12cc3cc4c1.C2(=O)[O-].C3.C4",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "mesitylenic|mesitylenic acid|mesitylenicacid",
+    "smiles": "c12cc3cc4c1.C2(=O)O.C3.C4",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "naphtho-1,2-quinone|naphtho-1,2-quinon",
+    "smiles": "c1(=O)c(=O)ccc2ccccc12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "naphtho-1,4-quinone|naphtho-1,4-quinon",
+    "smiles": "c1(=O)ccc(=O)c2ccccc12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "nicotine|nicotin",
+    "smiles": "n1cccc(c1)C2N(C)CCC2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "olivetol",
+    "smiles": "c1(cc(O)cc(CCCCC)c1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "orcinol",
+    "smiles": "c1(cc(O)cc(C)c1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "perbenzoate|perbenzoat",
+    "smiles": "c1ccccc1C(=O)O[O-]",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "perbenzoic|perbenzoicacid|perbenzoic acid",
+    "smiles": "c1ccccc1C(=O)OO",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "phthalhydrazide|phthalhydrazid",
+    "smiles": "c1(C(=O)N2)c(C(=O)N2)cccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "phthalyl alcohol",
+    "smiles": "OCc1c(CO)cccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "phenol",
+    "smiles": "c1(ccccc1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "phenolate|phenolat",
+    "smiles": "c1(ccccc1)[O-]",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "phenylium",
+    "smiles": "[c+]1(ccccc1)",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "phloretin",
+    "smiles": "Oc1ccc(CCC(=O)c2c(O)cc(O)cc2O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "phlorol",
+    "smiles": "c1(c(CC)cccc1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "picrate|picrat",
+    "smiles": "c1([N+](=O)[O-])cc([N+](=O)[O-])cc([N+](=O)[O-])c1[O-]",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "picric|picricacid|picric acid",
+    "smiles": "c1([N+](=O)[O-])cc([N+](=O)[O-])cc([N+](=O)[O-])c1O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pseudocumohydroquinone|pseudocumohydroquinon",
+    "smiles": "c1(c(C)c(C)c(O)c(C)c1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pterin",
+    "smiles": "n1c(N)[nH]c(=O)c2nccnc12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "dihydropterin",
+    "smiles": "n1c(N)[nH]c(=O)c2ncCNc12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "tetrahydropterin",
+    "smiles": "n1c(N)[nH]c(=O)c2NCCNc12",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pyrocatecholate|pyrocatecholat",
+    "smiles": "c1([O-])c([O-])cccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "quinolinic|quinolinicacid|quinolinic acid",
+    "smiles": "n1c(C(=O)O)c(C(=O)O)ccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "methanopterin",
+    "smiles": "n1c2c(=O)[nH]c(N)nc2nc(C)c1[C@@H](C)Nc1ccc(C[C@@H]([C@@H]([C@@H](CO[C@H]2O[C@H](COP(O[C@@H](CCC(O)=O)C(O)=O)(O)=O)[C@H]([C@H]2O)O)O)O)O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "tetrahydromethanopterin|5,6,7,8-tetrahydromethanopterin",
+    "smiles": "N1c2c(=O)[nH]c(N)nc2N[C@@H](C)C1[C@@H](C)Nc1ccc(C[C@@H]([C@@H]([C@@H](CO[C@H]2O[C@H](COP(O[C@@H](CCC(O)=O)C(O)=O)(O)=O)[C@H]([C@H]2O)O)O)O)O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "resveratrol",
+    "smiles": "c1(cc(O)cc(O)c1)C=Cc2ccc(O)cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "resorcin",
+    "smiles": "c1(O)cc(O)ccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "rhapontigenin",
+    "smiles": "c1(cc(O)cc(O)c1)C=Cc2cc(O)c(OC)cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "saligenin",
+    "smiles": "OCc1ccccc1O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "diethylstilbestrol",
+    "smiles": "CC/C(c1ccc(O)cc1)=C(c2ccc(O)cc2)/CC",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "styphnate|styphnat",
+    "smiles": "c1([N+](=O)[O-])c([O-])c([N+](=O)[O-])cc([N+](=O)[O-])c1[O-]",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "styphnic|styphnicacid|styphnic acid",
+    "smiles": "c1([N+](=O)[O-])c(O)c([N+](=O)[O-])cc([N+](=O)[O-])c1O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "styrene carbonate|styrene carbonat",
+    "smiles": "C(OC(=O)O1)C1c1ccccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "styrol",
+    "smiles": "C=Cc1ccccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "sydnone|sydnon",
+    "smiles": "O1[N-][NH+]=CC1(=O)",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "terephthalyl alcohol",
+    "smiles": "OCc1ccc(CO)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "thymohydroquinone|thymohydroquinon",
+    "smiles": "c1(c(C(C)C)cc(O)c(C)c1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "thymol",
+    "smiles": "c1c(C)ccc(C(C)C)c1O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "toluhydroquinone|toluhydroquinon",
+    "smiles": "c1(c(C)cc(O)cc1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "toluol",
+    "smiles": "c1(ccccc1)C",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "tribenzamide|tribenzamid",
+    "smiles": "c1ccccc1C(=O)N(C(=O)c2ccccc2)C(=O)c3ccccc3",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "uric|uricacid|uric acid",
+    "smiles": "[nH]1c(=O)[nH]c2[nH]c(=O)[nH]c2c1=O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "vanillin",
+    "smiles": "O=Cc1cc(OC)c(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "o-vanillin",
+    "smiles": "O=Cc1c(O)c(OC)ccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "xylol",
+    "smiles": "c1ccccc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "o-xylohydroquinone|ortho-xylohydroquinone|o-xylohydroquinon|ortho-xylohydroquinon",
+    "smiles": "c1(c(C)c(C)c(O)cc1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "m-xylohydroquinone|meta-xylohydroquinone|m-xylohydroquinon|meta-xylohydroquinon",
+    "smiles": "c1(c(C)cc(O)cc1C)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "p-xylohydroquinone|para-xylohydroquinone|p-xylohydroquinon|para-xylohydroquinon",
+    "smiles": "c1(c(C)cc(O)c(C)c1)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "zingerone|zingeron",
+    "smiles": "O=C(C)CCc1cc(OC)c(O)cc1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "4-pyridoxic|4-pyridoxic|4-pyridoxic acid",
+    "smiles": "n1c(C)c(O)c(C(=O)O)c(CO)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "4-pyridoxolactone|4-pyridoxolacton",
+    "smiles": "n1c(C)c(O)c(C(=O)O2)c(C2)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5-pyridoxic|5-pyridoxic|5-pyridoxic acid",
+    "smiles": "n1c(C)c(O)c(CO)c(C(=O)O)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5-pyridoxolactone|5-pyridoxolacton",
+    "smiles": "n1c(C)c(O)c(C2)c(C(=O)O2)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "isopyridoxal",
+    "smiles": "n1c(C)c(O)c(CO)c(C=O)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pyridoxal",
+    "smiles": "n1c(C)c(O)c(C=O)c(CO)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pyridoxamine|pyridoxamin",
+    "smiles": "n1c(C)c(O)c(CN)c(CO)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pyridoxine|pyridoxin|pyridoxol",
+    "smiles": "n1c(C)c(O)c(CO)c(CO)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pyridoxal-p",
+    "smiles": "n1c(C)c(O)c(C=O)c(COP(=O)(O)O)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pyridoxamine-p|pyridoxamin-p",
+    "smiles": "n1c(C)c(O)c(CN)c(COP(=O)(O)O)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "pyridoxine-p|pyridoxin-p|pyridoxol-p",
+    "smiles": "n1c(C)c(O)c(CO)c(COP(=O)(O)O)c1",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "2'-adenylic|2'-adenylicacid|2'-adenylic acid",
+    "smiles": "[C@@H]1([C@H](OP(=O)(O)O)[C@H](O)[C@@H](CO)O1)n2cnc3c([nH2])ncnc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "3'-adenylic|3'-adenylicacid|3'-adenylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](OP(=O)(O)O)[C@@H](CO)O1)n2cnc3c([nH2])ncnc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5'-adenylic|5'-adenylicacid|5'-adenylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O1)n2cnc3c([nH2])ncnc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "3'-thymidylic|3'-thymidylicacid|3'-thymidylic acid",
+    "smiles": "[C@@H]1(C[C@H](OP(=O)(O)O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)c(C)c2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5'-thymidylic|5'-thymidylicacid|5'-thymidylic acid",
+    "smiles": "[C@@H]1(C[C@H](O)[C@@H](COP(=O)(O)O)O1)n2c(=O)[nH]c(=O)c(C)c2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "2'-guanylic|2'-guanylicacid|2'-guanylic acid",
+    "smiles": "[C@@H]1([C@H](OP(=O)(O)O)[C@H](O)[C@@H](CO)O1)n2cnc3c(=O)[nH]c(N)nc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "3'-guanylic|3'-guanylicacid|3'-guanylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](OP(=O)(O)O)[C@@H](CO)O1)n2cnc3c(=O)[nH]c(N)nc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5'-guanylic|5'-guanylicacid|5'-guanylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O1)n2cnc3c(=O)[nH]c(N)nc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "2'-inosinic|2'-inosinicacid|2'-inosinic acid",
+    "smiles": "[C@@H]1([C@H](OP(=O)(O)O)[C@H](O)[C@@H](CO)O1)n2cnc3c([oH])ncnc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "3'-inosinic|3'-inosinicacid|3'-inosinic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](OP(=O)(O)O)[C@@H](CO)O1)n2cnc3c([oH])ncnc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5'-inosinic|5'-inosinicacid|5'-inosinic acid|inosinic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O1)n2cnc3c([oH])ncnc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "thioinosinic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O1)n2cnc3c([sH])ncnc23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "2'-xanthylic|2'-xanthylicacid|2'-xanthylic acid",
+    "smiles": "[C@@H]1([C@H](OP(=O)(O)O)[C@H](O)[C@@H](CO)O1)n2cnc3c(=O)[nH]c(=O)[nH]c23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "3'-xanthylic|3'-xanthylicacid|3'-xanthylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](OP(=O)(O)O)[C@@H](CO)O1)n2cnc3c(=O)[nH]c(=O)[nH]c23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5'-xanthylic|5'-xanthylicacid|5'-xanthylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O1)n2cnc3c(=O)[nH]c(=O)[nH]c23",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "2'-cytidylic|2'-cytidylicacid|2'-cytidylic acid",
+    "smiles": "[C@@H]1([C@H](OP(=O)(O)O)[C@H](O)[C@@H](CO)O1)n2c(=O)nc([nH2])cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "3'-cytidylic|3'-cytidylicacid|3'-cytidylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](OP(=O)(O)O)[C@@H](CO)O1)n2c(=O)nc([nH2])cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5'-cytidylic|5'-cytidylicacid|5'-cytidylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O1)n2c(=O)nc([nH2])cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "2'-uridylic|2'-uridylicacid|2'-uridylic acid",
+    "smiles": "[C@@H]1([C@H](OP(=O)(O)O)[C@H](O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "3'-uridylic|3'-uridylicacid|3'-uridylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](OP(=O)(O)O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5'-uridylic|5'-uridylicacid|5'-uridylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O1)n2c(=O)[nH]c(=O)cc2",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "2'-orotidylic|2'-orotidylicacid|2'-orotidylic acid",
+    "smiles": "[C@@H]1([C@H](OP(=O)(O)O)[C@H](O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)cc2C(=O)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "3'-orotidylic|3'-orotidylicacid|3'-orotidylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](OP(=O)(O)O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)cc2C(=O)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "5'-orotidylic|5'-orotidylicacid|5'-orotidylic acid",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O1)n2c(=O)[nH]c(=O)cc2C(=O)O",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "chrysoeriol",
+    "smiles": "o1c(cc(=O)c2c(O)cc(O)cc12)c3cc(OC)c(O)cc3",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "dihydrokaempferol",
+    "smiles": "O1[C@@H]([C@@H](O)C(=O)c2c(O)cc(O)cc12)c3ccc(O)cc3",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "kaempferol",
+    "smiles": "o1c(c(O)c(=O)c2c(O)cc(O)cc12)c3ccc(O)cc3",
+    "source": "simpleCyclicGroups.xml"
+  },
+  {
+    "name": "aceanthren",
+    "smiles": "C1Cc2cccc3cc4ccccc4c1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "aceanthrylen",
+    "smiles": "c1cc2cccc3cc4ccccc4c1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acenaphthylen",
+    "smiles": "c1cc2cccc3cccc1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acenaphthen",
+    "smiles": "C1Cc2cccc3cccc1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acenaphthoquinon",
+    "smiles": "c1cc2cccc3cccc1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acephenanthren",
+    "smiles": "c1ccc2CCc3cc4ccccc4c1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acephenanthrylen",
+    "smiles": "c1ccc2ccc3cc4ccccc4c1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acridan",
+    "smiles": "c1cccc2Nc3ccccc3Cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acridarsin",
+    "smiles": "c1cccc2[as]c3ccccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acridin",
+    "smiles": "c1cccc2nc3ccccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acridophosphin",
+    "smiles": "c1cccc2pc3ccccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "acrindolin",
+    "smiles": "c1cccc2c3ccc4cc5ccccc5nc4c3nc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "adrenalin",
+    "smiles": "CNCC(O)c1cc(O)c(O)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "alloxan",
+    "smiles": "N1C(=O)NC(=O)C(=O)C(=O)1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "amphetamin",
+    "smiles": "NC(C)Cc1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anethol",
+    "smiles": "c1(ccc(C=CC)cc1)OC",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anilin",
+    "smiles": "Nc1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anisidin",
+    "smiles": "COc1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anisol",
+    "smiles": "c1(ccccc1)OC",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anthracen",
+    "smiles": "c1cccc2cc3ccccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anthraquinon",
+    "smiles": "c1cccc2cc3ccccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anthradiquinon",
+    "smiles": "c1cccc2cc3ccccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anthrazin",
+    "smiles": "c1cccc2cc3c4nc5ccc6cc7ccccc7cc6c5nc4ccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "anthyridin",
+    "smiles": "n1cccc2cc3cccnc3nc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "arsanthren",
+    "smiles": "c1cccc2[as]c3ccccc3[as]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "arsanthridin",
+    "smiles": "c1cccc2[as]cc3ccccc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "arsindol",
+    "smiles": "[asH]1ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "arsindolin",
+    "smiles": "[AsH]1CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "arsindolizidin",
+    "smiles": "C1CC[As]2CCCCC12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "arsindolizin",
+    "smiles": "c1cc[as]2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "arsinolin",
+    "smiles": "[as]1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "arsinolizin",
+    "smiles": "c1cc[cH2][as]2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "as-indacen",
+    "smiles": "c1ccc2ccc3cccc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "as-triazin|asym-triazin",
+    "smiles": "n1ncncc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "azulen",
+    "smiles": "c1ccc2cccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzanthron",
+    "smiles": "c1ccc2cccc3c(=O)c4ccccc4c1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzidin|4,4'-benzidin",
+    "smiles": "c1(ccc(N)cc1)c2ccc(N)cc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzen",
+    "smiles": "c1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzoin",
+    "smiles": "c1(ccccc1)C(=O)C(O)c2ccccc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzoquinon",
+    "smiles": "c1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzotribromid",
+    "smiles": "c12ccccc1.C2(Br)(Br)Br",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzotrichlorid",
+    "smiles": "c12ccccc1.C2(Cl)(Cl)Cl",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzotrifluorid",
+    "smiles": "c12ccccc1.C2(F)(F)F",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzotriiodid",
+    "smiles": "c12ccccc1.C2(I)(I)I",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "benzyn",
+    "smiles": "C1#CC=CC=C1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "betacarbolin|beta-carbolin|b-carbolin",
+    "smiles": "c1nccc2c3ccccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "bibenzyl",
+    "smiles": "c1(ccccc1)CCc2ccccc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "biphenylen",
+    "smiles": "c1cccc2c3ccccc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "boranthren",
+    "smiles": "C1=CC=CC=2B=C3C=CC=CC3=BC12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "borneol",
+    "smiles": "C123C4CC5CC1.C25(C)C.C3.O4",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "caffein",
+    "smiles": "n1(C)c(=O)n(C)c2ncn(C)c2c1=O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "camphen",
+    "smiles": "C12C(C)(C)C(=C)C(CC2)C1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "camphorquinon",
+    "smiles": "C123C(=O)C(=O)C4CC1.C24(C)C.C3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "carbazol",
+    "smiles": "c1cccc2c3ccccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "carbostyril",
+    "smiles": "[nH]1c(=O)ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "catechol",
+    "smiles": "c1(O)c(O)cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chalcon",
+    "smiles": "c1(ccccc1)/C=C/C(=O)c2ccccc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chinolin",
+    "smiles": "n1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cholanthren",
+    "smiles": "C1Cc2cccc3cc4c5ccccc5ccc4c1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chroman",
+    "smiles": "O1CCCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiochroman",
+    "smiles": "S1CCCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenochroman",
+    "smiles": "[Se]1CCCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tellurochroman",
+    "smiles": "[Te]1CCCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chromen",
+    "smiles": "o1[cH2]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chrom-2-en",
+    "smiles": "O1C=CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chrom-3-en",
+    "smiles": "O1CC=Cc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiochromen",
+    "smiles": "s1[cH2]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenochromen",
+    "smiles": "[se]1[cH2]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tellurochromen",
+    "smiles": "[te]1[cH2]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chromenylium",
+    "smiles": "[o+]1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiochromenylium",
+    "smiles": "[s+]1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenochromenylium",
+    "smiles": "[se+]1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tellurochromenylium",
+    "smiles": "[te+]1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chromocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Cr+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chromon",
+    "smiles": "o1[cH2]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "chrysen",
+    "smiles": "c1cccc2c3ccc4ccccc4c3ccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cinnolin",
+    "smiles": "n1nccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cobaltocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Co+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "collidin",
+    "smiles": "n1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "coumaran",
+    "smiles": "O1CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "coumarin|cumarin",
+    "smiles": "o1c(=O)ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "coumaron",
+    "smiles": "o1ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "coronen",
+    "smiles": "c1cc2ccc3ccc4ccc5ccc6ccc71.c28c3c4c5c6c78",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cresol",
+    "smiles": "c1ccccc1O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cumen",
+    "smiles": "c12ccccc1.C2(C)C",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cymen",
+    "smiles": "c12ccccc1.C2(C)C",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cyclopenta[a]phenanthren",
+    "smiles": "c1cccc2ccc3c4[cH2]ccc4ccc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "decalin",
+    "smiles": "C1CCCC2CCCCC12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "dopamin",
+    "smiles": "NCCc1cc(O)c(O)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "duren",
+    "smiles": "c1(C)c(C)cc(C)c(C)c1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "ethylenimin",
+    "smiles": "N1CC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "eugenol",
+    "smiles": "c1(c(O)ccc(CC=C)c1)OC",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "ferrocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Fe+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "flavylium",
+    "smiles": "[o+]1c(ccc2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "fluoranthen",
+    "smiles": "c1ccc2cccc3c4ccccc4c1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "fluoren",
+    "smiles": "c1cccc2c3ccccc3[cH2]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "spiro-9,9'-bifluoren",
+    "smiles": "c1cccc2c3ccccc3C4(c5ccccc5c6ccccc64)c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "fulven",
+    "smiles": "C1=CC=CC1=C",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "furan",
+    "smiles": "o1cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiofuran",
+    "smiles": "s1cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenofuran",
+    "smiles": "[se]1cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tellurofuran",
+    "smiles": "[te]1cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "furazan",
+    "smiles": "o1nccn1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "furoxan",
+    "smiles": "o1[n+]([O-])ccn1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "guaiacol",
+    "smiles": "c1(c(O)cccc1)OC",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "harmalin",
+    "smiles": "c1(C)nCCc2c3ccc(OC)cc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "harmalol",
+    "smiles": "c1(C)nCCc2c3ccc(O)cc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "harman",
+    "smiles": "c1(C)nCCc2c3ccccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "harmanamid",
+    "smiles": "c1(C(=O)N)nccc2c3ccc(OC)cc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "harmin",
+    "smiles": "c1(C)nccc2c3ccc(OC)cc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "hemimelliten",
+    "smiles": "c1(C)c(C)c(C)ccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "histamin",
+    "smiles": "NCCc1c[nH]cn1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "homomorpholin",
+    "smiles": "N1CCOCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiahomomorpholin|thiohomomorpholin",
+    "smiles": "N1CCSCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenohomomorpholin",
+    "smiles": "N1CC[Se]CCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tellurohomomorpholin",
+    "smiles": "N1CC[Te]CCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "homopiperazin",
+    "smiles": "N1CCNCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "homopiperidin",
+    "smiles": "N1CCCCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "hydantoin",
+    "smiles": "N1C(=O)NC(=O)C1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "hydrobenzoin",
+    "smiles": "c1(ccccc1)C(O)C(O)c2ccccc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "hydroquinon",
+    "smiles": "c1(O)ccc(O)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "imidazol",
+    "smiles": "[nH]1cncc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "imidazolidin",
+    "smiles": "N1CNCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "imidazolin",
+    "smiles": "N1CNCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "indan",
+    "smiles": "C1CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "ind-1-en",
+    "smiles": "C1=CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "ind-2-en",
+    "smiles": "C1C=Cc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "indazol",
+    "smiles": "[nH]1ncc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "inden",
+    "smiles": "[cH2]1ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "indol",
+    "smiles": "[nH]1ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "indolin",
+    "smiles": "N1CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "indolizidin",
+    "smiles": "C1CCN2CCCCC12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "indolizin",
+    "smiles": "c1ccn2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "indoxazen",
+    "smiles": "o1ncc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isatin",
+    "smiles": "N1C(=O)C(=O)c2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoarsindol",
+    "smiles": "c1[asH]cc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoarsindolin",
+    "smiles": "C1[AsH]Cc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoarsinolin",
+    "smiles": "c1[as]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isobenzofuran",
+    "smiles": "c1occ2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isobenzothiofuran|isobenzothiophen",
+    "smiles": "c1scc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isocarbostyril",
+    "smiles": "c(=O)1[nH]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isochinolin",
+    "smiles": "c1nccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isochroman",
+    "smiles": "C1OCCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isothiochroman",
+    "smiles": "C1SCCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoselenochroman",
+    "smiles": "C1[Se]CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isotellurochroman",
+    "smiles": "C1[Te]CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isochromen",
+    "smiles": "[cH2]1occc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isothiochromen",
+    "smiles": "[cH2]1sccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoselenochromen",
+    "smiles": "[cH2]1[se]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isotellurochromen",
+    "smiles": "[cH2]1[te]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isochromenylium",
+    "smiles": "c1[o+]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isothiochromenylium",
+    "smiles": "c1[s+]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoselenochromenylium",
+    "smiles": "c1[se+]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isotellurochromenylium",
+    "smiles": "c1[te+]ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isocoumarin|isocumarin",
+    "smiles": "c1(=O)occc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoduren",
+    "smiles": "c1(C)c(C)c(C)cc(C)c1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoindol",
+    "smiles": "c1[nH]cc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoindolin",
+    "smiles": "C1NCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoquinolin",
+    "smiles": "c1nccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoquinolon",
+    "smiles": "c1nccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isophosphindol",
+    "smiles": "c1[pH]cc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isophosphindolin",
+    "smiles": "C1PCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isophosphinolin",
+    "smiles": "c1pccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isosafrol",
+    "smiles": "O1COc2cc(C=CC)ccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoselenazol",
+    "smiles": "[se]1nccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoselenazolidin",
+    "smiles": "[Se]1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoselenazolin",
+    "smiles": "[Se]1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isotellurazol",
+    "smiles": "[te]1nccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isotellurazolidin",
+    "smiles": "[Te]1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isotellurazolin",
+    "smiles": "[Te]1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isothiazol",
+    "smiles": "s1nccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isothiazolidin",
+    "smiles": "S1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isothiazolin",
+    "smiles": "S1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoxazol|isooxazol",
+    "smiles": "o1nccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoxazolidin|isooxazolidin",
+    "smiles": "O1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoxazolin|isooxazolin",
+    "smiles": "O1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoviolanthren",
+    "smiles": "c1cccc2c3ccc4c5ccc6Cc7ccccc7c8ccc9c%10ccc%11Cc12.c3%11c4%10.c59c68",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "lepidin",
+    "smiles": "n1ccc(C)c2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "lupetidin",
+    "smiles": "N1CCCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "menthol",
+    "smiles": "C12CC3C4CC1.C2.C4(C)C.O3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "mercuranthren",
+    "smiles": "c1cccc2[Hg]c3ccccc3[Hg]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "mesitylen",
+    "smiles": "c12cc3cc4c1.C2.C3.C4",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "melliten",
+    "smiles": "c1(C)c(C)c(C)c(C)c(C)c1C",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "molybdocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Mo+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "morpholin",
+    "smiles": "N1CCOCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiamorpholin|thiomorpholin",
+    "smiles": "N1CCSCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenomorpholin",
+    "smiles": "N1CC[Se]CC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "telluromorpholin",
+    "smiles": "N1CC[Te]CC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "naphthacen",
+    "smiles": "c1cccc2cc3cc4ccccc4cc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "naphthalen|naphthalin",
+    "smiles": "c1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "naphthoquinon",
+    "smiles": "c1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "naphthodiquinon",
+    "smiles": "c1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "naphthyridin",
+    "smiles": "c1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "nickelocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Ni+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "niobocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Nb+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "norbornen|norcamphen|norbornylen",
+    "smiles": "C12C=CC(CC2)C1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "norharmin",
+    "smiles": "c1nccc2c3ccc(OC)cc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "osmocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Os+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "ovalen",
+    "smiles": "c1cc2ccc3ccc4cc5ccc6ccc7ccc8cc91.c19c2c3c4c9c5c6c7c8c19",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "oxanthren",
+    "smiles": "c1cccc2oc3ccccc3oc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "oxindol",
+    "smiles": "N1CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "paracetamol",
+    "smiles": "N(C(=O)C)c1ccc(O)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "paraxanthin",
+    "smiles": "n1(C)c(=O)[nH]c2ncn(C)c2c1=O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "perimidin",
+    "smiles": "[nH]1cnc2cccc3cccc1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "perylen",
+    "smiles": "c1ccc2cccc3c4cccc5cccc6c71.c237.c456",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenalen",
+    "smiles": "[cH2]1ccc2cccc3cccc1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenanthrazin",
+    "smiles": "c1cccc2c3ccccc3c4nc5c6ccccc6c7ccccc7c5nc4c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenanthren",
+    "smiles": "c1cccc2c3ccccc3ccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenanthridin",
+    "smiles": "c1cccc2ncc3ccccc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenanthrolin",
+    "smiles": "c1cccc2ccc3ccccc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenarsazin",
+    "smiles": "c1cccc2nc3ccccc3[as]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenazin",
+    "smiles": "c1cccc2nc3ccccc3nc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenetidin",
+    "smiles": "CCOc1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenetol",
+    "smiles": "c1(ccccc1)OCC",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxid",
+    "smiles": "[O-]c1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxylium",
+    "smiles": "[O+]c1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenomercurin",
+    "smiles": "c1cccc2[Hg]c3ccccc3[Hg]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxazin",
+    "smiles": "c1cccc2oc3ccccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenothiazin",
+    "smiles": "c1cccc2sc3ccccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoselenazin",
+    "smiles": "c1cccc2[se]c3ccccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenotellurazin",
+    "smiles": "c1cccc2[te]c3ccccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenophosphazinin|phenophosphazin",
+    "smiles": "c1cccc2nc3ccccc3pc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenarsazinin",
+    "smiles": "c1cccc2nc3ccccc3[as]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenazasilin",
+    "smiles": "c1cccc2nc3ccccc3[siH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoarsazin",
+    "smiles": "c1cccc2nc3ccccc3[as]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenomercurazin|phenomercazin",
+    "smiles": "c1cccc2[nH]c3ccccc3[Hg]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxathiin",
+    "smiles": "c1cccc2oc3ccccc3sc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxaselenin",
+    "smiles": "c1cccc2oc3ccccc3[se]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxasilin",
+    "smiles": "c1cccc2oc3ccccc3[siH2]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxatellurin",
+    "smiles": "c1cccc2oc3ccccc3[te]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxaphosphinin|phenoxaphosphin",
+    "smiles": "c1cccc2oc3ccccc3[pH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxarsinin|phenoxarsin",
+    "smiles": "c1cccc2oc3ccccc3[asH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenoxastibinin|phenoxantimonin",
+    "smiles": "c1cccc2oc3ccccc3[sbH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phenothiarsinin|phenothiarsin",
+    "smiles": "c1cccc2sc3ccccc3[asH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phloroglucinol",
+    "smiles": "c1(O)cc(O)cc(O)c1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phosphanthren",
+    "smiles": "c1cccc2pc3ccccc3pc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phosphanthridin",
+    "smiles": "c1cccc2pcc3ccccc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phosphindol",
+    "smiles": "[pH]1ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phosphindolin",
+    "smiles": "P1CCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phosphindolizidin",
+    "smiles": "C1CCP2CCCCC12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phosphindolizin",
+    "smiles": "c1ccp2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phosphinolin",
+    "smiles": "p1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phosphinolizin",
+    "smiles": "c1cc[cH2]p2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phthalazin",
+    "smiles": "c1nncc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phthalid",
+    "smiles": "C1(=O)OCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "phthaloperin",
+    "smiles": "c1ccc2cccc3nc4c5ccccc5cn4c1c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "piaselenol|piazselenol",
+    "smiles": "n1[se]nc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "piazthiol",
+    "smiles": "n1snc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pinolin",
+    "smiles": "C1NCCc2c3cc(OC)ccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "picolin",
+    "smiles": "[nH]1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "piperazin",
+    "smiles": "N1CCNCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "piperidin",
+    "smiles": "N1CCCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "picen",
+    "smiles": "c1cccc2ccc3c4ccc5ccccc5c4ccc3c21",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pleiaden",
+    "smiles": "c1ccc2cccc3cc4ccccc4cc51.c235",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "plumbocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Pb+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "prehniten",
+    "smiles": "c1(C)c(C)c(C)c(C)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pseudocumen",
+    "smiles": "c1(C)c(C)cc(C)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pteridin",
+    "smiles": "n1cncc2nccnc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "purin",
+    "smiles": "n1cnc2nc[nH]c2c1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyran",
+    "smiles": "o1[cH2]cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiopyran",
+    "smiles": "s1[cH2]cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenopyran",
+    "smiles": "[se]1[cH2]cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "telluropyran",
+    "smiles": "[te]1[cH2]cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyranthren",
+    "smiles": "c1cccc2c3cc4ccc5cc6ccccc6c6cc7ccc8cc12.c38c7c4c56",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrazin",
+    "smiles": "n1ccncc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrazol",
+    "smiles": "[nH]1nccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrazolidin",
+    "smiles": "N1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrazolin",
+    "smiles": "N1NCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyren",
+    "smiles": "c1ccc2ccc3cccc4ccc1c2c34",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyridazin",
+    "smiles": "n1ncccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyridin",
+    "smiles": "n1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrimidin",
+    "smiles": "n1cnccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrindan",
+    "smiles": "c1cccc2CCCc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrinden|pyrindin",
+    "smiles": "c1cccc2cccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrocatechol",
+    "smiles": "c1(O)c(O)cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrogallol",
+    "smiles": "c1(O)c(O)c(O)ccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrrol",
+    "smiles": "[nH]1cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrrolizidin",
+    "smiles": "C1CCN2CCCC12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrrolizin",
+    "smiles": "[cH2]1ccn2cccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrrolidin",
+    "smiles": "N1CCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrrolidon",
+    "smiles": "N1CCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrrolin",
+    "smiles": "N1CCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pyrylium",
+    "smiles": "[o+]1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiopyrylium",
+    "smiles": "[s+]1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinaldin",
+    "smiles": "n1c(C)ccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinazolin",
+    "smiles": "n1cncc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quindolin",
+    "smiles": "c1cccc2nc3c4ccccc4nc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinindolin",
+    "smiles": "c1cccc2nc3nc4ccccc4c3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinolin",
+    "smiles": "n1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinolizidin",
+    "smiles": "C1CCCN2CCCCC12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinolizin",
+    "smiles": "c1cc[cH2]n2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinolon",
+    "smiles": "n1cccc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinoxalin",
+    "smiles": "n1ccnc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quinuclidin",
+    "smiles": "N1(CCC2CC1)CC2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "resorcinol",
+    "smiles": "c1(O)cc(O)ccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "rhodanin",
+    "smiles": "S1C(=S)NC(=O)C1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "rhodocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Rh+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "rubicen",
+    "smiles": "c1ccc2c3ccccc3c3c4cccc5c6ccccc6c6c71.c237.c456",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "ruthenocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Ru+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "safrol",
+    "smiles": "O1COc2cc(CC=C)ccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "s-indacen",
+    "smiles": "c1ccc2cc3cccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "s-triazin|sym-triazin",
+    "smiles": "n1cncnc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "s-triazol|sym-triazol",
+    "smiles": "[nH]1ncnc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "silanthren",
+    "smiles": "c1cccc2[siH]c3ccccc3[siH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "skatol",
+    "smiles": "[nH]1cc(C)c2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "stilben",
+    "smiles": "c1(ccccc1)C=Cc2ccccc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "sulfolan",
+    "smiles": "S1(=O)(=O)CCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "sulfol-2-en",
+    "smiles": "S1(=O)(=O)C=CCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "sulfol-3-en",
+    "smiles": "S1(=O)(=O)CC=CC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "sulfolen",
+    "smiles": "S1(=O)(=O)CCCC1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "styren",
+    "smiles": "C=Cc1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenanthren",
+    "smiles": "c1cccc2[se]c3ccccc3[se]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenophen",
+    "smiles": "[se]1cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "telluranthren",
+    "smiles": "c1cccc2[te]c3ccccc3[te]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tellurophen",
+    "smiles": "[te]1cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tetralin",
+    "smiles": "C1CCCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tetralon",
+    "smiles": "C1CCCc2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thebenidin",
+    "smiles": "c1ccc2ncc3cccc4ccc1c2c34",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "theobromin",
+    "smiles": "[nH]1c(=O)n(C)c2ncn(C)c2c1=O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "theophyllin",
+    "smiles": "n1(C)c(=O)n(C)c2nc[nH]c2c1=O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thianthren",
+    "smiles": "c1cccc2sc3ccccc3sc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thiophen",
+    "smiles": "s1cccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "titanocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Ti+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tolan",
+    "smiles": "c1(ccccc1)C#Cc2ccccc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "toluen",
+    "smiles": "Cc1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "toluidin",
+    "smiles": "Nc1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "trinden",
+    "smiles": "[cH2]1ccc2c3cccc3c4cccc4c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "trinaphthylen",
+    "smiles": "c1cccc2cc3c4cc5ccccc5cc4c4cc5ccccc5cc4c3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "triphenodioxazin",
+    "smiles": "c1cccc2oc3cc4nc5ccccc5oc4cc3nc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "triphenodithiazin",
+    "smiles": "c1cccc2sc3cc4nc5ccccc5sc4cc3nc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "triphenylen",
+    "smiles": "c1cccc2c3ccccc3c3ccccc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tritan",
+    "smiles": "C(c1ccccc1)(c1ccccc1)c1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tyramin",
+    "smiles": "NCCc1ccc(cc1)O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tryptamin",
+    "smiles": "NCCc1c[nH]c2ccccc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "tryptolin",
+    "smiles": "C1NCCc2c3ccccc3[nH]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "uranocen",
+    "smiles": "[cH-]1ccc[cH-]ccc1.[cH-]1ccc[cH-]ccc1.[U+4]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "urazol",
+    "smiles": "N1NC(=O)NC1=O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "v-triazin",
+    "smiles": "n1nnccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "vanadocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[V+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "veratrol",
+    "smiles": "c1(c(OC)cccc1)OC",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "xanthen",
+    "smiles": "c1cccc2oc3ccccc3[cH2]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thioxanthen",
+    "smiles": "c1cccc2sc3ccccc3[cH2]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "selenoxanthen",
+    "smiles": "c1cccc2[se]c3ccccc3[cH2]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "telluroxanthen",
+    "smiles": "c1cccc2[te]c3ccccc3[cH2]c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "xanthylium",
+    "smiles": "c1cccc2[o+]c3ccccc3cc12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "violanthren",
+    "smiles": "c1cccc2Cc3ccc4c5ccc6Cc7ccccc7c8ccc9c%10ccc%11c12.c3%11c4%10.c59c68",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "xylen",
+    "smiles": "c1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "xylidin",
+    "smiles": "Nc1ccccc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "zirconocen",
+    "smiles": "[CH-]1cccc1.[CH-]1cccc1.[Zr+2]",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "adenin",
+    "smiles": "n1cnc2nc[nH]c2c1N",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cytosin",
+    "smiles": "[nH]1c(=O)nc(N)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isocytosin",
+    "smiles": "n1c(N)[nH]c(=O)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "guanin",
+    "smiles": "[nH]1c(N)nc2nc[nH]c2c1=O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoguanin",
+    "smiles": "[nH]1c(=O)nc2nc[nH]c2c1N",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "hypoxanthin",
+    "smiles": "[nH]1cnc2nc[nH]c2c1=O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thymin",
+    "smiles": "[nH]1c(=O)[nH]c(=O)c(C)c1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "uracil",
+    "smiles": "[nH]1c(=O)[nH]c(=O)cc1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "xanthin",
+    "smiles": "[nH]1c(=O)[nH]c2nc[nH]c2c1=O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "adenosin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2cnc3c([nH2])ncnc23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cytidin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2c(=O)nc([nH2])cc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isocytidin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2c(N)nc(=O)cc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "guanosin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2cnc3c(o)[nH]c(N)nc23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoguanosin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2cnc3c(N)[nH]c(=O)nc23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "inosin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2cnc3c([oH])ncnc23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thioinosin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2cnc3c([sH])ncnc23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "thymidin|deoxythymidin",
+    "smiles": "[C@@H]1(C[C@H](O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)c(C)c2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "uridin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)cc2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "xanthosin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2cnc3c(=O)[nH]c(=O)[nH]c23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "nucleocidin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@](F)(COS(=O)(=O)N)O1)n2cnc3c(N)ncnc23",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "idoxuridin",
+    "smiles": "[C@@H]1(C[C@H](O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)c(I)c2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "ribosylthymin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)c(C)c2",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "orotidin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2c(=O)[nH]c(=O)cc2C(=O)O",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "pseudouridin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)c2c[nH]c(=O)[nH]c2(=O)",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "wybutosin",
+    "smiles": "[C@@H]1([C@H](O)[C@H](O)[C@@H](CO)O1)n2cnc3c(=O)n4c(CC[C@@H](C(=O)OC)NC(=O)OC)c(C)nc4n(C)c32",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "apigenin",
+    "smiles": "o1c(cc(=O)c2c(O)cc(O)cc12)c3ccc(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "aromadendrin|aromodendrin",
+    "smiles": "O1[C@@H]([C@@H](O)C(=O)c2c(O)cc(O)cc12)c3ccc(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "taxifolin|dihydroquercetin",
+    "smiles": "O1[C@@H]([C@@H](O)C(=O)c2c(O)cc(O)cc12)c3cc(O)c(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "auron",
+    "smiles": "O1\\C(=C/c2ccccc2)C(=O)c3ccccc13",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "coumestan",
+    "smiles": "c1cccc2OCc3c4ccccc4oc3c12",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "cyanidin",
+    "smiles": "[o+]1c(c(O)cc2c(O)cc(O)cc12)c3cc(O)c(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "diosmetin",
+    "smiles": "o1c(cc(=O)c2c(O)cc(O)cc12)c3cc(O)c(OC)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "flavan",
+    "smiles": "O1C(CCc2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "flavan-2-en|flav-2-en",
+    "smiles": "O1C(=CCc2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "flavan-3-en|flav-3-en",
+    "smiles": "O1C(C=Cc2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "flavon",
+    "smiles": "o1c(cc(=O)c2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "flavanon",
+    "smiles": "O1C(CC(=O)c2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "genistein",
+    "smiles": "o1cc(c(=O)c2c(O)cc(O)cc12)c3ccc(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "dihydrogenistein",
+    "smiles": "O1CC(C(=O)c2c(O)cc(O)cc12)c3ccc(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "genistin",
+    "smiles": "o1cc(c(=O)c2c(O)cc(O[C@H]4[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O4)cc12)c3ccc(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoflavan|iso-flavan",
+    "smiles": "O1CC(Cc2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoflavan-2-en|isoflav-2-en|iso-flavan-2-en|iso-flav-2-en",
+    "smiles": "O1C=C(Cc2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoflavan-3-en|isoflav-3-en|iso-flavan-3-en|iso-flav-3-en",
+    "smiles": "O1CC(=Cc2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "isoflavon|iso-flavon",
+    "smiles": "o1cc(c(=O)c2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "luteolin",
+    "smiles": "o1c(cc(=O)c2c(O)cc(O)cc12)c3cc(O)c(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "naringenin",
+    "smiles": "O1[C@@H](CC(=O)c2c(O)cc(O)cc12)c3ccc(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "neoflavan|neo-flavan",
+    "smiles": "O1CCC(c2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "neoflavan-2-en|neoflav-2-en|neo-flavan-2-en|neo-flav-2-en",
+    "smiles": "O1C=CC(c2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "neoflavan-3-en|neoflav-3-en|neo-flavan-3-en|neo-flav-3-en",
+    "smiles": "O1CC=C(c2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "neoflavon|neo-flavon",
+    "smiles": "o1c(=O)cc(c2ccccc12)c3ccccc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "quercetin",
+    "smiles": "o1c(c(O)c(=O)c2c(O)cc(O)cc12)c3cc(O)c(O)cc3",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "bilin",
+    "smiles": "[nH]1cccc1cc2ccc(n2)cc3ccc(n3)cc4cccn4",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "corrin",
+    "smiles": "C12CCc(n1)cc3CCc(n3)cc4CCc(n4)cc5CCC2[nH]5",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "dihydrophloroglucinol",
+    "smiles": "C1(=O)C=C(O)CC(O)C1",
+    "source": "arylGroups.xml"
+  },
+  {
+    "name": "porphyrin|porphin",
+    "smiles": "c12ccc([nH]1)cc3ccc(n3)cc4ccc([nH]4)cc5ccc(n5)c2",
+    "source": "arylGroups.xml"
+  }
+]

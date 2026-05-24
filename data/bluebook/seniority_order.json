@@ -1,0 +1,194 @@
+[
+  {
+    "rank": "1",
+    "class": "Radicals"
+  },
+  {
+    "rank": "2",
+    "class": "Radical anions"
+  },
+  {
+    "rank": "3",
+    "class": "Radical cations"
+  },
+  {
+    "rank": "4",
+    "class": "Anions"
+  },
+  {
+    "rank": "5",
+    "class": "Zwitterions"
+  },
+  {
+    "rank": "6",
+    "class": "Cations"
+  },
+  {
+    "rank": "7",
+    "class": "Acids"
+  },
+  {
+    "rank": "7a",
+    "class": "'Suffix' acids in the order carboxylic (not including carbonic or polycarbonic acids, which belong to sub-class '7b'), sulfonic, sulfinic, selenonic, seleninic, telluronic, tellurinic, each followed in turn by the corresponding peroxy, imidic, and hydrazonic acids. Chalcogen analogues follow each of the corresponding oxygen acids and, in each case, the chalcogen analogue with the greater number of the preferred chalcogen atom (O > S > Se > Te), considered first in −OOH groups, then in −OH groups as necessary. (See P-42 for the complete list of seniority of acids, P-43 for suffixes modified by functional replacement, and Table 4.4 for an extensive list of the order of seniority of all these suffixes.)"
+  },
+  {
+    "rank": "7b",
+    "class": "Carbon acids with no substitutable hydrogen atoms in the order polynuclear carbonic acids (tricarbonic acid, dicarbonic acid), then carbonic acid, and cyanic acid."
+  },
+  {
+    "rank": "7c",
+    "class": "Oxoacids having substitutable hydrogen atoms attached to their central atoms and their acidic derivatives in the following decreasing order of seniority: azonic, azinic, phosphonic, phosphinic, phosphonous, phosphinous acids, etc. (see P-42 for the complete list)."
+  },
+  {
+    "rank": "7d",
+    "class": "Mononuclear and polynuclear oxoacids other than carbon acids without substitutable hydrogen atoms attached to their central atom (see 7b, above), but which may be functionalized or may form derivatives by functional replacement, which have substitutable hydrogen atoms."
+  },
+  {
+    "rank": "7e",
+    "class": "Other monobasic 'oxoacids' used as functional parent compounds."
+  },
+  {
+    "rank": "8",
+    "class": "Anhydrides [substitutive nomenclature is used for cyclic anhydrides that are named as heterocycles (see 16 below); functional class names are given to acyclic anhydrides and to a few cyclic anhydrides corresponding to acids having retained names; cyclic anhydrides are preferred over noncyclic anhydrides, when functional names are used]."
+  },
+  {
+    "rank": "9",
+    "class": "Esters (functional class names are given to noncyclic esters; lactones and other cyclic esters are named as heterocycles; see 16 below)."
+  },
+  {
+    "rank": "10",
+    "class": "Acid halides and pseudohalides [first in the order of the corresponding acid given above, then in the order of the halogen atoms (–F > –Cl > –Br > –I); then in the following order of pseudohalogen groups ( –N 3 > –CN > –NC > –NCO > –NCS > –NCSe > –NCTe > –CNO)."
+  },
+  {
+    "rank": "11",
+    "class": "Amides [in the order of the corresponding acids; cyclic amides are named as heterocycles (see class 16 below)]."
+  },
+  {
+    "rank": "12",
+    "class": "Hydrazides (in the order of the corresponding acids)."
+  },
+  {
+    "rank": "13",
+    "class": "Imides (includes only cyclic imides derived from organic di- or polybasic acids having retained names)."
+  },
+  {
+    "rank": "14",
+    "class": "Nitriles."
+  },
+  {
+    "rank": "15",
+    "class": "Aldehydes and chalcogen analogues."
+  },
+  {
+    "rank": "16",
+    "class": "Ketones (of the type –C-CO-C–), pseudoketones (of the type –C-CO-X , X-CO-X, or –CO-X-CO–, where X ≠ C, halogen, pseudohalogen, or NH 2 , see P-64.1.2 ) and heterones (see P-64.4 ). See Classes 8, 9, 11 and 13, on lactones, lactams, anhydrides, imides."
+  },
+  {
+    "rank": "17",
+    "class": "Hydroxy compounds and chalcogen analogues (includes alcohols and phenols, which no longer have a separate ranking order)."
+  },
+  {
+    "rank": "18",
+    "class": "Hydroperoxides (peroxols), i.e., –OOH."
+  },
+  {
+    "rank": "19",
+    "class": "Amines (defined as having three single covalent attachments to a nitrogen atom, i.e., NR 3 )."
+  },
+  {
+    "rank": "20",
+    "class": "Imines, R=NH or R=N-R′. Classes denoted by the senior atom in heterane nomenclature"
+  },
+  {
+    "rank": "21",
+    "class": "Nitrogen compounds: heterocycles, polyazanes, hydrazines (except for hydrazides), diazenes, hydroxylamines, azanes (except for amides, amines, and imines)"
+  },
+  {
+    "rank": "22",
+    "class": "Phosphorus compounds: heterocycles, polyphosphanes, phosphanes"
+  },
+  {
+    "rank": "23",
+    "class": "Arsenic compounds: heterocycles, polyarsanes, arsanes"
+  },
+  {
+    "rank": "24",
+    "class": "Antimony compounds: heterocycles, polystibanes, stibanes"
+  },
+  {
+    "rank": "25",
+    "class": "Bismuth compounds: heterocycles, polybismuthanes, bismuthanes"
+  },
+  {
+    "rank": "26",
+    "class": "Silicon compounds: heterocycles, polysilanes, silanes"
+  },
+  {
+    "rank": "27",
+    "class": "Germanium compounds: heterocycles, polygermanes, germanes"
+  },
+  {
+    "rank": "28",
+    "class": "Tin compounds: heterocycles, polystannanes, stannanes"
+  },
+  {
+    "rank": "29",
+    "class": "Lead compounds: heterocycles, polyplumbanes, plumbanes"
+  },
+  {
+    "rank": "30",
+    "class": "Boron compounds: heterocycles, polyboranes, boranes"
+  },
+  {
+    "rank": "31",
+    "class": "Aluminium compounds: heterocycles, polyalumanes, alumanes"
+  },
+  {
+    "rank": "32",
+    "class": "Gallium compounds: heterocycles, polygallanes, gallanes"
+  },
+  {
+    "rank": "33",
+    "class": "Indium compounds: heterocycles, polyindiganes, indiganes"
+  },
+  {
+    "rank": "34",
+    "class": "Thallium compounds: heterocycles, polythallanes, thallanes"
+  },
+  {
+    "rank": "35",
+    "class": "Oxygen compounds: heterocycles, polyoxidanes (trioxidane but not peroxides or ethers)"
+  },
+  {
+    "rank": "36",
+    "class": "Sulfur compounds: heterocycles, polysulfanes (trisulfane, λ 6 and λ 4 mono and disulfanes, but not disulfides or sulfides)"
+  },
+  {
+    "rank": "37",
+    "class": "Selenium compounds: heterocycles, polyselanes (triselane but not diselenides, selenides)"
+  },
+  {
+    "rank": "38",
+    "class": "Tellurium compounds: heterocycles, polytellanes (tritellane but not ditellurides, tellurides)"
+  },
+  {
+    "rank": "39",
+    "class": "λ 7 , λ 5 and λ 3 halogen compounds in the order F > Cl > Br > I."
+  },
+  {
+    "rank": "40",
+    "class": "Carbon compounds: rings, chains"
+  },
+  {
+    "rank": "41",
+    "class": "Ethers, then sulfides, sulfoxides, sulfones; then selenides, selenoxides, etc."
+  },
+  {
+    "rank": "42",
+    "class": "Peroxides, then chalcogen analogues with the greater number of the senior chalcogen atom, where O > S > Se > Te."
+  },
+  {
+    "rank": "43",
+    "class": "λ 1 Halogen compounds in the order F > Cl > Br > I"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "element": "B",
+    "a_prefix": "bora"
+  },
+  {
+    "element": "C",
+    "a_prefix": "carba"
+  },
+  {
+    "element": "N",
+    "a_prefix": "aza"
+  },
+  {
+    "element": "O",
+    "a_prefix": "oxa"
+  },
+  {
+    "element": "F",
+    "a_prefix": "fluora"
+  },
+  {
+    "element": "Al",
+    "a_prefix": "alumina"
+  },
+  {
+    "element": "Si",
+    "a_prefix": "sila"
+  },
+  {
+    "element": "P",
+    "a_prefix": "phospha"
+  },
+  {
+    "element": "S",
+    "a_prefix": "thia"
+  },
+  {
+    "element": "Cl",
+    "a_prefix": "chlora"
+  },
+  {
+    "element": "Ga",
+    "a_prefix": "galla"
+  },
+  {
+    "element": "Ge",
+    "a_prefix": "germa"
+  },
+  {
+    "element": "As",
+    "a_prefix": "arsa"
+  },
+  {
+    "element": "Se",
+    "a_prefix": "selena"
+  },
+  {
+    "element": "Br",
+    "a_prefix": "broma"
+  },
+  {
+    "element": "In",
+    "a_prefix": "inda"
+  },
+  {
+    "element": "Sn",
+    "a_prefix": "stanna"
+  },
+  {
+    "element": "Sb",
+    "a_prefix": "stiba"
+  },
+  {
+    "element": "Te",
+    "a_prefix": "tellura"
+  },
+  {
+    "element": "I",
+    "a_prefix": "ioda"
+  },
+  {
+    "element": "Tl",
+    "a_prefix": "thalla"
+  },
+  {
+    "element": "Pb",
+    "a_prefix": "plumba"
+  },
+  {
+    "element": "Bi",
+    "a_prefix": "bisma"
+  },
+  {
+    "element": "Po",
+    "a_prefix": "polona"
+  },
+  {
+    "element": "At",
+    "a_prefix": "astata"
+  }
+]

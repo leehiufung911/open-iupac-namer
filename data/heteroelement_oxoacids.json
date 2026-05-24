@@ -1,0 +1,66 @@
+{
+    "_comment": [
+        "Mononuclear heteroelement oxoacid table - Stage 6 R1-B.",
+        "Maps RDKit-canonical SMILES of standalone (HO)_n X(=O)_m acids / salts to",
+        "the OPSIN-accepted preferred IUPAC name.  Keys are RDKit canonical SMILES",
+        "(obtained via Chem.MolToSmiles after parsing the OPSIN reference SMILES",
+        "from nonCarboxylicAcids.xml).  Values are the single IUPAC name for that",
+        "standalone molecule; the engine looks up via whole-molecule canonical",
+        "SMILES (same pattern as _INORGANIC_CURATED_SMILES in data_loader.py).",
+        "",
+        "Source: OPSIN 2.8.0 nonCarboxylicAcids.xml.  Every entry has been",
+        "probed with py2opsin for round-trip (name -> SMILES -> same canonical)",
+        "before inclusion -- see tmp_probes/s6_r1_b/probe_targets.py.",
+        "",
+        "d-block lower-oxidation '-ous' series (chromous / dichromous /",
+        "manganous / permanganous / technetous / pertechnetous / rhenous /",
+        "perrhenous / perruthenous acid) and 'sulfinamous acid' are the",
+        "traditional lower-oxidation-state forms registered in OPSIN; each is",
+        "the structural complement of the corresponding '-ic' entry above (one",
+        "fewer terminal =O on the central atom), keyed on its own distinct",
+        "RDKit-canonical SMILES.  source: opsin (P-67 / IR-8 traditional",
+        "inorganic acid names) -- NOT phase pins; the data entry is the",
+        "generalizing mechanism (no molecule-specific code branch)."
+    ],
+
+    "_subsumed_note": [
+        "41 mononuclear entries (Sb stiboric/stibonic/stibinic/stibonous;",
+        "Se/Te selenic/selenous/selenate/selenite/telluric/tellurous/",
+        "tellurate/tellurite; boric; all halogen oxyacid acids and anions;",
+        "phosphonic/phosphinic/arsinic) were REMOVED because the generative",
+        "maingroup_oxoacids.compute_name reproduces every one of them exactly",
+        "from structural features (verified by round-trip).  Only entries the",
+        "generator does NOT cover remain below: d-block metal acids (Cr/Mn/",
+        "Tc/Re/Ru — outside the main-group scope), the Sb 'stibonite' anion",
+        "(pnictogen anions are out of the generator's anion scope), and",
+        "'orthotelluric acid' (the 6-coordinate Te ortho form)."
+    ],
+
+    "entries": {
+        "[O-][SbH][O-]":             "stibonite",
+
+        "O[Te](O)(O)(O)(O)O":        "orthotelluric acid",
+
+        "[O]=[Cr](=[O])([OH])[OH]":                             "chromic acid",
+        "[O]=[Cr](=[O])([OH])[O][Cr](=[O])(=[O])[OH]":          "dichromic acid",
+        "[O]=[Mn](=[O])([OH])[OH]":                             "manganic acid",
+        "[O]=[Mn](=[O])(=[O])[OH]":                             "permanganic acid",
+        "[O]=[Tc](=[O])([OH])[OH]":                             "technetic acid",
+        "[O]=[Tc](=[O])(=[O])[OH]":                             "pertechnetic acid",
+        "[O]=[Re](=[O])([OH])[OH]":                             "rhenic acid",
+        "[O]=[Re](=[O])(=[O])[OH]":                             "perrhenic acid",
+        "[O]=[Ru](=[O])(=[O])[OH]":                             "perruthenic acid",
+
+        "[O]=[Cr]([OH])[OH]":                                   "chromous acid",
+        "[O]=[Cr]([OH])[O][Cr](=[O])[OH]":                      "dichromous acid",
+        "[O]=[Mn]([OH])[OH]":                                   "manganous acid",
+        "[O]=[Mn](=[O])[OH]":                                   "permanganous acid",
+        "[O]=[Tc]([OH])[OH]":                                   "technetous acid",
+        "[O]=[Tc](=[O])[OH]":                                   "pertechnetous acid",
+        "[O]=[Re]([OH])[OH]":                                   "rhenous acid",
+        "[O]=[Re](=[O])[OH]":                                   "perrhenous acid",
+        "[O]=[Ru](=[O])[OH]":                                   "perruthenous acid",
+
+        "NSO":                                                  "sulfinamous acid"
+    }
+}

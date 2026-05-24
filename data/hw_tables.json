@@ -1,0 +1,75 @@
+{
+    "prefixes": [
+        {"element": "F",  "prefix": "fluora",  "bonding_number": 1},
+        {"element": "Cl", "prefix": "chlora",  "bonding_number": 1},
+        {"element": "Br", "prefix": "broma",   "bonding_number": 1},
+        {"element": "I",  "prefix": "ioda",    "bonding_number": 1},
+        {"element": "O",  "prefix": "oxa",     "bonding_number": 2},
+        {"element": "S",  "prefix": "thia",    "bonding_number": 2},
+        {"element": "Se", "prefix": "selena",  "bonding_number": 2},
+        {"element": "Te", "prefix": "tellura", "bonding_number": 2},
+        {"element": "N",  "prefix": "aza",     "bonding_number": 3},
+        {"element": "P",  "prefix": "phospha", "bonding_number": 3},
+        {"element": "As", "prefix": "arsa",    "bonding_number": 3},
+        {"element": "Sb", "prefix": "stiba",   "bonding_number": 3},
+        {"element": "Bi", "prefix": "bisma",   "bonding_number": 3},
+        {"element": "Si", "prefix": "sila",    "bonding_number": 4},
+        {"element": "Ge", "prefix": "germa",   "bonding_number": 4},
+        {"element": "Sn", "prefix": "stanna",  "bonding_number": 4},
+        {"element": "Pb", "prefix": "plumba",  "bonding_number": 4},
+        {"element": "B",  "prefix": "bora",    "bonding_number": 3},
+        {"element": "Al", "prefix": "aluma",   "bonding_number": 3},
+        {"element": "Ga", "prefix": "galla",   "bonding_number": 3},
+        {"element": "In", "prefix": "indiga",  "bonding_number": 3},
+        {"element": "Tl", "prefix": "thalla",  "bonding_number": 3},
+        {"element": "Hg", "prefix": "mercura", "bonding_number": 2}
+    ],
+    "stems": {
+        "3": {
+            "unsaturated": "irene",
+            "saturated_default": "irane",
+            "saturated_with_N": "iridine"
+        },
+        "4": {
+            "unsaturated": "ete",
+            "saturated_default": "etane",
+            "saturated_with_N": "etidine"
+        },
+        "5": {
+            "unsaturated": "ole",
+            "saturated_default": "olane",
+            "saturated_with_N": "olidine"
+        },
+        "6": {
+            "group_A": {"unsaturated": "ine", "saturated": "ane"},
+            "group_B": {"unsaturated": "ine", "saturated": "inane"},
+            "group_C": {"unsaturated": "inine", "saturated": "inane"},
+            "_comment": "Group A: O,S,Se,Te,Bi; Group B: N,Si,Ge,Sn,Pb; Group C: F,Cl,Br,I,P,As,Sb,B,Al,Ga,In,Tl,Hg"
+        },
+        "7": {
+            "unsaturated": "epine",
+            "saturated_default": "epane",
+            "saturated_with_N": "epane"
+        },
+        "8": {
+            "unsaturated": "ocine",
+            "saturated_default": "ocane",
+            "saturated_with_N": "ocane"
+        },
+        "9": {
+            "unsaturated": "onine",
+            "saturated_default": "onane",
+            "saturated_with_N": "onane"
+        },
+        "10": {
+            "unsaturated": "ecine",
+            "saturated_default": "ecane",
+            "saturated_with_N": "ecane"
+        }
+    },
+    "six_membered_groups": {
+        "A": ["O", "S", "Se", "Te", "Bi"],
+        "B": ["N", "Si", "Ge", "Sn", "Pb"],
+        "C": ["F", "Cl", "Br", "I", "P", "As", "Sb", "B", "Al", "Ga", "In", "Tl", "Hg"]
+    }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "name": "phenazine",
+    "pin": "phenazine"
+  },
+  {
+    "rank": 2,
+    "name": "phenanthroline",
+    "pin": "1,7-phenanthroline"
+  },
+  {
+    "rank": 3,
+    "name": "perimidine",
+    "pin": "1H-perimidine"
+  },
+  {
+    "rank": 4,
+    "name": "acridine",
+    "pin": "acridine"
+  },
+  {
+    "rank": 5,
+    "name": "phenanthridine",
+    "pin": "phenanthridine"
+  },
+  {
+    "rank": 6,
+    "name": "carbazole",
+    "pin": "9H-carbazole"
+  },
+  {
+    "rank": 7,
+    "name": "pteridine",
+    "pin": "pteridine"
+  },
+  {
+    "rank": 8,
+    "name": "cinnoline",
+    "pin": "cinnoline"
+  },
+  {
+    "rank": 9,
+    "name": "quinazoline",
+    "pin": "quinazoline"
+  },
+  {
+    "rank": 10,
+    "name": "quinoxaline",
+    "pin": "quinoxaline"
+  },
+  {
+    "rank": 11,
+    "name": "naphthyridine",
+    "pin": "1,5-naphthyridine"
+  },
+  {
+    "rank": 12,
+    "name": "phthalazine",
+    "pin": "phthalazine"
+  },
+  {
+    "rank": 13,
+    "name": "quinoline",
+    "pin": "quinoline"
+  },
+  {
+    "rank": 14,
+    "name": "isoquinoline",
+    "pin": "isoquinoline"
+  },
+  {
+    "rank": 15,
+    "name": "quinolizine",
+    "pin": "4H-quinolizine"
+  },
+  {
+    "rank": 16,
+    "name": "purine",
+    "pin": "7H-purine"
+  },
+  {
+    "rank": 17,
+    "name": "indazole",
+    "pin": "1H-indazole"
+  },
+  {
+    "rank": 18,
+    "name": "indole",
+    "pin": "1H-indole"
+  },
+  {
+    "rank": 19,
+    "name": "isoindole",
+    "pin": "2H-isoindole"
+  },
+  {
+    "rank": 20,
+    "name": "indolizine",
+    "pin": "indolizine"
+  },
+  {
+    "rank": 21,
+    "name": "pyrrolizine",
+    "pin": "1H-pyrrolizine"
+  },
+  {
+    "rank": 22,
+    "name": "xanthene",
+    "pin": "9H-xanthene"
+  },
+  {
+    "rank": 23,
+    "name": "chromene",
+    "pin": "2H-1-benzopyran"
+  },
+  {
+    "rank": 24,
+    "name": "isochromene",
+    "pin": "1H-2-benzopyran"
+  }
+]

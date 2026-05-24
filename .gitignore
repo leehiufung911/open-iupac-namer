@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / env
+.env
+*.log
+.vscode/
+.idea/
+.claude/
+
+# py2opsin scratch temp file (created in cwd during OPSIN round-trips)
+py2opsin_temp_input.txt
+
+# Eval run outputs
+eval/eval_results.json
+eval/auth_failures.json

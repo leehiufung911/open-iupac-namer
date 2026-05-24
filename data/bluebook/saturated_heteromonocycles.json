@@ -1,0 +1,70 @@
+[
+  {
+    "name": "1,3-oxazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "1,3-thiazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "1,3-selenazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "1,3-tellurazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "1,2-oxazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "1,2-thiazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "1,2-selenazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "1,2-tellurazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "pyrrolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "morpholine",
+    "type": "PIN"
+  },
+  {
+    "name": "thiomorpholine",
+    "type": "PIN"
+  },
+  {
+    "name": "selenomorpholine",
+    "type": "PIN"
+  },
+  {
+    "name": "telluromorpholine",
+    "type": "PIN"
+  },
+  {
+    "name": "pyrazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "imidazolidine",
+    "type": "PIN"
+  },
+  {
+    "name": "piperidine",
+    "type": "PIN"
+  },
+  {
+    "name": "piperazine",
+    "type": "PIN"
+  }
+]

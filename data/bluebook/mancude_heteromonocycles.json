@@ -1,0 +1,94 @@
+[
+  {
+    "name": "furan",
+    "type": "PIN"
+  },
+  {
+    "name": "1H-imidazole",
+    "type": "PIN"
+  },
+  {
+    "name": "1,3-oxazole",
+    "type": "PIN"
+  },
+  {
+    "name": "1,3-thiazole",
+    "type": "PIN"
+  },
+  {
+    "name": "1,3-selenazole",
+    "type": "PIN"
+  },
+  {
+    "name": "1,3-tellurazole",
+    "type": "PIN"
+  },
+  {
+    "name": "1,2-oxazole",
+    "type": "PIN"
+  },
+  {
+    "name": "1,2-thiazole",
+    "type": "PIN"
+  },
+  {
+    "name": "1,2-selenazole",
+    "type": "PIN"
+  },
+  {
+    "name": "1,2-tellurazole",
+    "type": "PIN"
+  },
+  {
+    "name": "2H-pyran",
+    "type": "PIN"
+  },
+  {
+    "name": "2H-thiopyran",
+    "type": "PIN"
+  },
+  {
+    "name": "2H-selenopyran",
+    "type": "PIN"
+  },
+  {
+    "name": "2H-telluropyran",
+    "type": "PIN"
+  },
+  {
+    "name": "pyrazine",
+    "type": "PIN"
+  },
+  {
+    "name": "1H-pyrazole",
+    "type": "PIN"
+  },
+  {
+    "name": "pyridazine",
+    "type": "PIN"
+  },
+  {
+    "name": "pyridine",
+    "type": "PIN"
+  },
+  {
+    "name": "pyrimidine",
+    "type": "PIN"
+  },
+  {
+    "name": "1H-pyrrole",
+    "type": "PIN"
+  },
+  {
+    "name": "selenophene",
+    "type": "PIN"
+  },
+  {
+    "name": "tellurophene",
+    "type": "PIN"
+  },
+  {
+    "name": "thiophene",
+    "type": "PIN"
+  }
+]

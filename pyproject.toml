@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-iupac-namer"
+version = "2.0.0"
+description = "A from-scratch IUPAC 2013 Blue Book chemical nomenclature engine"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "leehiufung911", email = "leehiufung911@gmail.com" }]
+keywords = ["chemistry", "iupac", "nomenclature", "cheminformatics", "smiles", "rdkit"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = ["rdkit"]
+
+[project.optional-dependencies]
+# py2opsin (+ a Java runtime) is only needed to run the OPSIN round-trip eval.
+test = ["pytest>=7.0", "py2opsin"]
+
+[project.urls]
+Homepage = "https://github.com/leehiufung911/open-iupac-namer"
+Repository = "https://github.com/leehiufung911/open-iupac-namer"
+
+[tool.setuptools]
+packages = [
+    "iupac_namer",
+    "iupac_namer.perception",
+    "iupac_namer.perception.fg",
+    "iupac_namer.ring_naming",
+    "iupac_namer.natural_products",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

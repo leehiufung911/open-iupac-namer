@@ -1,0 +1,33 @@
+{
+    "_comment": "Table-driven acid-infix dispatcher rules, derived from OPSIN's infixes.xml. Each rule describes an atomic replacement on a parent carboxylic / sulfonic / phosphonic acid. 'opsin_from'/'opsin_to' preserve the raw OPSIN replacement pattern. 'class_word' is the OPSIN class-word name when the infix composes as 'acyl <word>' form. 'ic_stem' is the infix fragment inserted between the chain stem and '-ic acid' in embedded form (e.g. 'nitrid' for methanenitridic acid). 'covered_via' flags rules already round-tripped by the native plan search.",
+    "rules": [
+        {"alias": "amid", "opsin_from": "-O", "opsin_to": "N", "replaces_oh": true, "class_word": "amide", "ic_stem": "amid", "applicable_to": ["carboxylic_acid", "sulfonic_acid", "phosphonic_acid"], "covered_via": "functional_groups.json"},
+        {"alias": "azid", "opsin_from": "-O", "opsin_to": "N=[N+]=[N-]", "replaces_oh": true, "class_word": "azide", "ic_stem": null, "applicable_to": ["carboxylic_acid", "sulfonic_acid", "phosphonic_acid"]},
+        {"alias": "bromid", "opsin_from": "-O", "opsin_to": "Br", "replaces_oh": true, "class_word": "bromide", "ic_stem": null, "applicable_to": ["carboxylic_acid", "sulfonic_acid", "phosphonic_acid"], "covered_via": "functional_groups.json"},
+        {"alias": "chlorid", "opsin_from": "-O", "opsin_to": "Cl", "replaces_oh": true, "class_word": "chloride", "ic_stem": null, "applicable_to": ["carboxylic_acid", "sulfonic_acid", "phosphonic_acid"], "covered_via": "functional_groups.json"},
+        {"alias": "cyanatid", "opsin_from": "-O", "opsin_to": "OC#N", "replaces_oh": true, "class_word": "cyanate", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "cyanid", "opsin_from": "-O", "opsin_to": "C#N", "replaces_oh": true, "class_word": "cyanide", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "dithioperox", "opsin_from": "-O-", "opsin_to": "SS", "replaces_oh": true, "class_word": null, "ic_stem": "dithioperoxo", "applicable_to": ["carboxylic_acid"]},
+        {"alias": "diselenoperox", "opsin_from": "-O-", "opsin_to": "[Se][Se]", "replaces_oh": true, "class_word": null, "ic_stem": "diselenoperoxo", "applicable_to": ["carboxylic_acid"]},
+        {"alias": "ditelluroperox", "opsin_from": "-O-", "opsin_to": "[Te][Te]", "replaces_oh": true, "class_word": null, "ic_stem": "ditelluroperoxo", "applicable_to": ["carboxylic_acid"]},
+        {"alias": "fluorid", "opsin_from": "-O", "opsin_to": "F", "replaces_oh": true, "class_word": "fluoride", "ic_stem": null, "applicable_to": ["carboxylic_acid", "sulfonic_acid", "phosphonic_acid"], "covered_via": "functional_groups.json"},
+        {"alias": "hydrazid", "opsin_from": "-O", "opsin_to": "NN", "replaces_oh": true, "class_word": null, "ic_stem": "hydrazid", "applicable_to": ["carboxylic_acid", "sulfonic_acid", "phosphonic_acid"], "covered_via": "functional_groups.json"},
+        {"alias": "hydrazon", "opsin_from": "=O", "opsin_to": "=NN", "replaces_oh": false, "class_word": "hydrazone", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "imid", "opsin_from": "=O", "opsin_to": "=N", "replaces_oh": false, "class_word": null, "ic_stem": "imid", "applicable_to": ["carboxylic_acid"]},
+        {"alias": "iodid", "opsin_from": "-O", "opsin_to": "I", "replaces_oh": true, "class_word": "iodide", "ic_stem": null, "applicable_to": ["carboxylic_acid", "sulfonic_acid", "phosphonic_acid"], "covered_via": "functional_groups.json"},
+        {"alias": "isocyanatid", "opsin_from": "-O", "opsin_to": "N=C=O", "replaces_oh": true, "class_word": "isocyanate", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "isocyanid", "opsin_from": "-O", "opsin_to": "[N+]#[C-]", "replaces_oh": true, "class_word": "isocyanide", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "isothiocyanatid", "opsin_from": "-O", "opsin_to": "N=C=S", "replaces_oh": true, "class_word": "isothiocyanate", "ic_stem": null, "applicable_to": ["carboxylic_acid"], "covered_via": "functional_groups.json"},
+        {"alias": "isoselenocyanatid", "opsin_from": "-O", "opsin_to": "N=C=[Se]", "replaces_oh": true, "class_word": "isoselenocyanate", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "isotellurocyanatid", "opsin_from": "-O", "opsin_to": "N=C=[Te]", "replaces_oh": true, "class_word": "isotellurocyanate", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "nitrid", "opsin_from": "#O", "opsin_to": "#N", "replaces_oh": false, "class_word": null, "ic_stem": "nitrid", "applicable_to": ["carboxylic_acid", "phosphonic_acid"]},
+        {"alias": "perox", "opsin_from": "-O-", "opsin_to": "OO", "replaces_oh": true, "class_word": null, "ic_stem": "peroxo", "applicable_to": ["carboxylic_acid", "sulfonic_acid", "phosphonic_acid"]},
+        {"alias": "selen", "opsin_from": "=O,-O", "opsin_to": "[Se]", "replaces_oh": false, "class_word": null, "ic_stem": "selen", "applicable_to": ["carboxylic_acid"]},
+        {"alias": "tellur", "opsin_from": "=O,-O", "opsin_to": "[Te]", "replaces_oh": false, "class_word": null, "ic_stem": "tellur", "applicable_to": ["carboxylic_acid"]},
+        {"alias": "thi", "opsin_from": "=O,-O", "opsin_to": "S", "replaces_oh": false, "class_word": null, "ic_stem": "thi", "applicable_to": ["carboxylic_acid"], "covered_via": "functional_groups.json"},
+        {"alias": "thiocyanatid", "opsin_from": "-O", "opsin_to": "SC#N", "replaces_oh": true, "class_word": "thiocyanate", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "selenocyanatid", "opsin_from": "-O", "opsin_to": "[Se]C#N", "replaces_oh": true, "class_word": "selenocyanate", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "tellurocyanatid", "opsin_from": "-O", "opsin_to": "[Te]C#N", "replaces_oh": true, "class_word": "tellurocyanate", "ic_stem": null, "applicable_to": ["carboxylic_acid"]},
+        {"alias": "hydroxim", "opsin_from": "=O", "opsin_to": "=NO", "replaces_oh": false, "class_word": null, "ic_stem": "hydroxim", "applicable_to": ["carboxylic_acid"], "iupac_retired": true}
+    ]
+}

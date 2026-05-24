@@ -1,0 +1,40 @@
+{
+    "_comment": [
+        "Polynuclear phosphorus oxoacid table - Stage 6 R2-F.",
+        "Maps RDKit-canonical SMILES of standalone polynuclear phosphorus",
+        "oxoacids (P-O-P chains, direct-P-P bonds) to the OPSIN-accepted",
+        "preferred IUPAC name.  Keys are RDKit canonical SMILES obtained",
+        "via Chem.MolToSmiles after parsing the OPSIN reference SMILES",
+        "from nonCarboxylicAcids.xml.  Values are the single preferred",
+        "IUPAC name for that standalone molecule; the engine looks up via",
+        "whole-molecule canonical SMILES (same dispatch pattern as R1-B's",
+        "heteroelement_oxoacids.json).",
+        "",
+        "Source: OPSIN 2.8.0 nonCarboxylicAcids.xml.  Every entry has been",
+        "probed with py2opsin for round-trip (name -> SMILES -> same",
+        "RDKit canonical) before inclusion.  See tmp_probes/s6_r2_f.",
+        "",
+        "Not in scope (and intentionally absent):",
+        "  - mononuclear phosphoric / phosphonic acid: covered by existing",
+        "    _INORGANIC_CURATED_SMILES and R1-B heteroelement_oxoacids",
+        "    tables respectively.",
+        "  - phosphoronitridic acid (N#P(O)O): covered by R1-F",
+        "    acid_infix_composition.",
+        "  - fully deprotonated diphosphate/triphosphate/hypodiphosphate",
+        "    anions: already round-trip via the ordinary descriptive",
+        "    phosphanediylbis(oxidanide) assembly.",
+        "  - cyclotriphosphoric / metaphosphoric acid: OPSIN 2.8.0 cannot",
+        "    parse either name, so no round-trip verification is possible."
+    ],
+
+    "_subsumed_note": [
+        "All three entries (diphosphoric / triphosphoric / hypodiphosphoric",
+        "acid) were REMOVED: the generative maingroup_oxoacids.compute_name",
+        "reproduces them exactly from structural features (P-O-P anhydride",
+        "chain -> di/tri prefix; direct P-P -> hypodi).  This lookup table and",
+        "its engine dispatch hook are now redundant; the module is retained",
+        "only as an empty placeholder so existing imports do not break."
+    ],
+
+    "entries": {}
+}

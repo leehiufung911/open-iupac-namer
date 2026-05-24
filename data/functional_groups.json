@@ -1,0 +1,1134 @@
+{
+    "_comment": "Seniority ranks follow Blue Book P-41 (Table 5.1). Hundreds = class, units = sub-rank.",
+    "suffix_groups": [
+        {
+            "name": "carboxylic_acid",
+            "smarts": "[CX3](=O)[OX2H1]",
+            "seniority": 701,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-oic acid",
+            "suffix_nonterminal": "-carboxylic acid",
+            "prefix": "carboxy",
+            "elision": true
+        },
+        {
+            "_comment": "P-43 / P-65.3.1.2: peroxy carboxylic acid R-C(=O)-O-O-H ('peroxy{acid name}' / '{stem}peroxoic acid'). Same seniority class (7a) as the parent carboxylic acid but distinct SMARTS \u00e2\u20ac\u201d the second oxygen is bonded to the carbonyl O, not to C \u00e2\u20ac\u201d so no overlap with carboxylic_acid. Subsumes peroxol + oxo at the same R-C(=O)-OO-H site so the suffix wins.",
+            "name": "peroxy_acid",
+            "smarts": "[CX3](=O)[OX2][OX2H1]",
+            "seniority": 700,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-peroxoic acid",
+            "suffix_nonterminal": "-carboperoxoic acid",
+            "prefix": "peroxycarbonyl",
+            "elision": true
+        },
+        {
+            "name": "sulfonic_acid",
+            "smarts": "[#16X4](=O)(=O)[OX2H1]",
+            "seniority": 702,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfonic acid",
+            "suffix_nonterminal": "-sulfonic acid",
+            "prefix": "sulfo",
+            "elision": false
+        },
+        {
+            "name": "sulfinic_acid",
+            "smarts": "[#6][SX3](=O)[OX2H1,OX1-]",
+            "anchor_index": 1,
+            "_comment": "Phase 4: third-neighbour [#6] guard added so R-S(=O)-OH/[O-] only matches when S is directly bonded to a carbon (true sulfinic acid).  Without this guard the SMARTS also matched RO-S(=O)-OH/[O-] (sulfite mono-ester / sulfite anion) leading to silent atom-drop names.  anchor_index=1 keeps the FG anchor on the S (was implicit anchor 0 = the original SMARTS' first atom, now [#6] guard, so we explicitly anchor on the S).  Stage 16 R16-A: SMARTS extended to match anion form [O-] alongside protonated [OH] so the SUFFIX_VARIANT_TABLE ANION mapping (sulfinic acid \u00e2\u2020\u2019 sulfinate) fires for R-S(=O)[O-] inputs.",
+            "seniority": 703,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfinic acid",
+            "suffix_nonterminal": "-sulfinic acid",
+            "prefix": "sulfino",
+            "elision": false
+        },
+        {
+            "name": "selenonic_acid",
+            "smarts": "[SeX4](=O)(=O)[OX2H1]",
+            "seniority": 704,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-selenonic acid",
+            "suffix_nonterminal": "-selenonic acid",
+            "prefix": "selenono",
+            "elision": false
+        },
+        {
+            "name": "seleninic_acid",
+            "smarts": "[SeX3](=O)[OX2H1]",
+            "seniority": 705,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-seleninic acid",
+            "suffix_nonterminal": "-seleninic acid",
+            "prefix": "selenino",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: Te analog of sulfonic/selenonic acid (R-Te(=O)(=O)-OH).",
+            "name": "telluronic_acid",
+            "smarts": "[TeX4](=O)(=O)[OX2H1]",
+            "seniority": 706,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-telluronic acid",
+            "suffix_nonterminal": "-telluronic acid",
+            "prefix": "tellurono",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.4: sulfinimidic acid R-S(=NH)-OH (PIN suffix '-sulfinimidic acid'), the imido (=O→=NH) analog of sulfinic acid. [#6] guard (mirrors sulfinic_acid) prevents matching O-S(=NH)-OH esters; anchor on S. The =NH is the imido nitrogen [NX2H1].",
+            "name": "sulfinimidic_acid",
+            "smarts": "[#6][SX3;!R](=[NX2H1])[OX2H1]",
+            "anchor_index": 1,
+            "seniority": 718,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfinimidic acid",
+            "suffix_nonterminal": "-sulfinimidic acid",
+            "prefix": "hydroxysulfinimidoyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.4: sulfonimidic acid R-S(=O)(=NH)-OH (PIN suffix '-sulfonimidic acid'), one =O of sulfonic acid replaced by =NH. SX4 (hexavalent S) distinguishes it from sulfinimidic acid (SX3).",
+            "name": "sulfonimidic_acid",
+            "smarts": "[#6][SX4;!R](=O)(=[NX2H1])[OX2H1]",
+            "anchor_index": 1,
+            "seniority": 719,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfonimidic acid",
+            "suffix_nonterminal": "-sulfonimidic acid",
+            "prefix": "hydroxysulfonimidoyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.4: sulfonodiimidic acid R-S(=NH)2-OH (PIN suffix '-sulfonodiimidic acid'), both =O of sulfonic acid replaced by =NH ('di' infix). Example: ethanesulfonodiimidic acid (PIN).",
+            "name": "sulfonodiimidic_acid",
+            "smarts": "[#6][SX4;!R](=[NX2H1])(=[NX2H1])[OX2H1]",
+            "anchor_index": 1,
+            "seniority": 720,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfonodiimidic acid",
+            "suffix_nonterminal": "-sulfonodiimidic acid",
+            "prefix": "hydroxysulfonodiimidoyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.3: sulfinothioic O-acid R-S(=S)-OH (preselected suffix), the thio (=O→=S) analog of sulfinic acid; the OH (not SH) bears the acidic H so it is the 'O-acid' tautomer. [#6] guard + S anchor mirror sulfinic_acid.",
+            "name": "sulfinothioic_O_acid",
+            "smarts": "[#6][SX3;!R](=S)[OX2H1]",
+            "anchor_index": 1,
+            "seniority": 721,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfinothioic O-acid",
+            "suffix_nonterminal": "-sulfinothioic O-acid",
+            "prefix": "hydroxysulfinothioyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.3: sulfonothioic S-acid R-S(=O)(=O)-SH (preselected suffix), the thio analog of sulfonic acid where the acidic H sits on the S (the '-SH' tautomer). SX4 with two =O and one -SH.",
+            "name": "sulfonothioic_S_acid",
+            "smarts": "[#6][SX4;!R](=O)(=O)[SX2H1]",
+            "anchor_index": 1,
+            "seniority": 722,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfonothioic S-acid",
+            "suffix_nonterminal": "-sulfonothioic S-acid",
+            "prefix": "sulfanylsulfonyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.4: selenonimidic acid R-Se(=O)(=NH)-OH (PIN suffix), Se(VI) analog of sulfonimidic acid (one =O replaced by =NH).",
+            "name": "selenonimidic_acid",
+            "smarts": "[#6][SeX4;!R](=O)(=[NX2H1])[OX2H1]",
+            "anchor_index": 1,
+            "seniority": 723,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-selenonimidic acid",
+            "suffix_nonterminal": "-selenonimidic acid",
+            "prefix": "hydroxyselenonimidoyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.4: selenonodiimidic acid R-Se(=NH)2-OH (PIN suffix), Se(VI) analog of sulfonodiimidic acid (both =O replaced by =NH). Example: benzeneselenonodiimidic acid (PIN).",
+            "name": "selenonodiimidic_acid",
+            "smarts": "[#6][SeX4;!R](=[NX2H1])(=[NX2H1])[OX2H1]",
+            "anchor_index": 1,
+            "seniority": 724,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-selenonodiimidic acid",
+            "suffix_nonterminal": "-selenonodiimidic acid",
+            "prefix": "hydroxyselenonodiimidoyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.4: sulfinohydrazonic acid R-S(=N-NH2)-OH (PIN suffix), the hydrazono (=N-NH2) analog of sulfinic acid. The hydrazono N is [NX2]=N-[NX3H2]; anchor on S(IV). [#6] guard mirrors sulfinic_acid.",
+            "name": "sulfinohydrazonic_acid",
+            "smarts": "[#6][SX3;!R](=[NX2][NX3H2])[OX2H1]",
+            "anchor_index": 1,
+            "seniority": 725,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfinohydrazonic acid",
+            "suffix_nonterminal": "-sulfinohydrazonic acid",
+            "prefix": "hydroxy(hydrazinylidene)sulfanyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.4: sulfonohydrazonic acid R-S(=O)(=N-NH2)-OH (PIN suffix), one =O of sulfonic acid replaced by hydrazono =N-NH2. SX4 distinguishes from sulfinohydrazonic acid. Example: benzenesulfonohydrazonic acid (PIN).",
+            "name": "sulfonohydrazonic_acid",
+            "smarts": "[#6][SX4;!R](=O)(=[NX2][NX3H2])[OX2H1]",
+            "anchor_index": 1,
+            "seniority": 726,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfonohydrazonic acid",
+            "suffix_nonterminal": "-sulfonohydrazonic acid",
+            "prefix": "hydroxy(hydrazinylidene)-oxo-lambda6-sulfanyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.4.1 / P-65.3.1.4: carboximidic acid R-C(=NH)-OH, the imido (=O->=NH) analog of the carboxylic acid. PIN suffixes '-imidic acid' (terminal, on a chain stem: ethanimidic acid CC(=N)O) and '-carboximidic acid' (nonterminal, on a ring: benzenecarboximidic acid N=C(O)c1ccccc1). Anchor on the central C. The imido N is [NX2;!R] H1 (=NH) or H0 (N-substituted, e.g. N-methylethanimidic acid CN=C(C)O); the !R bars an ENDOCYCLIC C=N (e.g. 2-hydroxy-3,4,5,6-tetrahydropyridine OC1=NCCCC1, a cyclic enol/imine, not a carboximidic acid). Also excluded are =N-OH (hydroximic acid, handled by the acid-infix composer) and =N-NH2 (hydrazonic acid). The multiplied chain form '-diimidic acid' is not OPSIN-expressible, so the engine skips this PCG for 2+ chain instances (see engine.py guard) and falls back to the dihydroxy...diimine prefix form. Carbamimidic acid H2N-C(=NH)-OH names substitutively as aminomethanimidic acid (the NH2 becomes the amino prefix) and carbonimidic acid HO-C(=NH)-OH as hydroxymethanimidic acid -- both OPSIN PIN-round-trip. Subsumes the imine (C=NH) + alcohol/phenol (OH) it overlaps so the combined characteristic group is the single acid suffix instead of split imine+ol prefixes.",
+            "name": "carboximidic_acid",
+            "smarts": "[CX3](=[NX2;!R;!$([NX2][OX2]);!$([NX2][NX3])])[OX2H1]",
+            "anchor_index": 0,
+            "seniority": 727,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-imidic acid",
+            "suffix_nonterminal": "-carboximidic acid",
+            "prefix": "hydroxy(imino)methyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.4.1 / P-65.3.1.3-4: carboximidothioic acid R-C(=NH)-SH, the imido analog of carbothioic S-acid (=NH in place of =O, acidic H on the S). PIN suffixes '-imidothioic acid' (terminal: ethanimidothioic acid CC(=N)S) and '-carboximidothioic acid' (nonterminal: benzenecarboximidothioic acid N=C(S)c1ccccc1). Carbamimidothioic acid H2N-C(=NH)-SH -> aminomethanimidothioic acid; carbonimidothioic acid HO-C(=NH)-SH -> hydroxymethanimidothioic acid (or, when carboximidic_acid wins the shared C, sulfanylmethanimidic acid -- both round-trip). Same imido-N exclusions as carboximidic_acid; subsumes imine + thiol.",
+            "name": "carboximidothioic_acid",
+            "smarts": "[CX3](=[NX2;!R;!$([NX2][OX2]);!$([NX2][NX3])])[SX2H1]",
+            "anchor_index": 0,
+            "seniority": 728,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-imidothioic acid",
+            "suffix_nonterminal": "-carboximidothioic acid",
+            "prefix": "imino(sulfanyl)methyl",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: Te analog of sulfinic/seleninic acid (R-Te(=O)-OH).",
+            "name": "tellurinic_acid",
+            "smarts": "[TeX3](=O)[OX2H1]",
+            "seniority": 707,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-tellurinic acid",
+            "suffix_nonterminal": "-tellurinic acid",
+            "prefix": "tellurino",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: sulfenate anion R-S-[O-] (P-65.3.6; OPSIN suffixes.xml 'sulfenate' family).",
+            "name": "sulfenate",
+            "smarts": "[#6][SX2H0][OX1-]",
+            "anchor_index": 1,
+            "seniority": 708,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfenate",
+            "suffix_nonterminal": "-sulfenate",
+            "prefix": "oxidosulfanyl",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: sulfenothioate R-S-[S-] (OPSIN suffixes.xml 'sulfenothioate').",
+            "name": "sulfenothioate",
+            "smarts": "[#6][SX2H0][SX1-]",
+            "anchor_index": 1,
+            "seniority": 709,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfenothioate",
+            "suffix_nonterminal": "-sulfenothioate",
+            "prefix": "sulfanidosulfanyl",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: sulfenoselenoate R-S-[Se-] (OPSIN suffixes.xml 'sulfenoselenoate').",
+            "name": "sulfenoselenoate",
+            "smarts": "[#6][SX2H0][SeX1-]",
+            "anchor_index": 1,
+            "seniority": 710,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-sulfenoselenoate",
+            "suffix_nonterminal": "-sulfenoselenoate",
+            "prefix": "selanidosulfanyl",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: tellurosulfenate R-S-[Te-] (OPSIN rejects 'sulfenotelluroate'; accepts 'tellurosulfenate' as the suffix).",
+            "name": "tellurosulfenate",
+            "smarts": "[#6][SX2H0][TeX1-]",
+            "anchor_index": 1,
+            "seniority": 711,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-tellurosulfenate",
+            "suffix_nonterminal": "-tellurosulfenate",
+            "prefix": "tellanidosulfanyl",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: selenonate anion R-Se(=O)(=O)-[O-] (ANION of selenonic acid).",
+            "name": "selenonate",
+            "smarts": "[#6][SeX4](=O)(=O)[OX1-]",
+            "anchor_index": 1,
+            "seniority": 712,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-selenonate",
+            "suffix_nonterminal": "-selenonate",
+            "prefix": "selenonato",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: telluronate anion R-Te(=O)(=O)-[O-] (ANION of telluronic acid).",
+            "name": "telluronate",
+            "smarts": "[#6][TeX4](=O)(=O)[OX1-]",
+            "anchor_index": 1,
+            "seniority": 713,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-telluronate",
+            "suffix_nonterminal": "-telluronate",
+            "prefix": "telluronato",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: seleninate anion R-Se(=O)-[O-] (ANION of seleninic acid).",
+            "name": "seleninate",
+            "smarts": "[#6][SeX3H0](=O)[OX1-]",
+            "anchor_index": 1,
+            "seniority": 714,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-seleninate",
+            "suffix_nonterminal": "-seleninate",
+            "prefix": "seleninato",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: tellurinate anion R-Te(=O)-[O-] (ANION of tellurinic acid).",
+            "name": "tellurinate",
+            "smarts": "[#6][TeX3H0](=O)[OX1-]",
+            "anchor_index": 1,
+            "seniority": 715,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-tellurinate",
+            "suffix_nonterminal": "-tellurinate",
+            "prefix": "tellurinato",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: tellurolate R-[Te-] (chalcogen anion; OPSIN 'tellurolate').",
+            "name": "tellurolate",
+            "smarts": "[#6][TeX1-]",
+            "anchor_index": 1,
+            "seniority": 716,
+            "bluebook_class": "17",
+            "suffix_terminal": "-tellurolate",
+            "suffix_nonterminal": "-tellurolate",
+            "prefix": "tellanido",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: selenolate R-[Se-] (chalcogen anion; OPSIN 'selenolate').",
+            "name": "selenolate",
+            "smarts": "[#6][SeX1-]",
+            "anchor_index": 1,
+            "seniority": 717,
+            "bluebook_class": "17",
+            "suffix_terminal": "-selenolate",
+            "suffix_nonterminal": "-selenolate",
+            "prefix": "selanido",
+            "elision": false
+        },
+        {
+            "name": "phosphonic_acid",
+            "smarts": "[PX4](=O)([OX2H1])[OX2H1]",
+            "seniority": 710,
+            "bluebook_class": "7c",
+            "suffix_terminal": "-phosphonic acid",
+            "suffix_nonterminal": "-phosphonic acid",
+            "prefix": "phosphono",
+            "elision": false
+        },
+        {
+            "_comment": "Phase 3 R-P42.3: arsonic acid R-As(=O)(OH)2 (P-42.3 class 7c retained acid; parallel to phosphonic acid).",
+            "name": "arsonic_acid",
+            "smarts": "[AsX4](=O)([OX2H1])[OX2H1]",
+            "seniority": 710,
+            "bluebook_class": "7c",
+            "suffix_terminal": "-arsonic acid",
+            "suffix_nonterminal": "-arsonic acid",
+            "prefix": "arsono",
+            "elision": false
+        },
+        {
+            "name": "boronic_acid",
+            "smarts": "[BX3]([OX2H1])[OX2H1]",
+            "seniority": 711,
+            "bluebook_class": "7c",
+            "suffix_terminal": "-boronic acid",
+            "suffix_nonterminal": "-boronic acid",
+            "prefix": "borono",
+            "elision": false
+        },
+        {
+            "name": "carbamate",
+            "smarts": "[OX2;!R]([#6])C(=O)[NX3]",
+            "anchor_index": 1,
+            "seniority": 802,
+            "bluebook_class": "8",
+            "suffix_terminal": "-carbamate",
+            "suffix_nonterminal": "-carbamate",
+            "prefix": "alkoxycarbonylamino",
+            "elision": false
+        },
+        {
+            "name": "ester",
+            "smarts": "[CX3;!$([CX3](=O)[OX2][CX3](=O));!$([CX3](=O)[F,Cl,Br,I]);!$([CX3](=O)([OX2])[NX3]);!$([CX3](=O)([OX2])[OX2])](=O)[OX2;!R][#6;!$([CX3]=[OX1])]",
+            "anchor_index": 0,
+            "seniority": 801,
+            "bluebook_class": "8",
+            "suffix_terminal": "-oate",
+            "suffix_nonterminal": "-carboxylate",
+            "prefix": "oxycarbonyl",
+            "elision": true
+        },
+        {
+            "name": "thioester",
+            "smarts": "[CX3;!$([CX3](=O)[SX2][CX3](=O));!$([CX3](=O)[SX2][NX3])](=O)[SX2;!R;!H1][#6;!$([CX3]=[OX1]);!$([CX3]=[SX1])]",
+            "anchor_index": 0,
+            "seniority": 803,
+            "bluebook_class": "8",
+            "prefix": "sulfanylcarbonyl",
+            "elision": false
+        },
+        {
+            "name": "thionoester",
+            "smarts": "[CX3;!$([CX3](=S)[NX3])](=S)[OX2;!R;!H1][#6;!$([CX3]=[OX1]);!$([CX3]=[SX1])]",
+            "anchor_index": 0,
+            "seniority": 804,
+            "bluebook_class": "8",
+            "prefix": "oxy(thioxo)methyl",
+            "elision": false
+        },
+        {
+            "name": "dithioester",
+            "smarts": "[CX3;!$([CX3](=S)[NX3])](=S)[SX2;!R;!H1][#6;!$([CX3]=[OX1]);!$([CX3]=[SX1])]",
+            "anchor_index": 0,
+            "seniority": 805,
+            "bluebook_class": "8",
+            "prefix": "sulfanyl(thioxo)methyl",
+            "elision": false
+        },
+        {
+            "name": "thionocarbamate",
+            "smarts": "[OX2;!R]([#6;!$([CX3]=[OX1]);!$([CX3]=[SX1])])C(=S)[NX3]",
+            "anchor_index": 1,
+            "seniority": 806,
+            "bluebook_class": "8",
+            "prefix": "oxy(thioxo)methylamino",
+            "elision": false
+        },
+        {
+            "name": "carbamothioate",
+            "smarts": "[SX2;!R;!H1]([#6;!$([CX3]=[OX1]);!$([CX3]=[SX1])])C(=O)[NX3]",
+            "anchor_index": 1,
+            "seniority": 8055,
+            "bluebook_class": "8",
+            "prefix": "sulfanylcarbonylamino",
+            "elision": false
+        },
+        {
+            "name": "dithiocarbamate",
+            "smarts": "[SX2;!R;!H1]([#6;!$([CX3]=[OX1]);!$([CX3]=[SX1])])C(=S)[NX3]",
+            "anchor_index": 1,
+            "seniority": 807,
+            "bluebook_class": "8",
+            "prefix": "sulfanyl(thioxo)methylamino",
+            "elision": false
+        },
+        {
+            "name": "acyl_chloride",
+            "smarts": "[CX3](=O)[ClX1]",
+            "anchor_index": 0,
+            "seniority": 900,
+            "bluebook_class": "9a",
+            "suffix_terminal": "-oyl chloride",
+            "suffix_nonterminal": "-carbonyl chloride",
+            "prefix": "chlorocarbonyl",
+            "elision": true
+        },
+        {
+            "name": "acyl_bromide",
+            "smarts": "[CX3](=O)[BrX1]",
+            "anchor_index": 0,
+            "seniority": 901,
+            "bluebook_class": "9a",
+            "suffix_terminal": "-oyl bromide",
+            "suffix_nonterminal": "-carbonyl bromide",
+            "prefix": "bromocarbonyl",
+            "elision": true
+        },
+        {
+            "name": "acyl_fluoride",
+            "smarts": "[CX3](=O)[FX1]",
+            "anchor_index": 0,
+            "seniority": 902,
+            "bluebook_class": "9a",
+            "suffix_terminal": "-oyl fluoride",
+            "suffix_nonterminal": "-carbonyl fluoride",
+            "prefix": "fluorocarbonyl",
+            "elision": true
+        },
+        {
+            "name": "acyl_iodide",
+            "smarts": "[CX3](=O)[IX1]",
+            "anchor_index": 0,
+            "seniority": 903,
+            "bluebook_class": "9a",
+            "suffix_terminal": "-oyl iodide",
+            "suffix_nonterminal": "-carbonyl iodide",
+            "prefix": "iodocarbonyl",
+            "elision": true
+        },
+        {
+            "name": "acyl_isothiocyanate",
+            "smarts": "[#6][CX3](=O)[NX2]=[CX2]=[SX1]",
+            "anchor_index": 1,
+            "seniority": 909,
+            "bluebook_class": "9b",
+            "suffix_terminal": "-oyl isothiocyanate",
+            "suffix_nonterminal": "-carbonyl isothiocyanate",
+            "prefix": "isothiocyanatocarbonyl",
+            "elision": true
+        },
+        {
+            "name": "sulfonyl_chloride",
+            "smarts": "[#16X4](=O)(=O)[ClX1]",
+            "anchor_index": 0,
+            "seniority": 904,
+            "bluebook_class": "9a",
+            "suffix_terminal": "-sulfonyl chloride",
+            "suffix_nonterminal": "-sulfonyl chloride",
+            "prefix": "chlorosulfonyl",
+            "elision": false
+        },
+        {
+            "name": "sulfonyl_bromide",
+            "smarts": "[#16X4](=O)(=O)[BrX1]",
+            "anchor_index": 0,
+            "seniority": 905,
+            "bluebook_class": "9a",
+            "suffix_terminal": "-sulfonyl bromide",
+            "suffix_nonterminal": "-sulfonyl bromide",
+            "prefix": "bromosulfonyl",
+            "elision": false
+        },
+        {
+            "name": "sulfonyl_fluoride",
+            "smarts": "[#16X4](=O)(=O)[FX1]",
+            "anchor_index": 0,
+            "seniority": 906,
+            "bluebook_class": "9a",
+            "suffix_terminal": "-sulfonyl fluoride",
+            "suffix_nonterminal": "-sulfonyl fluoride",
+            "prefix": "fluorosulfonyl",
+            "elision": false
+        },
+        {
+            "name": "sulfonyl_iodide",
+            "smarts": "[#16X4](=O)(=O)[IX1]",
+            "anchor_index": 0,
+            "seniority": 907,
+            "bluebook_class": "9a",
+            "suffix_terminal": "-sulfonyl iodide",
+            "suffix_nonterminal": "-sulfonyl iodide",
+            "prefix": "iodosulfonyl",
+            "elision": false
+        },
+        {
+            "name": "amide",
+            "smarts": "[CX3;!$([CX3](=O)[OX2])](=O)[NX3H2]",
+            "seniority": 1100,
+            "bluebook_class": "11",
+            "suffix_terminal": "-amide",
+            "suffix_nonterminal": "-carboxamide",
+            "prefix": "carbamoyl",
+            "elision": true
+        },
+        {
+            "_comment": "P-56.3 (IUPAC 2013): the amidine R-C(=NH)-NH2 PIN suffix is now '-imidamide' (terminal) / '-carboximidamide' (nonterminal). Replaces the older 'amidine' general-nomenclature form. Anchor is the central C so the suffix locant cites that carbon's parent-stem position. Subsumes the imine (C=NH) + amine (NH2) at the same C.",
+            "name": "imidamide",
+            "smarts": "[CX3;!$([CX3](=[NX2])[OX2])](=[NX2;H1])[NX3H2]",
+            "anchor_index": 0,
+            "seniority": 1099,
+            "bluebook_class": "11",
+            "suffix_terminal": "-imidamide",
+            "suffix_nonterminal": "-carboximidamide",
+            "prefix": "carbamimidoyl",
+            "elision": true
+        },
+        {
+            "name": "sulfonamide",
+            "smarts": "[#16X4;!R](=O)(=O)[NX3,NX2-]",
+            "seniority": 1101,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfonamide",
+            "suffix_nonterminal": "-sulfonamide",
+            "prefix": "sulfamoyl",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: Se analog of sulfonamide (R-Se(=O)(=O)-NH2).",
+            "name": "selenonamide",
+            "smarts": "[#6][SeX4;!R](=O)(=O)[NX3,NX2-]",
+            "anchor_index": 1,
+            "seniority": 1105,
+            "bluebook_class": "11",
+            "suffix_terminal": "-selenonamide",
+            "suffix_nonterminal": "-selenonamide",
+            "prefix": "selenonamido",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.1.1.2: sulfinamide R-S(=O)-NH2 (preselected suffix '-sulfinamide'), the S(IV) sulfinic-acid amide. Distinct SMARTS from sulfonamide (SX3 vs SX4, one =O not two). Anchor on the S so the suffix locant cites the parent-stem carbon. Prefix 'sulfinamoyl' parallels 'sulfamoyl' (P-65.3.1).",
+            "name": "sulfinamide",
+            "smarts": "[#6][SX3;!R](=O)[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1106,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfinamide",
+            "suffix_nonterminal": "-sulfinamide",
+            "prefix": "aminosulfinyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.1.1.2: seleninamide R-Se(=O)-NH2 (preselected suffix '-seleninamide'), the Se(IV) seleninic-acid amide. Se analog of sulfinamide.",
+            "name": "seleninamide",
+            "smarts": "[#6][SeX3;!R](=O)[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1107,
+            "bluebook_class": "11",
+            "suffix_terminal": "-seleninamide",
+            "suffix_nonterminal": "-seleninamide",
+            "prefix": "aminoseleninyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.1.1.2: telluronamide R-Te(=O)(=O)-NH2 (preselected suffix '-telluronamide'), the Te(VI) telluronic-acid amide. Te analog of selenonamide.",
+            "name": "telluronamide",
+            "smarts": "[#6][TeX4;!R](=O)(=O)[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1108,
+            "bluebook_class": "11",
+            "suffix_terminal": "-telluronamide",
+            "suffix_nonterminal": "-telluronamide",
+            "prefix": "aminotelluronyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.1.1.2: tellurinamide R-Te(=O)-NH2 (preselected suffix '-tellurinamide'), the Te(IV) tellurinic-acid amide. Te analog of sulfinamide/seleninamide.",
+            "name": "tellurinamide",
+            "smarts": "[#6][TeX3;!R](=O)[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1109,
+            "bluebook_class": "11",
+            "suffix_terminal": "-tellurinamide",
+            "suffix_nonterminal": "-tellurinamide",
+            "prefix": "aminotellurinyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.1.4.1.1: sulfonothioamide R-S(=O)(=S)-NH2 (preselected suffix), the mono-thio (one =O replaced by =S) chalcogen analog of sulfonamide. Distinct from sulfonamide (one =S) and sulfonodithioamide (two =S).",
+            "name": "sulfonothioamide",
+            "smarts": "[#6][SX4;!R](=O)(=S)[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1110,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfonothioamide",
+            "suffix_nonterminal": "-sulfonothioamide",
+            "prefix": "aminosulfonothioyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.1.4.1.1: sulfonodithioamide R-S(=S)(=S)-NH2 (preselected suffix), the di-thio (both =O replaced by =S) chalcogen analog of sulfonamide. Example: naphthalene-2-sulfonodithioamide (PIN).",
+            "name": "sulfonodithioamide",
+            "smarts": "[#6][SX4;!R](=S)(=S)[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1111,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfonodithioamide",
+            "suffix_nonterminal": "-sulfonodithioamide",
+            "prefix": "aminosulfonodithioyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.1.4.1.1: sulfinothioamide R-S(=S)-NH2 (preselected suffix), the thio (=O replaced by =S) chalcogen analog of sulfinamide. The S is SX3 (sulfinamide-level), distinguishing it from the SX4 sulfono(di)thioamides. Anchor on the central S, not the terminal =S, so it does not collide with thioamide (C-anchored).",
+            "name": "sulfinothioamide",
+            "smarts": "[#6][SX3;!R](=S)[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1112,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfinothioamide",
+            "suffix_nonterminal": "-sulfinothioamide",
+            "prefix": "aminosulfinothioyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.4.1.1: sulfinimidamide R-S(=NH)-NH2 (preselected suffix), the imidamide (amidine) analog of sulfinic acid — the =NH imido nitrogen plus an -NH2 amino on S(IV). Anchor on S; primary amino only ([NX3H2]) so secondary/bridging N falls through to the engine prefix path. Imido N is [NX2H1].",
+            "name": "sulfinimidamide",
+            "smarts": "[#6][SX3;!R](=[NX2H1])[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1095,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfinimidamide",
+            "suffix_nonterminal": "-sulfinimidamide",
+            "prefix": "aminosulfinimidoyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.4.1.1: sulfonimidamide R-S(=O)(=NH)-NH2 (preselected suffix), one =O of sulfonamide replaced by =NH plus the -NH2. SX4 distinguishes it from sulfinimidamide (SX3).",
+            "name": "sulfonimidamide",
+            "smarts": "[#6][SX4;!R](=O)(=[NX2H1])[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1096,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfonimidamide",
+            "suffix_nonterminal": "-sulfonimidamide",
+            "prefix": "aminosulfonimidoyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.4.1.1: sulfonodiimidamide R-S(=NH)2-NH2 (preselected suffix), both =O of sulfonamide replaced by =NH ('di' infix) plus the -NH2. Example: ethanesulfonodiimidamide / 2-(ethanesulfonodiimidoylamino)benzoic acid (prefix form).",
+            "name": "sulfonodiimidamide",
+            "smarts": "[#6][SX4;!R](=[NX2H1])(=[NX2H1])[NX3H2,NX2H1-]",
+            "anchor_index": 1,
+            "seniority": 1097,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfonodiimidamide",
+            "suffix_nonterminal": "-sulfonodiimidamide",
+            "prefix": "aminosulfonodiimidoyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.4.1 / P-65.3.1.4: sulfinohydrazonamide R-S(=N-NH2)-NH2 (preselected suffix), the hydrazono-amide of sulfinic acid. The =N-NH2 hydrazono (imido N is X2, H0, bearing a terminal -NH2) plus a separate amide -NH2 on S(IV). Example: benzenesulfinohydrazonamide (PIN).",
+            "name": "sulfinohydrazonamide",
+            "smarts": "[#6][SX3;!R](=[NX2][NX3H2])[NX3H2]",
+            "anchor_index": 1,
+            "seniority": 1093,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfinohydrazonamide",
+            "suffix_nonterminal": "-sulfinohydrazonamide",
+            "prefix": "amino(hydrazinylidene)sulfanyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-66.4.1 / P-65.3.1.4: sulfonohydrazonamide R-S(=O)(=N-NH2)-NH2 (preselected suffix), one =O of sulfonamide replaced by the hydrazono =N-NH2. SX4 distinguishes from sulfinohydrazonamide.",
+            "name": "sulfonohydrazonamide",
+            "smarts": "[#6][SX4;!R](=O)(=[NX2][NX3H2])[NX3H2]",
+            "anchor_index": 1,
+            "seniority": 1094,
+            "bluebook_class": "11",
+            "suffix_terminal": "-sulfonohydrazonamide",
+            "suffix_nonterminal": "-sulfonohydrazonamide",
+            "prefix": "amino(hydrazinylidene)-oxo-lambda6-sulfanyl",
+            "elision": false
+        },
+        {
+            "_comment": "Phase 4 thioamide: restrict to primary (N has 2 H) so secondary/tertiary thioamides get their own SMARTS entries below. Mirrors the amide / secondary_amide / tertiary_amide split. Without the split, the SMARTS does not include the N-substituent atoms, so the substituent atoms get carved as separate substituents and the suffix path is rejected \u00e2\u20ac\u201d producing 'thiocarbamoyl' prefix forms instead of '-thioamide' suffix forms for N-substituted cases.",
+            "name": "thioamide",
+            "smarts": "[CX3](=S)[NX3H2]",
+            "seniority": 1102,
+            "bluebook_class": "11",
+            "suffix_terminal": "-thioamide",
+            "suffix_nonterminal": "-carbothioamide",
+            "prefix": "thiocarbamoyl",
+            "elision": false
+        },
+        {
+            "name": "hydroxamic_acid",
+            "smarts": "[CX3](=O)[NX3H1][OX2H1]",
+            "seniority": 1103,
+            "bluebook_class": "11",
+            "suffix_terminal": "-hydroxamic acid",
+            "suffix_nonterminal": "-carbohydroxamic acid",
+            "prefix": "hydroxycarbamoyl",
+            "elision": false
+        },
+        {
+            "name": "hydrazide",
+            "smarts": "[CX3](=O)[NX3H1][NX3H2]",
+            "seniority": 1200,
+            "bluebook_class": "12",
+            "suffix_terminal": "-ohydrazide",
+            "suffix_nonterminal": "-carbohydrazide",
+            "prefix": "hydrazinylcarbonyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-65.3.1.4 / P-66.4: sulfinohydrazonohydrazide R-S(=N-NH2)-NH-NH2 (preselected suffix), the hydrazono-hydrazide of sulfinic acid — a hydrazono =N-NH2 plus a hydrazide -NH-NH2 leaving group on S(IV). Class 12 (hydrazide). Example: benzenesulfinohydrazonohydrazide (PIN).",
+            "name": "sulfinohydrazonohydrazide",
+            "smarts": "[#6][SX3;!R](=[NX2][NX3H2])[NX3H1][NX3H2]",
+            "anchor_index": 1,
+            "seniority": 1201,
+            "bluebook_class": "12",
+            "suffix_terminal": "-sulfinohydrazonohydrazide",
+            "suffix_nonterminal": "-sulfinohydrazonohydrazide",
+            "prefix": "hydrazinyl(hydrazinylidene)sulfanyl",
+            "elision": false
+        },
+        {
+            "name": "nitrile",
+            "smarts": "[CX2]#[NX1]",
+            "seniority": 1400,
+            "bluebook_class": "14",
+            "suffix_terminal": "-nitrile",
+            "suffix_nonterminal": "-carbonitrile",
+            "prefix": "cyano",
+            "elision": true
+        },
+        {
+            "name": "aldehyde",
+            "smarts": "[CX3;H1,H2](=O)",
+            "seniority": 1500,
+            "bluebook_class": "15",
+            "suffix_terminal": "-al",
+            "suffix_nonterminal": "-carbaldehyde",
+            "prefix_terminal": "oxo",
+            "prefix_nonterminal": "formyl",
+            "elision": true
+        },
+        {
+            "name": "thial",
+            "_comment": "Thioaldehyde R-CH=S: the S MUST be terminal (=[SX1]).  Using bare =S also matched an ENDOcyclic S=C where the S is a hypervalent ring atom (e.g. 1lambda4-thiine C1=CC=[SH]C=C1, whose S(idx3)=C(idx2) is part of the mancude ring), hallucinating a phantom -carbothialdehyde suffix.  Requiring SX1 restricts the match to a true exocyclic thiocarbonyl.",
+            "smarts": "[CX3H1]=[SX1]",
+            "seniority": 1501,
+            "bluebook_class": "15",
+            "suffix_terminal": "-thial",
+            "suffix_nonterminal": "-carbothialdehyde",
+            "prefix": "thioxo",
+            "elision": false
+        },
+        {
+            "name": "ketone",
+            "smarts": "[#6][CX3](=O)[#6]",
+            "anchor_index": 1,
+            "seniority": 1600,
+            "bluebook_class": "16",
+            "suffix": "-one",
+            "prefix": "oxo",
+            "elision": true
+        },
+        {
+            "name": "ketone",
+            "smarts": "[#6][cX3](=O)[#6]",
+            "anchor_index": 1,
+            "seniority": 1600,
+            "bluebook_class": "16",
+            "suffix": "-one",
+            "prefix": "oxo",
+            "elision": true
+        },
+        {
+            "name": "carbothioic_O_acid",
+            "smarts": "[CX3](=S)[OX2H1]",
+            "seniority": 710,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-thioic O-acid",
+            "suffix_nonterminal": "-carbothioic O-acid",
+            "prefix": "hydroxy(thioxo)methyl",
+            "elision": false
+        },
+        {
+            "name": "carbothioic_S_acid",
+            "smarts": "[CX3](=O)[SX2H1]",
+            "seniority": 711,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-thioic S-acid",
+            "suffix_nonterminal": "-carbothioic S-acid",
+            "prefix": "sulfanyl(oxo)methyl",
+            "elision": false
+        },
+        {
+            "_comment": "P-43: Se-analog of carbothioic_S_acid. R-C(=O)-SeH PIN suffix is '-selenoic Se-acid' / '-carboselenoic Se-acid'. Distinct SMARTS from carbothioic_S_acid (S\u00e2\u2020\u2019Se) and from carboxylic_acid (the -OOH carbonyl O is replaced by -SeH).",
+            "name": "carboselenoic_Se_acid",
+            "smarts": "[CX3](=O)[SeX2H1]",
+            "seniority": 711,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-selenoic Se-acid",
+            "suffix_nonterminal": "-carboselenoic Se-acid",
+            "prefix": "selanyl(oxo)methyl",
+            "elision": false
+        },
+        {
+            "name": "carbodithioic_acid",
+            "smarts": "[CX3](=S)[SX2H1]",
+            "seniority": 712,
+            "bluebook_class": "7a",
+            "suffix_terminal": "-dithioic acid",
+            "suffix_nonterminal": "-carbodithioic acid",
+            "prefix": "sulfanyl(thioxo)methyl",
+            "elision": false
+        },
+        {
+            "_comment": "Phase 4 thione: both substituents must be carbons, like ketone (P-66.6.3). Restricting [!#1]\u00e2\u20ac\u00a6[!#1] to [#6]\u00e2\u20ac\u00a6[#6] avoids matching carbonothioyl halides (S=C(Cl)Cl, FC(=S)Cl, etc.), which are not thiones and were producing silent atom drops via overlap with halogen FGs.",
+            "name": "thione",
+            "smarts": "[#6][CX3;H0;!$([CX3](=S)[NX3]);!$([CX3](=S)[OX2H1]);!$([CX3](=S)[OX2][#6]);!$([CX3](=S)[SX2H1]);!$([CX3](=S)[SX2][#6])](=S)[#6]",
+            "anchor_index": 1,
+            "seniority": 1601,
+            "bluebook_class": "16",
+            "suffix": "-thione",
+            "prefix": "sulfanylidene",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: selone = C=Se ketone-analog (P-66.6.3; OPSIN '-selone'). Accepts both H0 (internal/ring) and H1 (terminal acyclic) carbons \u00e2\u20ac\u201d OPSIN treats '-selone' as generalised across both.",
+            "name": "selone",
+            "smarts": "[CX3;H0,H1;!$([CX3](=[Se])[NX3]);!$([CX3](=[Se])[OX2H1]);!$([CX3](=[Se])[OX2][#6]);!$([CX3](=[Se])[SX2H1]);!$([CX3](=[Se])[SX2][#6])](=[Se])",
+            "anchor_index": 0,
+            "seniority": 1602,
+            "bluebook_class": "16",
+            "suffix": "-selone",
+            "prefix": "selanylidene",
+            "elision": false
+        },
+        {
+            "_comment": "Stage 6 R2-G: tellone = C=Te ketone-analog (P-66.6.3; OPSIN '-tellone'). Accepts both H0 (internal/ring) and H1 (terminal acyclic) carbons.",
+            "name": "tellone",
+            "smarts": "[CX3;H0,H1;!$([CX3](=[Te])[NX3]);!$([CX3](=[Te])[OX2H1]);!$([CX3](=[Te])[OX2][#6]);!$([CX3](=[Te])[SX2H1]);!$([CX3](=[Te])[SX2][#6])](=[Te])",
+            "anchor_index": 0,
+            "seniority": 1603,
+            "bluebook_class": "16",
+            "suffix": "-tellone",
+            "prefix": "tellanylidene",
+            "elision": false
+        },
+        {
+            "name": "alcohol",
+            "smarts": "[OX2H1][CX4]",
+            "anchor_index": 1,
+            "seniority": 1700,
+            "bluebook_class": "17",
+            "suffix": "-ol",
+            "prefix": "hydroxy",
+            "elision": true
+        },
+        {
+            "name": "phenol",
+            "smarts": "[OX2H1][cX3]",
+            "anchor_index": 1,
+            "seniority": 1700,
+            "bluebook_class": "17",
+            "suffix": "-ol",
+            "prefix": "hydroxy",
+            "elision": true
+        },
+        {
+            "_comment": "P-56.1 / P-63.4 (IUPAC 2013): hydroperoxide R-O-O-H PIN suffix is '-peroxol' (replacing the older 'hydroperoxy'-as-substituent / dioxidane substitutive form). 'peroxol' starts with a consonant so the parent-stem terminal 'e' is NOT elided ('ethaneperoxol', not 'ethanperoxol'). Anchor is the C bearing the -OO-H so the suffix locant cites the parent-stem position. Prefix form remains 'hydroperoxy' (already in prefix_only_groups; subsumption table entry keeps the suffix-form winning when both match).",
+            "name": "peroxol",
+            "smarts": "[OX2H1][OX2][#6]",
+            "anchor_index": 2,
+            "seniority": 1699,
+            "bluebook_class": "17",
+            "suffix": "-peroxol",
+            "prefix": "hydroperoxy",
+            "elision": false
+        },
+        {
+            "name": "thiol",
+            "smarts": "[SX2H1][#6]",
+            "anchor_index": 1,
+            "seniority": 1701,
+            "bluebook_class": "17",
+            "suffix": "-thiol",
+            "prefix": "sulfanyl",
+            "elision": false
+        },
+        {
+            "name": "selenol",
+            "smarts": "[SeX2H1][#6]",
+            "anchor_index": 1,
+            "seniority": 1702,
+            "bluebook_class": "17",
+            "suffix": "-selenol",
+            "prefix": "selanyl",
+            "elision": false
+        },
+        {
+            "name": "amine",
+            "smarts": "[NX3;H2;!R][#6]",
+            "anchor_index": 0,
+            "seniority": 1900,
+            "bluebook_class": "19",
+            "suffix": "-amine",
+            "prefix": "amino",
+            "elision": true
+        },
+        {
+            "name": "secondary_amine",
+            "smarts": "[NX3H1;!R]([#6])[#6]",
+            "anchor_index": 0,
+            "seniority": 1900,
+            "bluebook_class": "19",
+            "suffix": "-amine",
+            "prefix": "amino",
+            "elision": true
+        },
+        {
+            "name": "tertiary_amine",
+            "smarts": "[NX3;H0;!R]([#6])([#6])[#6]",
+            "anchor_index": 0,
+            "seniority": 1900,
+            "bluebook_class": "19",
+            "suffix": "-amine",
+            "prefix": "amino",
+            "elision": true
+        },
+        {
+            "name": "imine",
+            "smarts": "[#6]=[NX2H1]",
+            "seniority": 2000,
+            "bluebook_class": "20",
+            "suffix": "-imine",
+            "prefix": "imino",
+            "elision": true
+        },
+        {
+            "name": "secondary_amide",
+            "smarts": "[CX3;!$([CX3](=O)[OX2])](=O)[NX3H1]([#6])",
+            "anchor_index": 0,
+            "seniority": 1100,
+            "bluebook_class": "11",
+            "suffix_terminal": "-amide",
+            "suffix_nonterminal": "-carboxamide",
+            "prefix": "carbamoyl",
+            "elision": true
+        },
+        {
+            "name": "tertiary_amide",
+            "smarts": "[CX3;!$([CX3](=O)[OX2])](=O)[NX3H0;!R]([#6])[#6]",
+            "anchor_index": 0,
+            "seniority": 1100,
+            "bluebook_class": "11",
+            "suffix_terminal": "-amide",
+            "suffix_nonterminal": "-carboxamide",
+            "prefix": "carbamoyl",
+            "elision": true
+        },
+        {
+            "_comment": "Phase 4 secondary_thioamide: parallel of secondary_amide. SMARTS captures the N's carbon substituent so the N-sub atoms participate in suffix-path planning (-thioamide with N-locant) instead of getting carved as a separate substituent.",
+            "name": "secondary_thioamide",
+            "smarts": "[CX3](=S)[NX3H1]([#6])",
+            "anchor_index": 0,
+            "seniority": 1102,
+            "bluebook_class": "11",
+            "suffix_terminal": "-thioamide",
+            "suffix_nonterminal": "-carbothioamide",
+            "prefix": "thiocarbamoyl",
+            "elision": false
+        },
+        {
+            "_comment": "Phase 4 tertiary_thioamide: parallel of tertiary_amide. SMARTS captures both N-substituent carbons. Acyclic N only (!R) so endocyclic-amide / lactam-style cases are excluded.",
+            "name": "tertiary_thioamide",
+            "smarts": "[CX3](=S)[NX3H0;!R]([#6])[#6]",
+            "anchor_index": 0,
+            "seniority": 1102,
+            "bluebook_class": "11",
+            "suffix_terminal": "-thioamide",
+            "suffix_nonterminal": "-carbothioamide",
+            "prefix": "thiocarbamoyl",
+            "elision": false
+        }
+    ],
+    "prefix_only_groups": [
+        {
+            "name": "fluoro",
+            "smarts": "[FX1][#6]"
+        },
+        {
+            "name": "chloro",
+            "smarts": "[ClX1][#6]"
+        },
+        {
+            "name": "bromo",
+            "smarts": "[BrX1][#6]"
+        },
+        {
+            "name": "iodo",
+            "smarts": "[IX1][#6]"
+        },
+        {
+            "name": "nitro",
+            "smarts": "[NX3+](=O)([O-])[#6]"
+        },
+        {
+            "name": "nitroso",
+            "smarts": "[NX2](=O)[#6]"
+        },
+        {
+            "name": "nitrooxy",
+            "smarts": "[NX3+](=O)([O-])[OX2][#6]"
+        },
+        {
+            "name": "nitrosooxy",
+            "smarts": "[NX2](=O)[OX2][#6]"
+        },
+        {
+            "name": "azido",
+            "smarts": "[NX1-]=[NX2+]=[NX2][#6]",
+            "_comment": "P-61.7 azido prefix -N3. SMARTS matches charge-separated canonical form RDKit emits for N3 azide ([N-]=[N+]=N-C)."
+        },
+        {
+            "name": "diazo",
+            "smarts": "[NX2+](=[NX1-])=[#6]"
+        },
+        {
+            "name": "thiocyanato",
+            "smarts": "[NX1]#[CX2][SX2][#6]"
+        },
+        {
+            "name": "isothiocyanato",
+            "smarts": "[SX1]=[CX2]=[NX2][#6]"
+        },
+        {
+            "name": "isocyanato",
+            "smarts": "[OX1]=[CX2]=[NX2][#6]"
+        },
+        {
+            "name": "cyanato",
+            "smarts": "[NX1]#[CX2][OX2][#6]"
+        },
+        {
+            "name": "isocyano",
+            "smarts": "[CX1-]#[NX2+][#6]"
+        },
+        {
+            "name": "hydroperoxy",
+            "smarts": "[OX2H][OX2][#6]"
+        },
+        {
+            "name": "iodyl",
+            "smarts": "[I](=O)(=O)[#6]"
+        },
+        {
+            "name": "iodosyl",
+            "smarts": "[IX2](=O)[#6]"
+        },
+        {
+            "name": "guanidino",
+            "smarts": "[NX3H1;!R]([#6])[CX3;!R](=[NX2;!R])[NX3H2;!R]"
+        },
+        {
+            "name": "guanidino",
+            "smarts": "[NX2;!R]([#6])=[CX3;!R]([NX3H2;!R])[NX3H2;!R]"
+        },
+        {
+            "name": "sulfonatooxy",
+            "smarts": "[OX2;!H][SX4](=O)(=O)[OX1-]",
+            "_comment": "R-O-S(=O)(=O)[O-] sulfate ester anion; prefix: sulfonatooxy"
+        },
+        {
+            "name": "sulfonatoamino",
+            "smarts": "[NX3H1][SX4](=O)(=O)[OX1-]",
+            "_comment": "R-NH-S(=O)(=O)[O-] sulfamate anion; prefix: sulfonatoamino"
+        }
+    ]
+}

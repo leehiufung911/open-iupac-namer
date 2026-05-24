@@ -1,0 +1,264 @@
+{
+    "monocyclic_heterocycles": {
+        "furan": {
+            "smarts": "[#8]1[#6]=[#6][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"O": [1]},
+            "aromatic": true,
+            "indicated_H": null,
+            "numbering": {"O": 1}
+        },
+        "thiophene": {
+            "smarts": "[#16]1[#6]=[#6][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"S": [1]},
+            "aromatic": true,
+            "indicated_H": null,
+            "numbering": {"S": 1}
+        },
+        "1H-pyrrole": {
+            "smarts": "[#7H]1[#6]=[#6][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"N": [1]},
+            "aromatic": true,
+            "indicated_H": 1,
+            "numbering": {"N": 1}
+        },
+        "1H-imidazole": {
+            "smarts": "[#7H]1[#6]=[#7][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"N": [1, 3]},
+            "aromatic": true,
+            "indicated_H": 1,
+            "numbering": {"N_1": 1, "N_2": 3}
+        },
+        "1H-pyrazole": {
+            "smarts": "[#7H]1[#7]=[#6][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"N": [1, 2]},
+            "aromatic": true,
+            "indicated_H": 1,
+            "numbering": {"N_1": 1, "N_2": 2}
+        },
+        "1,3-oxazole": {
+            "smarts": "[#8]1[#6]=[#7][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"O": [1], "N": [3]},
+            "aromatic": true,
+            "indicated_H": null,
+            "numbering": {"O": 1, "N": 3}
+        },
+        "1,2-oxazole": {
+            "smarts": "[#8]1[#7]=[#6][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"O": [1], "N": [2]},
+            "aromatic": true,
+            "indicated_H": null,
+            "numbering": {"O": 1, "N": 2}
+        },
+        "1,3-thiazole": {
+            "smarts": "[#16]1[#6]=[#7][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"S": [1], "N": [3]},
+            "aromatic": true,
+            "indicated_H": null,
+            "numbering": {"S": 1, "N": 3}
+        },
+        "1,2-thiazole": {
+            "smarts": "[#16]1[#7]=[#6][#6]=[#6]1",
+            "ring_size": 5,
+            "heteroatoms": {"S": [1], "N": [2]},
+            "aromatic": true,
+            "indicated_H": null,
+            "numbering": {"S": 1, "N": 2}
+        },
+        "2H-1,2,3-triazole": {
+            "ring_size": 5,
+            "heteroatoms": {"N": [1, 2, 3]},
+            "aromatic": true,
+            "indicated_H": 2
+        },
+        "1H-1,2,4-triazole": {
+            "ring_size": 5,
+            "heteroatoms": {"N": [1, 2, 4]},
+            "aromatic": true,
+            "indicated_H": 1
+        },
+        "1H-tetrazole": {
+            "ring_size": 5,
+            "heteroatoms": {"N": [1, 2, 3, 4]},
+            "aromatic": true,
+            "indicated_H": 1
+        },
+        "pyridine": {
+            "smarts": "[#7]1=[#6][#6]=[#6][#6]=[#6]1",
+            "ring_size": 6,
+            "heteroatoms": {"N": [1]},
+            "aromatic": true,
+            "indicated_H": null,
+            "numbering": {"N": 1}
+        },
+        "pyridazine": {
+            "smarts": "[#7]1=[#7][#6]=[#6][#6]=[#6]1",
+            "ring_size": 6,
+            "heteroatoms": {"N": [1, 2]},
+            "aromatic": true,
+            "indicated_H": null
+        },
+        "pyrimidine": {
+            "smarts": "[#7]1=[#6][#7]=[#6][#6]=[#6]1",
+            "ring_size": 6,
+            "heteroatoms": {"N": [1, 3]},
+            "aromatic": true,
+            "indicated_H": null
+        },
+        "pyrazine": {
+            "smarts": "[#7]1=[#6][#6]=[#7][#6]=[#6]1",
+            "ring_size": 6,
+            "heteroatoms": {"N": [1, 4]},
+            "aromatic": true,
+            "indicated_H": null
+        },
+        "1,3,5-triazine": {
+            "ring_size": 6,
+            "heteroatoms": {"N": [1, 3, 5]},
+            "aromatic": true,
+            "indicated_H": null
+        },
+        "1,2,4-triazine": {
+            "ring_size": 6,
+            "heteroatoms": {"N": [1, 2, 4]},
+            "aromatic": true,
+            "indicated_H": null
+        },
+        "1,2,3-triazine": {
+            "ring_size": 6,
+            "heteroatoms": {"N": [1, 2, 3]},
+            "aromatic": true,
+            "indicated_H": null
+        },
+        "oxirane": {
+            "ring_size": 3,
+            "heteroatoms": {"O": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "thiirane": {
+            "ring_size": 3,
+            "heteroatoms": {"S": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "aziridine": {
+            "ring_size": 3,
+            "heteroatoms": {"N": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "oxetane": {
+            "ring_size": 4,
+            "heteroatoms": {"O": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "azetidine": {
+            "ring_size": 4,
+            "heteroatoms": {"N": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "pyrrolidine": {
+            "ring_size": 5,
+            "heteroatoms": {"N": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "oxolane": {
+            "ring_size": 5,
+            "heteroatoms": {"O": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "thiolane": {
+            "ring_size": 5,
+            "heteroatoms": {"S": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "1,3-dioxolane": {
+            "ring_size": 5,
+            "heteroatoms": {"O": [1, 3]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "isoxazolidine": {
+            "ring_size": 5,
+            "heteroatoms": {"O": [1], "N": [2]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "piperidine": {
+            "ring_size": 6,
+            "heteroatoms": {"N": [1]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "piperazine": {
+            "ring_size": 6,
+            "heteroatoms": {"N": [1, 4]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "morpholine": {
+            "ring_size": 6,
+            "heteroatoms": {"O": [1], "N": [4]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "thiomorpholine": {
+            "ring_size": 6,
+            "heteroatoms": {"S": [1], "N": [4]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "1,4-dioxane": {
+            "ring_size": 6,
+            "heteroatoms": {"O": [1, 4]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "1,3-dioxane": {
+            "ring_size": 6,
+            "heteroatoms": {"O": [1, 3]},
+            "aromatic": false,
+            "saturated": true
+        },
+        "1,4-diazepane": {
+            "ring_size": 7,
+            "heteroatoms": {"N": [1, 4]},
+            "aromatic": false,
+            "saturated": true
+        }
+    },
+    "hydrocarbons": {
+        "benzene": {
+            "smarts": "c1ccccc1",
+            "ring_size": 6,
+            "aromatic": true
+        },
+        "naphthalene": {
+            "ring_size": 10,
+            "aromatic": true,
+            "fused": true
+        }
+    },
+    "fused_heterocycles": {
+        "quinoline": {"ring_sizes": [6, 6], "heteroatoms": {"N": [1]}, "aromatic": true},
+        "isoquinoline": {"ring_sizes": [6, 6], "heteroatoms": {"N": [2]}, "aromatic": true},
+        "1H-indole": {"ring_sizes": [5, 6], "heteroatoms": {"N": [1]}, "aromatic": true, "indicated_H": 1},
+        "1H-indazole": {"ring_sizes": [5, 6], "heteroatoms": {"N": [1, 2]}, "aromatic": true, "indicated_H": 1},
+        "quinazoline": {"ring_sizes": [6, 6], "heteroatoms": {"N": [1, 3]}, "aromatic": true},
+        "quinoxaline": {"ring_sizes": [6, 6], "heteroatoms": {"N": [1, 4]}, "aromatic": true},
+        "7H-purine": {"ring_sizes": [5, 6], "heteroatoms": {"N": [1, 3, 7, 9]}, "aromatic": true, "indicated_H": 7}
+    }
+}

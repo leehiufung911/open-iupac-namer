@@ -1,0 +1,25 @@
+{
+  "_comment": "Small public example test set for the OPSIN round-trip eval. Only the 'smiles' field is required; the engine generates the name itself, then OPSIN parses that name back to a SMILES for comparison. Point IUPAC_NAMER_EVAL_DATA at your own JSON (same shape) to run a larger eval.",
+  "compounds": [
+    {"id": "ethanol", "smiles": "CCO"},
+    {"id": "acetic_acid", "smiles": "CC(=O)O"},
+    {"id": "benzene", "smiles": "c1ccccc1"},
+    {"id": "ethyl_acetate", "smiles": "CC(=O)OCC"},
+    {"id": "benzoic_acid", "smiles": "O=C(O)c1ccccc1"},
+    {"id": "ethanamine", "smiles": "CCN"},
+    {"id": "dichloromethane", "smiles": "ClCCl"},
+    {"id": "cyclohexane", "smiles": "C1CCCCC1"},
+    {"id": "propan-2-ol", "smiles": "CC(C)O"},
+    {"id": "pyridine", "smiles": "c1ccncc1"},
+    {"id": "diethyl_ether", "smiles": "CCOCC"},
+    {"id": "hexane", "smiles": "CCCCCC"},
+    {"id": "glycerol", "smiles": "OCC(O)CO"},
+    {"id": "naphthalene", "smiles": "c1ccc2ccccc2c1"},
+    {"id": "aniline", "smiles": "Nc1ccccc1"},
+    {"id": "acetone", "smiles": "CC(C)=O"},
+    {"id": "toluene", "smiles": "Cc1ccccc1"},
+    {"id": "phenol", "smiles": "Oc1ccccc1"},
+    {"id": "ibuprofen", "smiles": "CC(C)Cc1ccc(cc1)C(C)C(=O)O"},
+    {"id": "furan", "smiles": "c1ccoc1"}
+  ]
+}

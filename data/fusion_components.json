@@ -1,0 +1,4107 @@
+{
+    "2'-guanylic": {
+        "atoms": 24,
+        "parent_name": "2'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2OP(=O)(O)O)c(=O)[nH]1"
+    },
+    "2'-guanylic acid": {
+        "atoms": 24,
+        "parent_name": "2'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2OP(=O)(O)O)c(=O)[nH]1"
+    },
+    "2'-guanylicacid": {
+        "atoms": 24,
+        "parent_name": "2'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2OP(=O)(O)O)c(=O)[nH]1"
+    },
+    "2'-orotidylic": {
+        "atoms": 24,
+        "parent_name": "2'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1OP(=O)(O)O"
+    },
+    "2'-orotidylic acid": {
+        "atoms": 24,
+        "parent_name": "2'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1OP(=O)(O)O"
+    },
+    "2'-orotidylicacid": {
+        "atoms": 24,
+        "parent_name": "2'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1OP(=O)(O)O"
+    },
+    "2'-uridylic": {
+        "atoms": 21,
+        "parent_name": "2'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2OP(=O)(O)O)c(=O)[nH]1"
+    },
+    "2'-uridylic acid": {
+        "atoms": 21,
+        "parent_name": "2'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2OP(=O)(O)O)c(=O)[nH]1"
+    },
+    "2'-uridylicacid": {
+        "atoms": 21,
+        "parent_name": "2'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2OP(=O)(O)O)c(=O)[nH]1"
+    },
+    "2'-xanthylic": {
+        "atoms": 24,
+        "parent_name": "2'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](CO)[C@@H](O)[C@H]3OP(=O)(O)O)c2[nH]1"
+    },
+    "2'-xanthylic acid": {
+        "atoms": 24,
+        "parent_name": "2'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](CO)[C@@H](O)[C@H]3OP(=O)(O)O)c2[nH]1"
+    },
+    "2'-xanthylicacid": {
+        "atoms": 24,
+        "parent_name": "2'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](CO)[C@@H](O)[C@H]3OP(=O)(O)O)c2[nH]1"
+    },
+    "2,2'-furil": {
+        "atoms": 14,
+        "parent_name": "alpha-furile",
+        "smiles": "O=C(C(=O)c1ccco1)c1ccco1"
+    },
+    "2,2'-furoin": {
+        "atoms": 14,
+        "parent_name": "2,2'-furoine",
+        "smiles": "O=C(c1ccco1)C(O)c1ccco1"
+    },
+    "3'-guanylic": {
+        "atoms": 24,
+        "parent_name": "3'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]2O)c(=O)[nH]1"
+    },
+    "3'-guanylic acid": {
+        "atoms": 24,
+        "parent_name": "3'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]2O)c(=O)[nH]1"
+    },
+    "3'-guanylicacid": {
+        "atoms": 24,
+        "parent_name": "3'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]2O)c(=O)[nH]1"
+    },
+    "3'-orotidylic": {
+        "atoms": 24,
+        "parent_name": "3'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]1O"
+    },
+    "3'-orotidylic acid": {
+        "atoms": 24,
+        "parent_name": "3'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]1O"
+    },
+    "3'-orotidylicacid": {
+        "atoms": 24,
+        "parent_name": "3'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]1O"
+    },
+    "3'-thymidylic": {
+        "atoms": 21,
+        "parent_name": "3'-thymidylice",
+        "smiles": "Cc1cn([C@H]2C[C@H](OP(=O)(O)O)[C@@H](CO)O2)c(=O)[nH]c1=O"
+    },
+    "3'-thymidylic acid": {
+        "atoms": 21,
+        "parent_name": "3'-thymidylice",
+        "smiles": "Cc1cn([C@H]2C[C@H](OP(=O)(O)O)[C@@H](CO)O2)c(=O)[nH]c1=O"
+    },
+    "3'-thymidylicacid": {
+        "atoms": 21,
+        "parent_name": "3'-thymidylice",
+        "smiles": "Cc1cn([C@H]2C[C@H](OP(=O)(O)O)[C@@H](CO)O2)c(=O)[nH]c1=O"
+    },
+    "3'-uridylic": {
+        "atoms": 21,
+        "parent_name": "3'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]2O)c(=O)[nH]1"
+    },
+    "3'-uridylic acid": {
+        "atoms": 21,
+        "parent_name": "3'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]2O)c(=O)[nH]1"
+    },
+    "3'-uridylicacid": {
+        "atoms": 21,
+        "parent_name": "3'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]2O)c(=O)[nH]1"
+    },
+    "3'-xanthylic": {
+        "atoms": 24,
+        "parent_name": "3'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]3O)c2[nH]1"
+    },
+    "3'-xanthylic acid": {
+        "atoms": 24,
+        "parent_name": "3'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]3O)c2[nH]1"
+    },
+    "3'-xanthylicacid": {
+        "atoms": 24,
+        "parent_name": "3'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](CO)[C@@H](OP(=O)(O)O)[C@H]3O)c2[nH]1"
+    },
+    "3-pyrazolon": {
+        "atoms": 6,
+        "parent_name": "3-pyrazolonee",
+        "smiles": "O=c1cc[nH][nH]1"
+    },
+    "3-pyrazolone": {
+        "atoms": 6,
+        "parent_name": "3-pyrazolonee",
+        "smiles": "O=c1cc[nH][nH]1"
+    },
+    "4,4'-benzidin": {
+        "atoms": 14,
+        "parent_name": "benzidine",
+        "smiles": "Nc1ccc(-c2ccc(N)cc2)cc1"
+    },
+    "4-pyrazolon": {
+        "atoms": 6,
+        "parent_name": "4-pyrazolonee",
+        "smiles": "O=C1C=NNC1"
+    },
+    "4-pyrazolone": {
+        "atoms": 6,
+        "parent_name": "4-pyrazolonee",
+        "smiles": "O=C1C=NNC1"
+    },
+    "4-pyridoxic": {
+        "atoms": 13,
+        "parent_name": "4-pyridoxice",
+        "smiles": "Cc1ncc(CO)c(C(=O)O)c1O"
+    },
+    "4-pyridoxic acid": {
+        "atoms": 13,
+        "parent_name": "4-pyridoxice",
+        "smiles": "Cc1ncc(CO)c(C(=O)O)c1O"
+    },
+    "4-pyridoxolacton": {
+        "atoms": 12,
+        "parent_name": "4-pyridoxolactonee",
+        "smiles": "Cc1ncc2c(c1O)C(=O)OC2"
+    },
+    "4-pyridoxolactone": {
+        "atoms": 12,
+        "parent_name": "4-pyridoxolactonee",
+        "smiles": "Cc1ncc2c(c1O)C(=O)OC2"
+    },
+    "5'-guanylic": {
+        "atoms": 24,
+        "parent_name": "5'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1"
+    },
+    "5'-guanylic acid": {
+        "atoms": 24,
+        "parent_name": "5'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1"
+    },
+    "5'-guanylicacid": {
+        "atoms": 24,
+        "parent_name": "5'-guanylice",
+        "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1"
+    },
+    "5'-orotidylic": {
+        "atoms": 24,
+        "parent_name": "5'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O"
+    },
+    "5'-orotidylic acid": {
+        "atoms": 24,
+        "parent_name": "5'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O"
+    },
+    "5'-orotidylicacid": {
+        "atoms": 24,
+        "parent_name": "5'-orotidylice",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O"
+    },
+    "5'-thymidylic": {
+        "atoms": 21,
+        "parent_name": "5'-thymidylice",
+        "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)O)O2)c(=O)[nH]c1=O"
+    },
+    "5'-thymidylic acid": {
+        "atoms": 21,
+        "parent_name": "5'-thymidylice",
+        "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)O)O2)c(=O)[nH]c1=O"
+    },
+    "5'-thymidylicacid": {
+        "atoms": 21,
+        "parent_name": "5'-thymidylice",
+        "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)O)O2)c(=O)[nH]c1=O"
+    },
+    "5'-uridylic": {
+        "atoms": 21,
+        "parent_name": "5'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1"
+    },
+    "5'-uridylic acid": {
+        "atoms": 21,
+        "parent_name": "5'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1"
+    },
+    "5'-uridylicacid": {
+        "atoms": 21,
+        "parent_name": "5'-uridylice",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1"
+    },
+    "5'-xanthylic": {
+        "atoms": 24,
+        "parent_name": "5'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]3O)c2[nH]1"
+    },
+    "5'-xanthylic acid": {
+        "atoms": 24,
+        "parent_name": "5'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]3O)c2[nH]1"
+    },
+    "5'-xanthylicacid": {
+        "atoms": 24,
+        "parent_name": "5'-xanthylice",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]3O)c2[nH]1"
+    },
+    "5,6,7,8-tetrahydromethanopterin": {
+        "atoms": 53,
+        "parent_name": "tetrahydromethanopterine",
+        "smiles": "C[C@@H]1Nc2nc(N)[nH]c(=O)c2NC1[C@@H](C)Nc1ccc(C[C@H](O)[C@H](O)[C@H](O)CO[C@H]2O[C@H](COP(=O)(O)O[C@@H](CCC(=O)O)C(=O)O)[C@@H](O)[C@H]2O)cc1"
+    },
+    "5-pyrazolon": {
+        "atoms": 6,
+        "parent_name": "5-pyrazolonee",
+        "smiles": "O=C1CC=NN1"
+    },
+    "5-pyrazolone": {
+        "atoms": 6,
+        "parent_name": "5-pyrazolonee",
+        "smiles": "O=C1CC=NN1"
+    },
+    "5-pyridoxic": {
+        "atoms": 13,
+        "parent_name": "5-pyridoxice",
+        "smiles": "Cc1ncc(C(=O)O)c(CO)c1O"
+    },
+    "5-pyridoxic acid": {
+        "atoms": 13,
+        "parent_name": "5-pyridoxice",
+        "smiles": "Cc1ncc(C(=O)O)c(CO)c1O"
+    },
+    "5-pyridoxolacton": {
+        "atoms": 12,
+        "parent_name": "5-pyridoxolactonee",
+        "smiles": "Cc1ncc2c(c1O)COC2=O"
+    },
+    "5-pyridoxolactone": {
+        "atoms": 12,
+        "parent_name": "5-pyridoxolactonee",
+        "smiles": "Cc1ncc2c(c1O)COC2=O"
+    },
+    "abietamid": {
+        "atoms": 22,
+        "parent_name": "abietamidee",
+        "smiles": "CC(C)C1=CC2=CC[C@@H]3[C@](C)(CCC[C@@]3(C)C(N)=O)[C@H]2CC1"
+    },
+    "abietamide": {
+        "atoms": 22,
+        "parent_name": "abietamidee",
+        "smiles": "CC(C)C1=CC2=CC[C@@H]3[C@](C)(CCC[C@@]3(C)C(N)=O)[C@H]2CC1"
+    },
+    "aceanthren": {
+        "atoms": 16,
+        "parent_name": "aceanthrene",
+        "smiles": "c1ccc2c3c4c(cccc4cc2c1)CC3"
+    },
+    "aceanthrylen": {
+        "atoms": 16,
+        "parent_name": "aceanthrylene",
+        "smiles": "C1=Cc2c3ccccc3cc3cccc1c23"
+    },
+    "aceanthryleno": {
+        "atoms": 16,
+        "parent_name": "aceanthrylene",
+        "smiles": "C1=Cc2c3ccccc3cc3cccc1c23"
+    },
+    "acenaphth": {
+        "atoms": 12,
+        "parent_name": "acenaphthylene",
+        "smiles": "C1=Cc2cccc3cccc1c23"
+    },
+    "acenaphthen": {
+        "atoms": 12,
+        "parent_name": "acenaphthene",
+        "smiles": "c1cc2c3c(cccc3c1)CC2"
+    },
+    "acenaphtho": {
+        "atoms": 12,
+        "parent_name": "acenaphthylene",
+        "smiles": "C1=Cc2cccc3cccc1c23"
+    },
+    "acenaphthoquinon": {
+        "atoms": 12,
+        "parent_name": "acenaphthoquinone",
+        "smiles": "C1=Cc2cccc3cccc1c23"
+    },
+    "acenaphthylen": {
+        "atoms": 12,
+        "parent_name": "acenaphthylene",
+        "smiles": "C1=Cc2cccc3cccc1c23"
+    },
+    "acenaphthyleno": {
+        "atoms": 12,
+        "parent_name": "acenaphthylene",
+        "smiles": "C1=Cc2cccc3cccc1c23"
+    },
+    "acephenanthren": {
+        "atoms": 16,
+        "parent_name": "acephenanthrene",
+        "smiles": "c1ccc2c(c1)cc1c3c(cccc32)CC1"
+    },
+    "acephenanthrylen": {
+        "atoms": 16,
+        "parent_name": "acephenanthrylene",
+        "smiles": "C1=Cc2cc3ccccc3c3cccc1c23"
+    },
+    "acephenanthryleno": {
+        "atoms": 16,
+        "parent_name": "acephenanthrylene",
+        "smiles": "C1=Cc2cc3ccccc3c3cccc1c23"
+    },
+    "acetovanillon": {
+        "atoms": 12,
+        "parent_name": "acetovanillonee",
+        "smiles": "COc1cc(C(C)=O)ccc1O"
+    },
+    "acetovanillone": {
+        "atoms": 12,
+        "parent_name": "acetovanillonee",
+        "smiles": "COc1cc(C(C)=O)ccc1O"
+    },
+    "acridan": {
+        "atoms": 14,
+        "parent_name": "acridane",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1N2"
+    },
+    "acridarsino": {
+        "atoms": 14,
+        "parent_name": "acridarsine",
+        "smiles": "C1=c2ccccc2=[As]c2ccccc21"
+    },
+    "acridin": {
+        "atoms": 14,
+        "parent_name": "acridine",
+        "smiles": "c1ccc2nc3ccccc3cc2c1"
+    },
+    "acridino": {
+        "atoms": 14,
+        "parent_name": "acridine",
+        "smiles": "c1ccc2nc3ccccc3cc2c1"
+    },
+    "acridophosphino": {
+        "atoms": 14,
+        "parent_name": "acridophosphine",
+        "smiles": "c1ccc2pc3ccccc3cc2c1"
+    },
+    "adenin": {
+        "atoms": 10,
+        "parent_name": "adenine",
+        "smiles": "Nc1ncnc2nc[nH]c12"
+    },
+    "adrenalin": {
+        "atoms": 13,
+        "parent_name": "adrenaline",
+        "smiles": "CNCC(O)c1ccc(O)c(O)c1"
+    },
+    "alloxan": {
+        "atoms": 10,
+        "parent_name": "alloxane",
+        "smiles": "O=C1NC(=O)C(=O)C(=O)N1"
+    },
+    "alpha-asaron": {
+        "atoms": 15,
+        "parent_name": "alpha-asaronee",
+        "smiles": "C/C=C/c1cc(OC)c(OC)cc1OC"
+    },
+    "alpha-asarone": {
+        "atoms": 15,
+        "parent_name": "alpha-asaronee",
+        "smiles": "C/C=C/c1cc(OC)c(OC)cc1OC"
+    },
+    "alpha-furil": {
+        "atoms": 14,
+        "parent_name": "alpha-furile",
+        "smiles": "O=C(C(=O)c1ccco1)c1ccco1"
+    },
+    "amphetamin": {
+        "atoms": 10,
+        "parent_name": "amphetamine",
+        "smiles": "CC(N)Cc1ccccc1"
+    },
+    "anethol": {
+        "atoms": 11,
+        "parent_name": "anethole",
+        "smiles": "CC=Cc1ccc(OC)cc1"
+    },
+    "anilin": {
+        "atoms": 7,
+        "parent_name": "aniline",
+        "smiles": "Nc1ccccc1"
+    },
+    "anise alcohol": {
+        "atoms": 10,
+        "parent_name": "anise alcohole",
+        "smiles": "COc1ccc(CO)cc1"
+    },
+    "anisidin": {
+        "atoms": 8,
+        "parent_name": "anisidine",
+        "smiles": "COc1ccccc1"
+    },
+    "anisil": {
+        "atoms": 20,
+        "parent_name": "anisile",
+        "smiles": "COc1ccc(C(=O)C(=O)c2ccc(OC)cc2)cc1"
+    },
+    "anisoin": {
+        "atoms": 20,
+        "parent_name": "anisoine",
+        "smiles": "COc1ccc(C(=O)C(O)c2ccc(OC)cc2)cc1"
+    },
+    "anisol": {
+        "atoms": 8,
+        "parent_name": "anisole",
+        "smiles": "COc1ccccc1"
+    },
+    "anthra": {
+        "atoms": 14,
+        "parent_name": "anthracene",
+        "smiles": "c1ccc2cc3ccccc3cc2c1"
+    },
+    "anthra-1,2-quinon": {
+        "atoms": 16,
+        "parent_name": "anthra-1,2-quinonee",
+        "smiles": "O=C1C=Cc2cc3ccccc3cc2C1=O"
+    },
+    "anthra-1,2-quinone": {
+        "atoms": 16,
+        "parent_name": "anthra-1,2-quinonee",
+        "smiles": "O=C1C=Cc2cc3ccccc3cc2C1=O"
+    },
+    "anthra-1,4-quinon": {
+        "atoms": 16,
+        "parent_name": "anthra-1,4-quinonee",
+        "smiles": "O=C1C=CC(=O)c2cc3ccccc3cc21"
+    },
+    "anthra-1,4-quinone": {
+        "atoms": 16,
+        "parent_name": "anthra-1,4-quinonee",
+        "smiles": "O=C1C=CC(=O)c2cc3ccccc3cc21"
+    },
+    "anthra-9,10-quinon": {
+        "atoms": 16,
+        "parent_name": "anthra-9,10-quinonee",
+        "smiles": "O=C1c2ccccc2C(=O)c2ccccc21"
+    },
+    "anthra-9,10-quinone": {
+        "atoms": 16,
+        "parent_name": "anthra-9,10-quinonee",
+        "smiles": "O=C1c2ccccc2C(=O)c2ccccc21"
+    },
+    "anthracen": {
+        "atoms": 14,
+        "parent_name": "anthracene",
+        "smiles": "c1ccc2cc3ccccc3cc2c1"
+    },
+    "anthraceno": {
+        "atoms": 14,
+        "parent_name": "anthracene",
+        "smiles": "c1ccc2cc3ccccc3cc2c1"
+    },
+    "anthradiquinon": {
+        "atoms": 14,
+        "parent_name": "anthradiquinone",
+        "smiles": "c1ccc2cc3ccccc3cc2c1"
+    },
+    "anthranil": {
+        "atoms": 9,
+        "parent_name": "anthranile",
+        "smiles": "c1ccc2nocc2c1"
+    },
+    "anthraquinon": {
+        "atoms": 14,
+        "parent_name": "anthraquinone",
+        "smiles": "c1ccc2cc3ccccc3cc2c1"
+    },
+    "anthrazin": {
+        "atoms": 30,
+        "parent_name": "anthrazine",
+        "smiles": "c1ccc2cc3c(ccc4nc5c(ccc6cc7ccccc7cc65)nc43)cc2c1"
+    },
+    "anthrazino": {
+        "atoms": 30,
+        "parent_name": "anthrazine",
+        "smiles": "c1ccc2cc3c(ccc4nc5c(ccc6cc7ccccc7cc65)nc43)cc2c1"
+    },
+    "anthyridin": {
+        "atoms": 14,
+        "parent_name": "anthyridine",
+        "smiles": "c1cnc2nc3ncccc3cc2c1"
+    },
+    "anthyridino": {
+        "atoms": 14,
+        "parent_name": "anthyridine",
+        "smiles": "c1cnc2nc3ncccc3cc2c1"
+    },
+    "apigenin": {
+        "atoms": 20,
+        "parent_name": "apigenine",
+        "smiles": "O=c1cc(-c2ccc(O)cc2)oc2cc(O)cc(O)c12"
+    },
+    "apocynin": {
+        "atoms": 12,
+        "parent_name": "apocynine",
+        "smiles": "COc1cc(C(C)=O)ccc1O"
+    },
+    "aromadendrin": {
+        "atoms": 21,
+        "parent_name": "aromadendrine",
+        "smiles": "O=C1c2c(O)cc(O)cc2O[C@H](c2ccc(O)cc2)[C@H]1O"
+    },
+    "aromodendrin": {
+        "atoms": 21,
+        "parent_name": "aromadendrine",
+        "smiles": "O=C1c2c(O)cc(O)cc2O[C@H](c2ccc(O)cc2)[C@H]1O"
+    },
+    "arsanthreno": {
+        "atoms": 14,
+        "parent_name": "arsanthrene",
+        "smiles": "c1ccc2c(c1)[As]=c1ccccc1=[As]2"
+    },
+    "arsanthridino": {
+        "atoms": 14,
+        "parent_name": "arsanthridine",
+        "smiles": "C1=c2ccccc2=c2ccccc2=[As]1"
+    },
+    "arsindolin": {
+        "atoms": 9,
+        "parent_name": "arsindoline",
+        "smiles": "c1ccc2c(c1)CC[AsH]2"
+    },
+    "arsindolizidin": {
+        "atoms": 9,
+        "parent_name": "arsindolizidine",
+        "smiles": "C1CC[As]2CCCC2C1"
+    },
+    "arsindolizino": {
+        "atoms": 9,
+        "parent_name": "arsindolizine",
+        "smiles": "C1=CC2=CC=C[As]2C=C1"
+    },
+    "arsindolo": {
+        "atoms": 9,
+        "parent_name": "arsindole",
+        "smiles": "C1=Cc2ccccc2[AsH]1"
+    },
+    "arsinolino": {
+        "atoms": 10,
+        "parent_name": "arsinoline",
+        "smiles": "C1=Cc2ccccc2[As]=C1"
+    },
+    "arsinolizino": {
+        "atoms": 10,
+        "parent_name": "arsinolizine",
+        "smiles": "C1=CC[As]2C=CC=CC2=C1"
+    },
+    "as-indacen": {
+        "atoms": 12,
+        "parent_name": "as-indacene",
+        "smiles": "C1=Cc2c3c(ccc2=C1)=CC=C3"
+    },
+    "as-indaceno": {
+        "atoms": 12,
+        "parent_name": "as-indacene",
+        "smiles": "C1=Cc2c3c(ccc2=C1)=CC=C3"
+    },
+    "as-triazin": {
+        "atoms": 6,
+        "parent_name": "as-triazine",
+        "smiles": "c1cnncn1"
+    },
+    "asym-triazin": {
+        "atoms": 6,
+        "parent_name": "as-triazine",
+        "smiles": "c1cnncn1"
+    },
+    "auron": {
+        "atoms": 17,
+        "parent_name": "aurone",
+        "smiles": "O=C1/C(=C/c2ccccc2)Oc2ccccc21"
+    },
+    "azulen": {
+        "atoms": 10,
+        "parent_name": "azulene",
+        "smiles": "c1ccc2cccc-2cc1"
+    },
+    "azuleno": {
+        "atoms": 10,
+        "parent_name": "azulene",
+        "smiles": "c1ccc2cccc-2cc1"
+    },
+    "b-carbolin": {
+        "atoms": 13,
+        "parent_name": "betacarboline",
+        "smiles": "c1ccc2c(c1)[nH]c1cnccc12"
+    },
+    "b-carbolino": {
+        "atoms": 13,
+        "parent_name": "betacarboline",
+        "smiles": "c1ccc2c(c1)[nH]c1cnccc12"
+    },
+    "barbituric": {
+        "atoms": 9,
+        "parent_name": "barbiturice",
+        "smiles": "O=C1CC(=O)NC(=O)N1"
+    },
+    "barbituric acid": {
+        "atoms": 9,
+        "parent_name": "barbiturice",
+        "smiles": "O=C1CC(=O)NC(=O)N1"
+    },
+    "barbituricacid": {
+        "atoms": 9,
+        "parent_name": "barbiturice",
+        "smiles": "O=C1CC(=O)NC(=O)N1"
+    },
+    "benz": {
+        "atoms": 6,
+        "parent_name": "benzene",
+        "smiles": "c1ccccc1"
+    },
+    "benzanthron": {
+        "atoms": 18,
+        "parent_name": "benzanthrone",
+        "smiles": "O=C1c2ccccc2-c2cccc3cccc1c23"
+    },
+    "benzen": {
+        "atoms": 6,
+        "parent_name": "benzene",
+        "smiles": "c1ccccc1"
+    },
+    "benzeno": {
+        "atoms": 6,
+        "parent_name": "benzene",
+        "smiles": "c1ccccc1"
+    },
+    "benzidin": {
+        "atoms": 14,
+        "parent_name": "benzidine",
+        "smiles": "Nc1ccc(-c2ccc(N)cc2)cc1"
+    },
+    "benzil": {
+        "atoms": 16,
+        "parent_name": "benzile",
+        "smiles": "O=C(C(=O)c1ccccc1)c1ccccc1"
+    },
+    "benzo": {
+        "atoms": 6,
+        "parent_name": "benzene",
+        "smiles": "c1ccccc1"
+    },
+    "benzo-1,2-quinon": {
+        "atoms": 8,
+        "parent_name": "benzo-1,2-quinonee",
+        "smiles": "O=C1C=CC=CC1=O"
+    },
+    "benzo-1,2-quinone": {
+        "atoms": 8,
+        "parent_name": "benzo-1,2-quinonee",
+        "smiles": "O=C1C=CC=CC1=O"
+    },
+    "benzo-1,4-quinon": {
+        "atoms": 8,
+        "parent_name": "benzo-1,4-quinonee",
+        "smiles": "O=C1C=CC(=O)C=C1"
+    },
+    "benzo-1,4-quinone": {
+        "atoms": 8,
+        "parent_name": "benzo-1,4-quinonee",
+        "smiles": "O=C1C=CC(=O)C=C1"
+    },
+    "benzoin": {
+        "atoms": 16,
+        "parent_name": "benzoine",
+        "smiles": "O=C(c1ccccc1)C(O)c1ccccc1"
+    },
+    "benzol": {
+        "atoms": 6,
+        "parent_name": "benzole",
+        "smiles": "c1ccccc1"
+    },
+    "benzopinacol": {
+        "atoms": 28,
+        "parent_name": "benzopinacole",
+        "smiles": "OC(c1ccccc1)(c1ccccc1)C(O)(c1ccccc1)c1ccccc1"
+    },
+    "benzopinacolon": {
+        "atoms": 27,
+        "parent_name": "benzopinacolonee",
+        "smiles": "O=C(c1ccccc1)C(c1ccccc1)(c1ccccc1)c1ccccc1"
+    },
+    "benzopinacolone": {
+        "atoms": 27,
+        "parent_name": "benzopinacolonee",
+        "smiles": "O=C(c1ccccc1)C(c1ccccc1)(c1ccccc1)c1ccccc1"
+    },
+    "benzoquinon": {
+        "atoms": 6,
+        "parent_name": "benzoquinone",
+        "smiles": "c1ccccc1"
+    },
+    "benzosemiquinon": {
+        "atoms": 6,
+        "parent_name": "benzosemiquinonee",
+        "smiles": "c1ccccc1"
+    },
+    "benzosemiquinone": {
+        "atoms": 6,
+        "parent_name": "benzosemiquinonee",
+        "smiles": "c1ccccc1"
+    },
+    "benzotribromid": {
+        "atoms": 10,
+        "parent_name": "benzotribromide",
+        "smiles": "BrC(Br)(Br)c1ccccc1"
+    },
+    "benzotrichlorid": {
+        "atoms": 10,
+        "parent_name": "benzotrichloride",
+        "smiles": "ClC(Cl)(Cl)c1ccccc1"
+    },
+    "benzotrifluorid": {
+        "atoms": 10,
+        "parent_name": "benzotrifluoride",
+        "smiles": "FC(F)(F)c1ccccc1"
+    },
+    "benzotriiodid": {
+        "atoms": 10,
+        "parent_name": "benzotriiodide",
+        "smiles": "IC(I)(I)c1ccccc1"
+    },
+    "benzyn": {
+        "atoms": 6,
+        "parent_name": "benzyne",
+        "smiles": "c1ccccc#1"
+    },
+    "beta-asaron": {
+        "atoms": 15,
+        "parent_name": "beta-asaronee",
+        "smiles": "C/C=C\\c1cc(OC)c(OC)cc1OC"
+    },
+    "beta-asarone": {
+        "atoms": 15,
+        "parent_name": "beta-asaronee",
+        "smiles": "C/C=C\\c1cc(OC)c(OC)cc1OC"
+    },
+    "beta-carbolin": {
+        "atoms": 13,
+        "parent_name": "betacarboline",
+        "smiles": "c1ccc2c(c1)[nH]c1cnccc12"
+    },
+    "beta-carbolino": {
+        "atoms": 13,
+        "parent_name": "betacarboline",
+        "smiles": "c1ccc2c(c1)[nH]c1cnccc12"
+    },
+    "betacarbolin": {
+        "atoms": 13,
+        "parent_name": "betacarboline",
+        "smiles": "c1ccc2c(c1)[nH]c1cnccc12"
+    },
+    "betacarbolino": {
+        "atoms": 13,
+        "parent_name": "betacarboline",
+        "smiles": "c1ccc2c(c1)[nH]c1cnccc12"
+    },
+    "bibenzyl": {
+        "atoms": 14,
+        "parent_name": "bibenzyle",
+        "smiles": "c1ccc(CCc2ccccc2)cc1"
+    },
+    "biphenylen": {
+        "atoms": 12,
+        "parent_name": "biphenylene",
+        "smiles": "c1ccc2c(c1)=c1ccccc1=2"
+    },
+    "biphenyleno": {
+        "atoms": 12,
+        "parent_name": "biphenylene",
+        "smiles": "c1ccc2c(c1)=c1ccccc1=2"
+    },
+    "bisphenol a": {
+        "atoms": 17,
+        "parent_name": "bisphenol ae",
+        "smiles": "CC(C)(c1ccc(O)cc1)c1ccc(O)cc1"
+    },
+    "bisphenol-a": {
+        "atoms": 17,
+        "parent_name": "bisphenol ae",
+        "smiles": "CC(C)(c1ccc(O)cc1)c1ccc(O)cc1"
+    },
+    "boranthreno": {
+        "atoms": 14,
+        "parent_name": "boranthrene",
+        "smiles": "b1c2ccccc2bc2ccccc12"
+    },
+    "borneol": {
+        "atoms": 11,
+        "parent_name": "borneole",
+        "smiles": "CC1(C)C2CCC1(C)C(O)C2"
+    },
+    "bourbonal": {
+        "atoms": 12,
+        "parent_name": "bourbonale",
+        "smiles": "CCOc1cc(C=O)ccc1O"
+    },
+    "caffein": {
+        "atoms": 14,
+        "parent_name": "caffeine",
+        "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O"
+    },
+    "camphen": {
+        "atoms": 10,
+        "parent_name": "camphene",
+        "smiles": "C=C1C2CCC(C2)C1(C)C"
+    },
+    "camphorquinon": {
+        "atoms": 12,
+        "parent_name": "camphorquinone",
+        "smiles": "CC12CCC(C(=O)C1=O)C2(C)C"
+    },
+    "carbazol": {
+        "atoms": 13,
+        "parent_name": "carbazole",
+        "smiles": "c1ccc2c(c1)[nH]c1ccccc12"
+    },
+    "carbazolo": {
+        "atoms": 13,
+        "parent_name": "carbazole",
+        "smiles": "c1ccc2c(c1)[nH]c1ccccc12"
+    },
+    "carbostyril": {
+        "atoms": 11,
+        "parent_name": "carbostyrile",
+        "smiles": "O=c1ccc2ccccc2[nH]1"
+    },
+    "carvacrol": {
+        "atoms": 11,
+        "parent_name": "carvacrole",
+        "smiles": "Cc1ccc(C(C)C)cc1O"
+    },
+    "catechol": {
+        "atoms": 8,
+        "parent_name": "catechole",
+        "smiles": "Oc1ccccc1O"
+    },
+    "catecholat": {
+        "atoms": 8,
+        "parent_name": "catecholatee",
+        "smiles": "[O-]c1ccccc1[O-]"
+    },
+    "catecholate": {
+        "atoms": 8,
+        "parent_name": "catecholatee",
+        "smiles": "[O-]c1ccccc1[O-]"
+    },
+    "chalcon": {
+        "atoms": 16,
+        "parent_name": "chalcone",
+        "smiles": "O=C(/C=C/c1ccccc1)c1ccccc1"
+    },
+    "chavicol": {
+        "atoms": 10,
+        "parent_name": "chavicole",
+        "smiles": "C=CCc1ccc(O)cc1"
+    },
+    "chinolin": {
+        "atoms": 10,
+        "parent_name": "chinoline",
+        "smiles": "c1ccc2ncccc2c1"
+    },
+    "chinolino": {
+        "atoms": 10,
+        "parent_name": "chinoline",
+        "smiles": "c1ccc2ncccc2c1"
+    },
+    "cholanthren": {
+        "atoms": 20,
+        "parent_name": "cholanthrene",
+        "smiles": "c1cc2c3c(c4ccc5ccccc5c4cc3c1)CC2"
+    },
+    "chrom-2-en": {
+        "atoms": 10,
+        "parent_name": "chrom-2-ene",
+        "smiles": "C1=COc2ccccc2C1"
+    },
+    "chrom-3-en": {
+        "atoms": 10,
+        "parent_name": "chrom-3-ene",
+        "smiles": "C1=Cc2ccccc2OC1"
+    },
+    "chroman": {
+        "atoms": 10,
+        "parent_name": "chromane",
+        "smiles": "c1ccc2c(c1)CCCO2"
+    },
+    "chromen": {
+        "atoms": 10,
+        "parent_name": "chromene",
+        "smiles": "C1=Cc2ccccc2OC1"
+    },
+    "chromeno": {
+        "atoms": 10,
+        "parent_name": "chromene",
+        "smiles": "C1=Cc2ccccc2OC1"
+    },
+    "chromenylium": {
+        "atoms": 10,
+        "parent_name": "chromenyliume",
+        "smiles": "c1ccc2[o+]cccc2c1"
+    },
+    "chromocen": {
+        "atoms": 11,
+        "parent_name": "chromocene",
+        "smiles": "[Cr+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "chromon": {
+        "atoms": 10,
+        "parent_name": "chromone",
+        "smiles": "C1=Cc2ccccc2OC1"
+    },
+    "chrysen": {
+        "atoms": 18,
+        "parent_name": "chrysene",
+        "smiles": "c1ccc2c(c1)ccc1c3ccccc3ccc21"
+    },
+    "chryseno": {
+        "atoms": 18,
+        "parent_name": "chrysene",
+        "smiles": "c1ccc2c(c1)ccc1c3ccccc3ccc21"
+    },
+    "chrysoeriol": {
+        "atoms": 22,
+        "parent_name": "chrysoeriole",
+        "smiles": "COc1cc(-c2cc(=O)c3c(O)cc(O)cc3o2)ccc1O"
+    },
+    "cinnolin": {
+        "atoms": 10,
+        "parent_name": "cinnoline",
+        "smiles": "c1ccc2nnccc2c1"
+    },
+    "cinnolino": {
+        "atoms": 10,
+        "parent_name": "cinnoline",
+        "smiles": "c1ccc2nnccc2c1"
+    },
+    "cobaltocen": {
+        "atoms": 11,
+        "parent_name": "cobaltocene",
+        "smiles": "[Co+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "collidin": {
+        "atoms": 6,
+        "parent_name": "collidine",
+        "smiles": "c1ccncc1"
+    },
+    "coniferol": {
+        "atoms": 13,
+        "parent_name": "coniferole",
+        "smiles": "COc1cc(/C=C/CO)ccc1O"
+    },
+    "coronen": {
+        "atoms": 24,
+        "parent_name": "coronene",
+        "smiles": "c1cc2ccc3ccc4ccc5ccc6ccc1c1c2c3c4c5c61"
+    },
+    "coroneno": {
+        "atoms": 24,
+        "parent_name": "coronene",
+        "smiles": "c1cc2ccc3ccc4ccc5ccc6ccc1c1c2c3c4c5c61"
+    },
+    "corrin": {
+        "atoms": 23,
+        "parent_name": "corrine",
+        "smiles": "C1=C2CCC(=N2)C=C2CCC(N2)C2CCC(=N2)C=C2CCC1=N2"
+    },
+    "coumaran": {
+        "atoms": 9,
+        "parent_name": "coumarane",
+        "smiles": "c1ccc2c(c1)CCO2"
+    },
+    "coumarin": {
+        "atoms": 11,
+        "parent_name": "coumarine",
+        "smiles": "O=c1ccc2ccccc2o1"
+    },
+    "coumaron": {
+        "atoms": 9,
+        "parent_name": "coumarone",
+        "smiles": "c1ccc2occc2c1"
+    },
+    "coumestan": {
+        "atoms": 17,
+        "parent_name": "coumestane",
+        "smiles": "c1ccc2c(c1)OCc1c-2oc2ccccc12"
+    },
+    "creosol": {
+        "atoms": 10,
+        "parent_name": "creosole",
+        "smiles": "COc1cc(C)ccc1O"
+    },
+    "cresol": {
+        "atoms": 7,
+        "parent_name": "cresole",
+        "smiles": "Oc1ccccc1"
+    },
+    "cumaldehyd": {
+        "atoms": 11,
+        "parent_name": "cumaldehydee",
+        "smiles": "CC(C)c1ccc(C=O)cc1"
+    },
+    "cumaldehyde": {
+        "atoms": 11,
+        "parent_name": "cumaldehydee",
+        "smiles": "CC(C)c1ccc(C=O)cc1"
+    },
+    "cumarin": {
+        "atoms": 11,
+        "parent_name": "coumarine",
+        "smiles": "O=c1ccc2ccccc2o1"
+    },
+    "cumen": {
+        "atoms": 9,
+        "parent_name": "cumene",
+        "smiles": "CC(C)c1ccccc1"
+    },
+    "cumic acid": {
+        "atoms": 12,
+        "parent_name": "cuminic acide",
+        "smiles": "CC(C)c1ccc(C(=O)O)cc1"
+    },
+    "cumicacid": {
+        "atoms": 12,
+        "parent_name": "cuminic acide",
+        "smiles": "CC(C)c1ccc(C(=O)O)cc1"
+    },
+    "cuminal": {
+        "atoms": 11,
+        "parent_name": "cuminale",
+        "smiles": "CC(C)c1ccc(C=O)cc1"
+    },
+    "cuminaldehyd": {
+        "atoms": 11,
+        "parent_name": "cuminale",
+        "smiles": "CC(C)c1ccc(C=O)cc1"
+    },
+    "cuminaldehyde": {
+        "atoms": 11,
+        "parent_name": "cuminale",
+        "smiles": "CC(C)c1ccc(C=O)cc1"
+    },
+    "cuminic acid": {
+        "atoms": 12,
+        "parent_name": "cuminic acide",
+        "smiles": "CC(C)c1ccc(C(=O)O)cc1"
+    },
+    "cuminicacid": {
+        "atoms": 12,
+        "parent_name": "cuminic acide",
+        "smiles": "CC(C)c1ccc(C(=O)O)cc1"
+    },
+    "cuminol": {
+        "atoms": 11,
+        "parent_name": "cuminole",
+        "smiles": "CC(C)c1ccc(CO)cc1"
+    },
+    "curcumin": {
+        "atoms": 27,
+        "parent_name": "curcumine",
+        "smiles": "COc1cc(/C=C/C(=O)CC(=O)/C=C/c2ccc(O)c(OC)c2)ccc1O"
+    },
+    "cyanidin": {
+        "atoms": 21,
+        "parent_name": "cyanidine",
+        "smiles": "Oc1cc(O)c2cc(O)c(-c3ccc(O)c(O)c3)[o+]c2c1"
+    },
+    "cyanuramid": {
+        "atoms": 9,
+        "parent_name": "cyanuramidee",
+        "smiles": "Nc1nc(N)nc(N)n1"
+    },
+    "cyanuramide": {
+        "atoms": 9,
+        "parent_name": "cyanuramidee",
+        "smiles": "Nc1nc(N)nc(N)n1"
+    },
+    "cyanuric bromid": {
+        "atoms": 9,
+        "parent_name": "cyanuric bromide",
+        "smiles": "Brc1nc(Br)nc(Br)n1"
+    },
+    "cyanuric bromide": {
+        "atoms": 9,
+        "parent_name": "cyanuric bromide",
+        "smiles": "Brc1nc(Br)nc(Br)n1"
+    },
+    "cyanuric chlorid": {
+        "atoms": 9,
+        "parent_name": "cyanuric chloride",
+        "smiles": "Clc1nc(Cl)nc(Cl)n1"
+    },
+    "cyanuric chloride": {
+        "atoms": 9,
+        "parent_name": "cyanuric chloride",
+        "smiles": "Clc1nc(Cl)nc(Cl)n1"
+    },
+    "cyanuric fluorid": {
+        "atoms": 9,
+        "parent_name": "cyanuric fluoride",
+        "smiles": "Fc1nc(F)nc(F)n1"
+    },
+    "cyanuric fluoride": {
+        "atoms": 9,
+        "parent_name": "cyanuric fluoride",
+        "smiles": "Fc1nc(F)nc(F)n1"
+    },
+    "cyanuric iodid": {
+        "atoms": 9,
+        "parent_name": "cyanuric iodide",
+        "smiles": "Ic1nc(I)nc(I)n1"
+    },
+    "cyanuric iodide": {
+        "atoms": 9,
+        "parent_name": "cyanuric iodide",
+        "smiles": "Ic1nc(I)nc(I)n1"
+    },
+    "cyanurotriamid": {
+        "atoms": 9,
+        "parent_name": "cyanuramidee",
+        "smiles": "Nc1nc(N)nc(N)n1"
+    },
+    "cyanurotriamide": {
+        "atoms": 9,
+        "parent_name": "cyanuramidee",
+        "smiles": "Nc1nc(N)nc(N)n1"
+    },
+    "cyanurotriamin": {
+        "atoms": 9,
+        "parent_name": "cyanuramidee",
+        "smiles": "Nc1nc(N)nc(N)n1"
+    },
+    "cyanurotriamine": {
+        "atoms": 9,
+        "parent_name": "cyanuramidee",
+        "smiles": "Nc1nc(N)nc(N)n1"
+    },
+    "cyanuryl bromid": {
+        "atoms": 9,
+        "parent_name": "cyanuric bromide",
+        "smiles": "Brc1nc(Br)nc(Br)n1"
+    },
+    "cyanuryl bromide": {
+        "atoms": 9,
+        "parent_name": "cyanuric bromide",
+        "smiles": "Brc1nc(Br)nc(Br)n1"
+    },
+    "cyanuryl chlorid": {
+        "atoms": 9,
+        "parent_name": "cyanuric chloride",
+        "smiles": "Clc1nc(Cl)nc(Cl)n1"
+    },
+    "cyanuryl chloride": {
+        "atoms": 9,
+        "parent_name": "cyanuric chloride",
+        "smiles": "Clc1nc(Cl)nc(Cl)n1"
+    },
+    "cyanuryl fluorid": {
+        "atoms": 9,
+        "parent_name": "cyanuric fluoride",
+        "smiles": "Fc1nc(F)nc(F)n1"
+    },
+    "cyanuryl fluoride": {
+        "atoms": 9,
+        "parent_name": "cyanuric fluoride",
+        "smiles": "Fc1nc(F)nc(F)n1"
+    },
+    "cyanuryl iodid": {
+        "atoms": 9,
+        "parent_name": "cyanuric iodide",
+        "smiles": "Ic1nc(I)nc(I)n1"
+    },
+    "cyanuryl iodide": {
+        "atoms": 9,
+        "parent_name": "cyanuric iodide",
+        "smiles": "Ic1nc(I)nc(I)n1"
+    },
+    "cyclopenta[a]phenanthren": {
+        "atoms": 17,
+        "parent_name": "cyclopenta[a]phenanthrene",
+        "smiles": "C1=Cc2ccc3c(ccc4ccccc43)c2C1"
+    },
+    "cyclopentadienid": {
+        "atoms": 5,
+        "parent_name": "cyclopentadienidee",
+        "smiles": "c1cc[cH-]c1"
+    },
+    "cyclopentadienide": {
+        "atoms": 5,
+        "parent_name": "cyclopentadienidee",
+        "smiles": "c1cc[cH-]c1"
+    },
+    "cyclopentadienylium": {
+        "atoms": 5,
+        "parent_name": "cyclopentadienyliume",
+        "smiles": "C1=C[CH+]C=C1"
+    },
+    "cyclotetraphosphazen": {
+        "atoms": 8,
+        "parent_name": "cyclotetraphosphazene",
+        "smiles": "N1=PN=PN=PN=P1"
+    },
+    "cyclotetraphosphazene": {
+        "atoms": 8,
+        "parent_name": "cyclotetraphosphazene",
+        "smiles": "N1=PN=PN=PN=P1"
+    },
+    "cyclotriphosphazen": {
+        "atoms": 6,
+        "parent_name": "cyclotriphosphazene",
+        "smiles": "n1pnpnp1"
+    },
+    "cyclotriphosphazene": {
+        "atoms": 6,
+        "parent_name": "cyclotriphosphazene",
+        "smiles": "n1pnpnp1"
+    },
+    "cymen": {
+        "atoms": 9,
+        "parent_name": "cymene",
+        "smiles": "CC(C)c1ccccc1"
+    },
+    "cytosin": {
+        "atoms": 8,
+        "parent_name": "cytosine",
+        "smiles": "Nc1cc[nH]c(=O)n1"
+    },
+    "decalin": {
+        "atoms": 10,
+        "parent_name": "decaline",
+        "smiles": "C1CCC2CCCCC2C1"
+    },
+    "deoxythymidin": {
+        "atoms": 17,
+        "parent_name": "thymidine",
+        "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]c1=O"
+    },
+    "dibenzamid": {
+        "atoms": 17,
+        "parent_name": "dibenzamidee",
+        "smiles": "O=C(NC(=O)c1ccccc1)c1ccccc1"
+    },
+    "dibenzamide": {
+        "atoms": 17,
+        "parent_name": "dibenzamidee",
+        "smiles": "O=C(NC(=O)c1ccccc1)c1ccccc1"
+    },
+    "diethylstilbestrol": {
+        "atoms": 20,
+        "parent_name": "diethylstilbestrole",
+        "smiles": "CC/C(=C(/CC)c1ccc(O)cc1)c1ccc(O)cc1"
+    },
+    "dihydrogenistein": {
+        "atoms": 20,
+        "parent_name": "dihydrogenisteine",
+        "smiles": "O=C1c2c(O)cc(O)cc2OCC1c1ccc(O)cc1"
+    },
+    "dihydrokaempferol": {
+        "atoms": 21,
+        "parent_name": "dihydrokaempferole",
+        "smiles": "O=C1c2c(O)cc(O)cc2O[C@H](c2ccc(O)cc2)[C@H]1O"
+    },
+    "dihydrophloroglucinol": {
+        "atoms": 9,
+        "parent_name": "dihydrophloroglucinole",
+        "smiles": "O=C1C=C(O)CC(O)C1"
+    },
+    "dihydropterin": {
+        "atoms": 12,
+        "parent_name": "dihydropterine",
+        "smiles": "Nc1nc2c(c(=O)[nH]1)N=CCN2"
+    },
+    "dihydroquercetin": {
+        "atoms": 22,
+        "parent_name": "taxifoline",
+        "smiles": "O=C1c2c(O)cc(O)cc2O[C@H](c2ccc(O)c(O)c2)[C@H]1O"
+    },
+    "diosmetin": {
+        "atoms": 22,
+        "parent_name": "diosmetine",
+        "smiles": "COc1ccc(-c2cc(=O)c3c(O)cc(O)cc3o2)cc1O"
+    },
+    "diphenate": {
+        "atoms": 18,
+        "parent_name": "diphenatee",
+        "smiles": "O=C([O-])c1ccccc1-c1ccccc1C(=O)[O-]"
+    },
+    "diphenic": {
+        "atoms": 18,
+        "parent_name": "diphenice",
+        "smiles": "O=C(O)c1ccccc1-c1ccccc1C(=O)O"
+    },
+    "diphenic acid": {
+        "atoms": 18,
+        "parent_name": "diphenice",
+        "smiles": "O=C(O)c1ccccc1-c1ccccc1C(=O)O"
+    },
+    "diphenicacid": {
+        "atoms": 18,
+        "parent_name": "diphenice",
+        "smiles": "O=C(O)c1ccccc1-c1ccccc1C(=O)O"
+    },
+    "dopamin": {
+        "atoms": 11,
+        "parent_name": "dopamine",
+        "smiles": "NCCc1ccc(O)c(O)c1"
+    },
+    "duren": {
+        "atoms": 10,
+        "parent_name": "durene",
+        "smiles": "Cc1cc(C)c(C)cc1C"
+    },
+    "durohydroquinon": {
+        "atoms": 12,
+        "parent_name": "durohydroquinonee",
+        "smiles": "Cc1c(C)c(O)c(C)c(C)c1O"
+    },
+    "durohydroquinone": {
+        "atoms": 12,
+        "parent_name": "durohydroquinonee",
+        "smiles": "Cc1c(C)c(O)c(C)c(C)c1O"
+    },
+    "dypnone": {
+        "atoms": 17,
+        "parent_name": "dypnonee",
+        "smiles": "CC(=CC(=O)c1ccccc1)c1ccccc1"
+    },
+    "elemicin": {
+        "atoms": 15,
+        "parent_name": "elemicine",
+        "smiles": "C=CCc1cc(OC)c(OC)c(OC)c1"
+    },
+    "estragol": {
+        "atoms": 11,
+        "parent_name": "estragolee",
+        "smiles": "C=CCc1ccc(OC)cc1"
+    },
+    "estragole": {
+        "atoms": 11,
+        "parent_name": "estragolee",
+        "smiles": "C=CCc1ccc(OC)cc1"
+    },
+    "ethyl vanillin": {
+        "atoms": 12,
+        "parent_name": "ethyl vanilline",
+        "smiles": "CCOc1cc(C=O)ccc1O"
+    },
+    "ethylenimin": {
+        "atoms": 3,
+        "parent_name": "ethylenimine",
+        "smiles": "C1CN1"
+    },
+    "ethylvanillin": {
+        "atoms": 12,
+        "parent_name": "ethyl vanilline",
+        "smiles": "CCOc1cc(C=O)ccc1O"
+    },
+    "eugenol": {
+        "atoms": 12,
+        "parent_name": "eugenole",
+        "smiles": "C=CCc1ccc(O)c(OC)c1"
+    },
+    "ferrocen": {
+        "atoms": 11,
+        "parent_name": "ferrocene",
+        "smiles": "[Fe+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "flav-2-en": {
+        "atoms": 16,
+        "parent_name": "flavan-2-ene",
+        "smiles": "C1=C(c2ccccc2)Oc2ccccc2C1"
+    },
+    "flav-3-en": {
+        "atoms": 16,
+        "parent_name": "flavan-3-ene",
+        "smiles": "C1=CC(c2ccccc2)Oc2ccccc21"
+    },
+    "flavan": {
+        "atoms": 16,
+        "parent_name": "flavane",
+        "smiles": "c1ccc(C2CCc3ccccc3O2)cc1"
+    },
+    "flavan-2-en": {
+        "atoms": 16,
+        "parent_name": "flavan-2-ene",
+        "smiles": "C1=C(c2ccccc2)Oc2ccccc2C1"
+    },
+    "flavan-3-en": {
+        "atoms": 16,
+        "parent_name": "flavan-3-ene",
+        "smiles": "C1=CC(c2ccccc2)Oc2ccccc21"
+    },
+    "flavanon": {
+        "atoms": 17,
+        "parent_name": "flavanone",
+        "smiles": "O=C1CC(c2ccccc2)Oc2ccccc21"
+    },
+    "flavon": {
+        "atoms": 17,
+        "parent_name": "flavone",
+        "smiles": "O=c1cc(-c2ccccc2)oc2ccccc12"
+    },
+    "flavylium": {
+        "atoms": 16,
+        "parent_name": "flavyliume",
+        "smiles": "c1ccc(-c2ccc3ccccc3[o+]2)cc1"
+    },
+    "fluoranthen": {
+        "atoms": 16,
+        "parent_name": "fluoranthene",
+        "smiles": "c1ccc2c(c1)-c1cccc3cccc-2c13"
+    },
+    "fluorantheno": {
+        "atoms": 16,
+        "parent_name": "fluoranthene",
+        "smiles": "c1ccc2c(c1)-c1cccc3cccc-2c13"
+    },
+    "fluoren": {
+        "atoms": 13,
+        "parent_name": "fluorene",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1-2"
+    },
+    "fluoreno": {
+        "atoms": 13,
+        "parent_name": "fluorene",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1-2"
+    },
+    "fulven": {
+        "atoms": 6,
+        "parent_name": "fulvene",
+        "smiles": "C=C1C=CC=C1"
+    },
+    "furan": {
+        "atoms": 5,
+        "parent_name": "furane",
+        "smiles": "c1ccoc1"
+    },
+    "furano": {
+        "atoms": 5,
+        "parent_name": "furane",
+        "smiles": "c1ccoc1"
+    },
+    "furazan": {
+        "atoms": 5,
+        "parent_name": "furazane",
+        "smiles": "c1cnon1"
+    },
+    "furazano": {
+        "atoms": 5,
+        "parent_name": "furazane",
+        "smiles": "c1cnon1"
+    },
+    "furo": {
+        "atoms": 5,
+        "parent_name": "furan",
+        "smiles": "c1ccoc1"
+    },
+    "furoxan": {
+        "atoms": 6,
+        "parent_name": "furoxane",
+        "smiles": "[O-][n+]1ccno1"
+    },
+    "genistein": {
+        "atoms": 20,
+        "parent_name": "genisteine",
+        "smiles": "O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12"
+    },
+    "genistin": {
+        "atoms": 31,
+        "parent_name": "genistine",
+        "smiles": "O=c1c(-c2ccc(O)cc2)coc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c12"
+    },
+    "guaiacol": {
+        "atoms": 9,
+        "parent_name": "guaiacole",
+        "smiles": "COc1ccccc1O"
+    },
+    "guanin": {
+        "atoms": 11,
+        "parent_name": "guanine",
+        "smiles": "Nc1nc2nc[nH]c2c(=O)[nH]1"
+    },
+    "harmalin": {
+        "atoms": 16,
+        "parent_name": "harmaline",
+        "smiles": "COc1ccc2c3c([nH]c2c1)C(C)=NCC3"
+    },
+    "harmalol": {
+        "atoms": 15,
+        "parent_name": "harmalole",
+        "smiles": "CC1=NCCc2c1[nH]c1cc(O)ccc21"
+    },
+    "harman": {
+        "atoms": 14,
+        "parent_name": "harmane",
+        "smiles": "CC1=NCCc2c1[nH]c1ccccc21"
+    },
+    "harmanamid": {
+        "atoms": 18,
+        "parent_name": "harmanamide",
+        "smiles": "COc1ccc2c(c1)[nH]c1c(C(N)=O)nccc12"
+    },
+    "harmin": {
+        "atoms": 16,
+        "parent_name": "harmine",
+        "smiles": "COc1ccc2c(c1)[nH]c1c(C)nccc12"
+    },
+    "hemimelliten": {
+        "atoms": 9,
+        "parent_name": "hemimellitene",
+        "smiles": "Cc1cccc(C)c1C"
+    },
+    "histamin": {
+        "atoms": 8,
+        "parent_name": "histamine",
+        "smiles": "NCCc1c[nH]cn1"
+    },
+    "homoisovanillin": {
+        "atoms": 12,
+        "parent_name": "homoisovanilline",
+        "smiles": "COc1ccc(CC=O)cc1O"
+    },
+    "homomorpholin": {
+        "atoms": 7,
+        "parent_name": "homomorpholine",
+        "smiles": "C1CNCCOC1"
+    },
+    "homopiperazin": {
+        "atoms": 7,
+        "parent_name": "homopiperazine",
+        "smiles": "C1CNCCNC1"
+    },
+    "homopiperidin": {
+        "atoms": 7,
+        "parent_name": "homopiperidine",
+        "smiles": "C1CCCNCC1"
+    },
+    "homovanillin": {
+        "atoms": 12,
+        "parent_name": "homovanilline",
+        "smiles": "COc1cc(CC=O)ccc1O"
+    },
+    "hydantoin": {
+        "atoms": 7,
+        "parent_name": "hydantoine",
+        "smiles": "O=C1CNC(=O)N1"
+    },
+    "hydrobenzoin": {
+        "atoms": 16,
+        "parent_name": "hydrobenzoine",
+        "smiles": "OC(c1ccccc1)C(O)c1ccccc1"
+    },
+    "hydroquinon": {
+        "atoms": 8,
+        "parent_name": "hydroquinone",
+        "smiles": "Oc1ccc(O)cc1"
+    },
+    "hypoxanthin": {
+        "atoms": 10,
+        "parent_name": "hypoxanthine",
+        "smiles": "O=c1[nH]cnc2nc[nH]c12"
+    },
+    "idoxuridin": {
+        "atoms": 17,
+        "parent_name": "idoxuridine",
+        "smiles": "O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1I"
+    },
+    "imidazo": {
+        "atoms": 5,
+        "parent_name": "imidazole",
+        "smiles": "c1c[nH]cn1"
+    },
+    "imidazol": {
+        "atoms": 5,
+        "parent_name": "imidazole",
+        "smiles": "c1c[nH]cn1"
+    },
+    "imidazolat": {
+        "atoms": 5,
+        "parent_name": "imidazolatee",
+        "smiles": "c1c[n-]cn1"
+    },
+    "imidazolate": {
+        "atoms": 5,
+        "parent_name": "imidazolatee",
+        "smiles": "c1c[n-]cn1"
+    },
+    "imidazolidin": {
+        "atoms": 5,
+        "parent_name": "imidazolidine",
+        "smiles": "C1CNCN1"
+    },
+    "imidazolin": {
+        "atoms": 5,
+        "parent_name": "imidazoline",
+        "smiles": "C1CNCN1"
+    },
+    "imidazolo": {
+        "atoms": 5,
+        "parent_name": "imidazole",
+        "smiles": "c1c[nH]cn1"
+    },
+    "ind-1-en": {
+        "atoms": 9,
+        "parent_name": "ind-1-ene",
+        "smiles": "C1=Cc2ccccc2C1"
+    },
+    "ind-2-en": {
+        "atoms": 9,
+        "parent_name": "ind-2-ene",
+        "smiles": "C1=Cc2ccccc2C1"
+    },
+    "indan": {
+        "atoms": 9,
+        "parent_name": "indane",
+        "smiles": "c1ccc2c(c1)CCC2"
+    },
+    "indazol": {
+        "atoms": 9,
+        "parent_name": "indazole",
+        "smiles": "c1ccc2[nH]ncc2c1"
+    },
+    "indazolo": {
+        "atoms": 9,
+        "parent_name": "indazole",
+        "smiles": "c1ccc2[nH]ncc2c1"
+    },
+    "inden": {
+        "atoms": 9,
+        "parent_name": "indene",
+        "smiles": "C1=Cc2ccccc2C1"
+    },
+    "indeno": {
+        "atoms": 9,
+        "parent_name": "indene",
+        "smiles": "C1=Cc2ccccc2C1"
+    },
+    "indol": {
+        "atoms": 9,
+        "parent_name": "indole",
+        "smiles": "c1ccc2[nH]ccc2c1"
+    },
+    "indolin": {
+        "atoms": 9,
+        "parent_name": "indoline",
+        "smiles": "c1ccc2c(c1)CCN2"
+    },
+    "indolizidin": {
+        "atoms": 9,
+        "parent_name": "indolizidine",
+        "smiles": "C1CCN2CCCC2C1"
+    },
+    "indolizidino": {
+        "atoms": 9,
+        "parent_name": "indolizidine",
+        "smiles": "C1CCN2CCCC2C1"
+    },
+    "indolizin": {
+        "atoms": 9,
+        "parent_name": "indolizine",
+        "smiles": "c1ccn2cccc2c1"
+    },
+    "indolizino": {
+        "atoms": 9,
+        "parent_name": "indolizine",
+        "smiles": "c1ccn2cccc2c1"
+    },
+    "indolo": {
+        "atoms": 9,
+        "parent_name": "indole",
+        "smiles": "c1ccc2[nH]ccc2c1"
+    },
+    "indoxazen": {
+        "atoms": 9,
+        "parent_name": "indoxazene",
+        "smiles": "c1ccc2oncc2c1"
+    },
+    "isatic": {
+        "atoms": 12,
+        "parent_name": "isatice",
+        "smiles": "Nc1ccccc1C(=O)C(=O)O"
+    },
+    "isatic acid": {
+        "atoms": 12,
+        "parent_name": "isatice",
+        "smiles": "Nc1ccccc1C(=O)C(=O)O"
+    },
+    "isaticacid": {
+        "atoms": 12,
+        "parent_name": "isatice",
+        "smiles": "Nc1ccccc1C(=O)C(=O)O"
+    },
+    "isatin": {
+        "atoms": 11,
+        "parent_name": "isatine",
+        "smiles": "O=C1Nc2ccccc2C1=O"
+    },
+    "isatoic": {
+        "atoms": 13,
+        "parent_name": "isatoice",
+        "smiles": "O=C(O)Nc1ccccc1C(=O)O"
+    },
+    "isatoic acid": {
+        "atoms": 13,
+        "parent_name": "isatoice",
+        "smiles": "O=C(O)Nc1ccccc1C(=O)O"
+    },
+    "isatoicacid": {
+        "atoms": 13,
+        "parent_name": "isatoice",
+        "smiles": "O=C(O)Nc1ccccc1C(=O)O"
+    },
+    "iso-flav-2-en": {
+        "atoms": 16,
+        "parent_name": "isoflavan-2-ene",
+        "smiles": "C1=C(c2ccccc2)Cc2ccccc2O1"
+    },
+    "iso-flav-3-en": {
+        "atoms": 16,
+        "parent_name": "isoflavan-3-ene",
+        "smiles": "C1=C(c2ccccc2)COc2ccccc21"
+    },
+    "iso-flavan": {
+        "atoms": 16,
+        "parent_name": "isoflavane",
+        "smiles": "c1ccc(C2COc3ccccc3C2)cc1"
+    },
+    "iso-flavan-2-en": {
+        "atoms": 16,
+        "parent_name": "isoflavan-2-ene",
+        "smiles": "C1=C(c2ccccc2)Cc2ccccc2O1"
+    },
+    "iso-flavan-3-en": {
+        "atoms": 16,
+        "parent_name": "isoflavan-3-ene",
+        "smiles": "C1=C(c2ccccc2)COc2ccccc21"
+    },
+    "iso-flavon": {
+        "atoms": 17,
+        "parent_name": "isoflavone",
+        "smiles": "O=c1c(-c2ccccc2)coc2ccccc12"
+    },
+    "isoarsindolin": {
+        "atoms": 9,
+        "parent_name": "isoarsindoline",
+        "smiles": "c1ccc2c(c1)C[AsH]C2"
+    },
+    "isoarsindolo": {
+        "atoms": 9,
+        "parent_name": "isoarsindole",
+        "smiles": "C1=c2ccccc2=C[AsH]1"
+    },
+    "isoarsinolino": {
+        "atoms": 10,
+        "parent_name": "isoarsinoline",
+        "smiles": "C1=Cc2ccccc2C=[As]1"
+    },
+    "isobenzofuran": {
+        "atoms": 9,
+        "parent_name": "isobenzofurane",
+        "smiles": "c1ccc2cocc2c1"
+    },
+    "isobenzofurano": {
+        "atoms": 9,
+        "parent_name": "isobenzofurane",
+        "smiles": "c1ccc2cocc2c1"
+    },
+    "isobenzofuro": {
+        "atoms": 9,
+        "parent_name": "isobenzofurane",
+        "smiles": "c1ccc2cocc2c1"
+    },
+    "isobenzothiofuran": {
+        "atoms": 9,
+        "parent_name": "isobenzothiofurane",
+        "smiles": "c1ccc2cscc2c1"
+    },
+    "isobenzothiophen": {
+        "atoms": 9,
+        "parent_name": "isobenzothiofurane",
+        "smiles": "c1ccc2cscc2c1"
+    },
+    "isocarbostyril": {
+        "atoms": 11,
+        "parent_name": "isocarbostyrile",
+        "smiles": "O=c1[nH]ccc2ccccc12"
+    },
+    "isochinolin": {
+        "atoms": 10,
+        "parent_name": "isochinoline",
+        "smiles": "c1ccc2cnccc2c1"
+    },
+    "isochinolino": {
+        "atoms": 10,
+        "parent_name": "isochinoline",
+        "smiles": "c1ccc2cnccc2c1"
+    },
+    "isochroman": {
+        "atoms": 10,
+        "parent_name": "isochromane",
+        "smiles": "c1ccc2c(c1)CCOC2"
+    },
+    "isochromen": {
+        "atoms": 10,
+        "parent_name": "isochromene",
+        "smiles": "C1=Cc2ccccc2CO1"
+    },
+    "isochromeno": {
+        "atoms": 10,
+        "parent_name": "isochromene",
+        "smiles": "C1=Cc2ccccc2CO1"
+    },
+    "isochromenylium": {
+        "atoms": 10,
+        "parent_name": "isochromenyliume",
+        "smiles": "c1ccc2c[o+]ccc2c1"
+    },
+    "isocoumarin": {
+        "atoms": 11,
+        "parent_name": "isocoumarine",
+        "smiles": "O=c1occc2ccccc12"
+    },
+    "isocumarin": {
+        "atoms": 11,
+        "parent_name": "isocoumarine",
+        "smiles": "O=c1occc2ccccc12"
+    },
+    "isocytidin": {
+        "atoms": 17,
+        "parent_name": "isocytidine",
+        "smiles": "Nc1nc(=O)ccn1[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O"
+    },
+    "isocytosin": {
+        "atoms": 8,
+        "parent_name": "isocytosine",
+        "smiles": "Nc1nccc(=O)[nH]1"
+    },
+    "isoduren": {
+        "atoms": 10,
+        "parent_name": "isodurene",
+        "smiles": "Cc1cc(C)c(C)c(C)c1"
+    },
+    "isoelemicin": {
+        "atoms": 15,
+        "parent_name": "isoelemicine",
+        "smiles": "CC=Cc1cc(OC)c(OC)c(OC)c1"
+    },
+    "isoeugenol": {
+        "atoms": 12,
+        "parent_name": "isoeugenole",
+        "smiles": "CC=Cc1ccc(O)c(OC)c1"
+    },
+    "isoflav-2-en": {
+        "atoms": 16,
+        "parent_name": "isoflavan-2-ene",
+        "smiles": "C1=C(c2ccccc2)Cc2ccccc2O1"
+    },
+    "isoflav-3-en": {
+        "atoms": 16,
+        "parent_name": "isoflavan-3-ene",
+        "smiles": "C1=C(c2ccccc2)COc2ccccc21"
+    },
+    "isoflavan": {
+        "atoms": 16,
+        "parent_name": "isoflavane",
+        "smiles": "c1ccc(C2COc3ccccc3C2)cc1"
+    },
+    "isoflavan-2-en": {
+        "atoms": 16,
+        "parent_name": "isoflavan-2-ene",
+        "smiles": "C1=C(c2ccccc2)Cc2ccccc2O1"
+    },
+    "isoflavan-3-en": {
+        "atoms": 16,
+        "parent_name": "isoflavan-3-ene",
+        "smiles": "C1=C(c2ccccc2)COc2ccccc21"
+    },
+    "isoflavon": {
+        "atoms": 17,
+        "parent_name": "isoflavone",
+        "smiles": "O=c1c(-c2ccccc2)coc2ccccc12"
+    },
+    "isoguanin": {
+        "atoms": 11,
+        "parent_name": "isoguanine",
+        "smiles": "Nc1[nH]c(=O)nc2nc[nH]c12"
+    },
+    "isoguanosin": {
+        "atoms": 20,
+        "parent_name": "isoguanosine",
+        "smiles": "Nc1[nH]c(=O)nc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O"
+    },
+    "isoindol": {
+        "atoms": 9,
+        "parent_name": "isoindole",
+        "smiles": "c1ccc2c[nH]cc2c1"
+    },
+    "isoindolin": {
+        "atoms": 9,
+        "parent_name": "isoindoline",
+        "smiles": "c1ccc2c(c1)CNC2"
+    },
+    "isoindolo": {
+        "atoms": 9,
+        "parent_name": "isoindole",
+        "smiles": "c1ccc2c[nH]cc2c1"
+    },
+    "isooxazol": {
+        "atoms": 5,
+        "parent_name": "isoxazole",
+        "smiles": "c1cnoc1"
+    },
+    "isooxazolidin": {
+        "atoms": 5,
+        "parent_name": "isoxazolidine",
+        "smiles": "C1CNOC1"
+    },
+    "isooxazolin": {
+        "atoms": 5,
+        "parent_name": "isoxazoline",
+        "smiles": "C1CNOC1"
+    },
+    "isooxazolo": {
+        "atoms": 5,
+        "parent_name": "isoxazole",
+        "smiles": "c1cnoc1"
+    },
+    "isophosphindolin": {
+        "atoms": 9,
+        "parent_name": "isophosphindoline",
+        "smiles": "c1ccc2c(c1)CPC2"
+    },
+    "isophosphindolo": {
+        "atoms": 9,
+        "parent_name": "isophosphindole",
+        "smiles": "c1ccc2c[pH]cc2c1"
+    },
+    "isophosphinolino": {
+        "atoms": 10,
+        "parent_name": "isophosphinoline",
+        "smiles": "c1ccc2cpccc2c1"
+    },
+    "isophthalyl alcohol": {
+        "atoms": 10,
+        "parent_name": "isophthalyl alcohole",
+        "smiles": "OCc1cccc(CO)c1"
+    },
+    "isopyridoxal": {
+        "atoms": 12,
+        "parent_name": "isopyridoxale",
+        "smiles": "Cc1ncc(C=O)c(CO)c1O"
+    },
+    "isoquino": {
+        "atoms": 10,
+        "parent_name": "isoquinoline",
+        "smiles": "c1ccc2cnccc2c1"
+    },
+    "isoquinolin": {
+        "atoms": 10,
+        "parent_name": "isoquinoline",
+        "smiles": "c1ccc2cnccc2c1"
+    },
+    "isoquinolino": {
+        "atoms": 10,
+        "parent_name": "isoquinoline",
+        "smiles": "c1ccc2cnccc2c1"
+    },
+    "isoquinolon": {
+        "atoms": 10,
+        "parent_name": "isoquinolone",
+        "smiles": "c1ccc2cnccc2c1"
+    },
+    "isosafrol": {
+        "atoms": 12,
+        "parent_name": "isosafrole",
+        "smiles": "CC=Cc1ccc2c(c1)OCO2"
+    },
+    "isoselenazolidin": {
+        "atoms": 5,
+        "parent_name": "isoselenazolidine",
+        "smiles": "C1CN[Se]C1"
+    },
+    "isoselenazolo": {
+        "atoms": 5,
+        "parent_name": "isoselenazole",
+        "smiles": "c1cn[se]c1"
+    },
+    "isoselenochroman": {
+        "atoms": 10,
+        "parent_name": "isoselenochromane",
+        "smiles": "c1ccc2c(c1)CC[Se]C2"
+    },
+    "isoselenochromeno": {
+        "atoms": 10,
+        "parent_name": "isoselenochromene",
+        "smiles": "C1=Cc2ccccc2C[Se]1"
+    },
+    "isoselenochromenylium": {
+        "atoms": 10,
+        "parent_name": "isoselenochromenyliume",
+        "smiles": "c1ccc2c[se+]ccc2c1"
+    },
+    "isotellurazolidin": {
+        "atoms": 5,
+        "parent_name": "isotellurazolidine",
+        "smiles": "C1CN[Te]C1"
+    },
+    "isotellurazolo": {
+        "atoms": 5,
+        "parent_name": "isotellurazole",
+        "smiles": "c1cn[te]c1"
+    },
+    "isotellurochroman": {
+        "atoms": 10,
+        "parent_name": "isotellurochromane",
+        "smiles": "c1ccc2c(c1)CC[Te]C2"
+    },
+    "isotellurochromeno": {
+        "atoms": 10,
+        "parent_name": "isotellurochromene",
+        "smiles": "C1=Cc2ccccc2C[Te]1"
+    },
+    "isotellurochromenylium": {
+        "atoms": 10,
+        "parent_name": "isotellurochromenyliume",
+        "smiles": "c1ccc2c[te+]ccc2c1"
+    },
+    "isothiazol": {
+        "atoms": 5,
+        "parent_name": "isothiazole",
+        "smiles": "c1cnsc1"
+    },
+    "isothiazolidin": {
+        "atoms": 5,
+        "parent_name": "isothiazolidine",
+        "smiles": "C1CNSC1"
+    },
+    "isothiazolin": {
+        "atoms": 5,
+        "parent_name": "isothiazoline",
+        "smiles": "C1CNSC1"
+    },
+    "isothiazolo": {
+        "atoms": 5,
+        "parent_name": "isothiazole",
+        "smiles": "c1cnsc1"
+    },
+    "isothiochroman": {
+        "atoms": 10,
+        "parent_name": "isothiochromane",
+        "smiles": "c1ccc2c(c1)CCSC2"
+    },
+    "isothiochromen": {
+        "atoms": 10,
+        "parent_name": "isothiochromene",
+        "smiles": "C1=Cc2ccccc2CS1"
+    },
+    "isothiochromeno": {
+        "atoms": 10,
+        "parent_name": "isothiochromene",
+        "smiles": "C1=Cc2ccccc2CS1"
+    },
+    "isothiochromenylium": {
+        "atoms": 10,
+        "parent_name": "isothiochromenyliume",
+        "smiles": "c1ccc2c[s+]ccc2c1"
+    },
+    "isovanillin": {
+        "atoms": 11,
+        "parent_name": "isovanilline",
+        "smiles": "COc1ccc(C=O)cc1O"
+    },
+    "isoviolanthren": {
+        "atoms": 34,
+        "parent_name": "isoviolanthrene",
+        "smiles": "c1ccc2c(c1)Cc1ccc3c4ccc5c6c(ccc(c7ccc-2c1c37)c64)Cc1ccccc1-5"
+    },
+    "isoxazol": {
+        "atoms": 5,
+        "parent_name": "isoxazole",
+        "smiles": "c1cnoc1"
+    },
+    "isoxazolidin": {
+        "atoms": 5,
+        "parent_name": "isoxazolidine",
+        "smiles": "C1CNOC1"
+    },
+    "isoxazolin": {
+        "atoms": 5,
+        "parent_name": "isoxazoline",
+        "smiles": "C1CNOC1"
+    },
+    "isoxazolo": {
+        "atoms": 5,
+        "parent_name": "isoxazole",
+        "smiles": "c1cnoc1"
+    },
+    "kaempferol": {
+        "atoms": 21,
+        "parent_name": "kaempferole",
+        "smiles": "O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12"
+    },
+    "lepidin": {
+        "atoms": 11,
+        "parent_name": "lepidine",
+        "smiles": "Cc1ccnc2ccccc12"
+    },
+    "lupetidin": {
+        "atoms": 6,
+        "parent_name": "lupetidine",
+        "smiles": "C1CCNCC1"
+    },
+    "luteolin": {
+        "atoms": 21,
+        "parent_name": "luteoline",
+        "smiles": "O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12"
+    },
+    "lutidin": {
+        "atoms": 6,
+        "parent_name": "lutidinee",
+        "smiles": "c1ccncc1"
+    },
+    "lutidine": {
+        "atoms": 6,
+        "parent_name": "lutidinee",
+        "smiles": "c1ccncc1"
+    },
+    "m-xylohydroquinon": {
+        "atoms": 10,
+        "parent_name": "m-xylohydroquinonee",
+        "smiles": "Cc1cc(O)cc(C)c1O"
+    },
+    "m-xylohydroquinone": {
+        "atoms": 10,
+        "parent_name": "m-xylohydroquinonee",
+        "smiles": "Cc1cc(O)cc(C)c1O"
+    },
+    "melamin": {
+        "atoms": 9,
+        "parent_name": "melaminee",
+        "smiles": "Nc1nc(N)nc(N)n1"
+    },
+    "melamine": {
+        "atoms": 9,
+        "parent_name": "melaminee",
+        "smiles": "Nc1nc(N)nc(N)n1"
+    },
+    "melliten": {
+        "atoms": 12,
+        "parent_name": "mellitene",
+        "smiles": "Cc1c(C)c(C)c(C)c(C)c1C"
+    },
+    "menthol": {
+        "atoms": 11,
+        "parent_name": "menthole",
+        "smiles": "CC1CCC(C(C)C)C(O)C1"
+    },
+    "mercuranthreno": {
+        "atoms": 14,
+        "parent_name": "mercuranthrene",
+        "smiles": "c1cc[c]2[c](c1)[Hg][c]1cccc[c]1[Hg]2"
+    },
+    "mesitylen": {
+        "atoms": 9,
+        "parent_name": "mesitylene",
+        "smiles": "Cc1cc(C)cc(C)c1"
+    },
+    "mesitylenat": {
+        "atoms": 11,
+        "parent_name": "mesitylenatee",
+        "smiles": "Cc1cc(C)cc(C(=O)[O-])c1"
+    },
+    "mesitylenate": {
+        "atoms": 11,
+        "parent_name": "mesitylenatee",
+        "smiles": "Cc1cc(C)cc(C(=O)[O-])c1"
+    },
+    "mesitylenic": {
+        "atoms": 11,
+        "parent_name": "mesitylenice",
+        "smiles": "Cc1cc(C)cc(C(=O)O)c1"
+    },
+    "mesitylenic acid": {
+        "atoms": 11,
+        "parent_name": "mesitylenice",
+        "smiles": "Cc1cc(C)cc(C(=O)O)c1"
+    },
+    "mesitylenicacid": {
+        "atoms": 11,
+        "parent_name": "mesitylenice",
+        "smiles": "Cc1cc(C)cc(C(=O)O)c1"
+    },
+    "meta-xylohydroquinon": {
+        "atoms": 10,
+        "parent_name": "m-xylohydroquinonee",
+        "smiles": "Cc1cc(O)cc(C)c1O"
+    },
+    "meta-xylohydroquinone": {
+        "atoms": 10,
+        "parent_name": "m-xylohydroquinonee",
+        "smiles": "Cc1cc(O)cc(C)c1O"
+    },
+    "methanopterin": {
+        "atoms": 53,
+        "parent_name": "methanopterine",
+        "smiles": "Cc1nc2nc(N)[nH]c(=O)c2nc1[C@@H](C)Nc1ccc(C[C@H](O)[C@H](O)[C@H](O)CO[C@H]2O[C@H](COP(=O)(O)O[C@@H](CCC(=O)O)C(=O)O)[C@@H](O)[C@H]2O)cc1"
+    },
+    "molybdocen": {
+        "atoms": 11,
+        "parent_name": "molybdocene",
+        "smiles": "[Mo+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "morpholin": {
+        "atoms": 6,
+        "parent_name": "morpholine",
+        "smiles": "C1COCCN1"
+    },
+    "naphth": {
+        "atoms": 10,
+        "parent_name": "naphthalene",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphthacen": {
+        "atoms": 18,
+        "parent_name": "naphthacene",
+        "smiles": "c1ccc2cc3cc4ccccc4cc3cc2c1"
+    },
+    "naphthaceno": {
+        "atoms": 18,
+        "parent_name": "naphthacene",
+        "smiles": "c1ccc2cc3cc4ccccc4cc3cc2c1"
+    },
+    "naphthalen": {
+        "atoms": 10,
+        "parent_name": "naphthalene",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphthaleno": {
+        "atoms": 10,
+        "parent_name": "naphthalene",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphthalin": {
+        "atoms": 10,
+        "parent_name": "naphthalene",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphthalino": {
+        "atoms": 10,
+        "parent_name": "naphthalene",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphtho": {
+        "atoms": 10,
+        "parent_name": "naphthalene",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphtho-1,2-quinon": {
+        "atoms": 12,
+        "parent_name": "naphtho-1,2-quinonee",
+        "smiles": "O=C1C=Cc2ccccc2C1=O"
+    },
+    "naphtho-1,2-quinone": {
+        "atoms": 12,
+        "parent_name": "naphtho-1,2-quinonee",
+        "smiles": "O=C1C=Cc2ccccc2C1=O"
+    },
+    "naphtho-1,4-quinon": {
+        "atoms": 12,
+        "parent_name": "naphtho-1,4-quinonee",
+        "smiles": "O=C1C=CC(=O)c2ccccc21"
+    },
+    "naphtho-1,4-quinone": {
+        "atoms": 12,
+        "parent_name": "naphtho-1,4-quinonee",
+        "smiles": "O=C1C=CC(=O)c2ccccc21"
+    },
+    "naphthodiquinon": {
+        "atoms": 10,
+        "parent_name": "naphthodiquinone",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphthoquinon": {
+        "atoms": 10,
+        "parent_name": "naphthoquinone",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphthyridin": {
+        "atoms": 10,
+        "parent_name": "naphthyridine",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naphthyridino": {
+        "atoms": 10,
+        "parent_name": "naphthyridine",
+        "smiles": "c1ccc2ccccc2c1"
+    },
+    "naringenin": {
+        "atoms": 20,
+        "parent_name": "naringenine",
+        "smiles": "O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21"
+    },
+    "neo-flav-2-en": {
+        "atoms": 16,
+        "parent_name": "neoflavan-2-ene",
+        "smiles": "C1=CC(c2ccccc2)c2ccccc2O1"
+    },
+    "neo-flav-3-en": {
+        "atoms": 16,
+        "parent_name": "neoflavan-3-ene",
+        "smiles": "C1=C(c2ccccc2)c2ccccc2OC1"
+    },
+    "neo-flavan": {
+        "atoms": 16,
+        "parent_name": "neoflavane",
+        "smiles": "c1ccc(C2CCOc3ccccc32)cc1"
+    },
+    "neo-flavan-2-en": {
+        "atoms": 16,
+        "parent_name": "neoflavan-2-ene",
+        "smiles": "C1=CC(c2ccccc2)c2ccccc2O1"
+    },
+    "neo-flavan-3-en": {
+        "atoms": 16,
+        "parent_name": "neoflavan-3-ene",
+        "smiles": "C1=C(c2ccccc2)c2ccccc2OC1"
+    },
+    "neo-flavon": {
+        "atoms": 17,
+        "parent_name": "neoflavone",
+        "smiles": "O=c1cc(-c2ccccc2)c2ccccc2o1"
+    },
+    "neoflav-2-en": {
+        "atoms": 16,
+        "parent_name": "neoflavan-2-ene",
+        "smiles": "C1=CC(c2ccccc2)c2ccccc2O1"
+    },
+    "neoflav-3-en": {
+        "atoms": 16,
+        "parent_name": "neoflavan-3-ene",
+        "smiles": "C1=C(c2ccccc2)c2ccccc2OC1"
+    },
+    "neoflavan": {
+        "atoms": 16,
+        "parent_name": "neoflavane",
+        "smiles": "c1ccc(C2CCOc3ccccc32)cc1"
+    },
+    "neoflavan-2-en": {
+        "atoms": 16,
+        "parent_name": "neoflavan-2-ene",
+        "smiles": "C1=CC(c2ccccc2)c2ccccc2O1"
+    },
+    "neoflavan-3-en": {
+        "atoms": 16,
+        "parent_name": "neoflavan-3-ene",
+        "smiles": "C1=C(c2ccccc2)c2ccccc2OC1"
+    },
+    "neoflavon": {
+        "atoms": 17,
+        "parent_name": "neoflavone",
+        "smiles": "O=c1cc(-c2ccccc2)c2ccccc2o1"
+    },
+    "nickelocen": {
+        "atoms": 11,
+        "parent_name": "nickelocene",
+        "smiles": "[Ni+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "nicotin": {
+        "atoms": 12,
+        "parent_name": "nicotinee",
+        "smiles": "CN1CCCC1c1cccnc1"
+    },
+    "nicotine": {
+        "atoms": 12,
+        "parent_name": "nicotinee",
+        "smiles": "CN1CCCC1c1cccnc1"
+    },
+    "niobocen": {
+        "atoms": 11,
+        "parent_name": "niobocene",
+        "smiles": "[Nb+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "norbornen": {
+        "atoms": 7,
+        "parent_name": "norbornene",
+        "smiles": "C1=CC2CCC1C2"
+    },
+    "norbornylen": {
+        "atoms": 7,
+        "parent_name": "norbornene",
+        "smiles": "C1=CC2CCC1C2"
+    },
+    "norcamphen": {
+        "atoms": 7,
+        "parent_name": "norbornene",
+        "smiles": "C1=CC2CCC1C2"
+    },
+    "norharmin": {
+        "atoms": 15,
+        "parent_name": "norharmine",
+        "smiles": "COc1ccc2c(c1)[nH]c1cnccc12"
+    },
+    "nucleocidin": {
+        "atoms": 24,
+        "parent_name": "nucleocidine",
+        "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@](F)(COS(N)(=O)=O)[C@@H](O)[C@H]1O"
+    },
+    "o-homovanillin": {
+        "atoms": 12,
+        "parent_name": "o-homovanilline",
+        "smiles": "COc1cccc(CC=O)c1O"
+    },
+    "o-vanillin": {
+        "atoms": 11,
+        "parent_name": "o-vanilline",
+        "smiles": "COc1cccc(C=O)c1O"
+    },
+    "o-xylohydroquinon": {
+        "atoms": 10,
+        "parent_name": "o-xylohydroquinonee",
+        "smiles": "Cc1c(O)ccc(O)c1C"
+    },
+    "o-xylohydroquinone": {
+        "atoms": 10,
+        "parent_name": "o-xylohydroquinonee",
+        "smiles": "Cc1c(O)ccc(O)c1C"
+    },
+    "olivetol": {
+        "atoms": 13,
+        "parent_name": "olivetole",
+        "smiles": "CCCCCc1cc(O)cc(O)c1"
+    },
+    "orcinol": {
+        "atoms": 9,
+        "parent_name": "orcinole",
+        "smiles": "Cc1cc(O)cc(O)c1"
+    },
+    "orotidin": {
+        "atoms": 20,
+        "parent_name": "orotidine",
+        "smiles": "O=C(O)c1cc(=O)[nH]c(=O)n1[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O"
+    },
+    "ortho-xylohydroquinon": {
+        "atoms": 10,
+        "parent_name": "o-xylohydroquinonee",
+        "smiles": "Cc1c(O)ccc(O)c1C"
+    },
+    "ortho-xylohydroquinone": {
+        "atoms": 10,
+        "parent_name": "o-xylohydroquinonee",
+        "smiles": "Cc1c(O)ccc(O)c1C"
+    },
+    "osmocen": {
+        "atoms": 11,
+        "parent_name": "osmocene",
+        "smiles": "[Os+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "ovalen": {
+        "atoms": 32,
+        "parent_name": "ovalene",
+        "smiles": "c1cc2ccc3cc4ccc5ccc6ccc7cc8ccc1c1c2c3c2c4c5c6c7c2c81"
+    },
+    "ovaleno": {
+        "atoms": 32,
+        "parent_name": "ovalene",
+        "smiles": "c1cc2ccc3cc4ccc5ccc6ccc7cc8ccc1c1c2c3c2c4c5c6c7c2c81"
+    },
+    "oxanthren": {
+        "atoms": 14,
+        "parent_name": "oxanthrene",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1O2"
+    },
+    "oxanthreno": {
+        "atoms": 14,
+        "parent_name": "oxanthrene",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1O2"
+    },
+    "oxindol": {
+        "atoms": 9,
+        "parent_name": "oxindole",
+        "smiles": "c1ccc2c(c1)CCN2"
+    },
+    "p-anisil": {
+        "atoms": 20,
+        "parent_name": "anisile",
+        "smiles": "COc1ccc(C(=O)C(=O)c2ccc(OC)cc2)cc1"
+    },
+    "p-anisoin": {
+        "atoms": 20,
+        "parent_name": "anisoine",
+        "smiles": "COc1ccc(C(=O)C(O)c2ccc(OC)cc2)cc1"
+    },
+    "p-xylohydroquinon": {
+        "atoms": 10,
+        "parent_name": "p-xylohydroquinonee",
+        "smiles": "Cc1cc(O)c(C)cc1O"
+    },
+    "p-xylohydroquinone": {
+        "atoms": 10,
+        "parent_name": "p-xylohydroquinonee",
+        "smiles": "Cc1cc(O)c(C)cc1O"
+    },
+    "para-xylohydroquinon": {
+        "atoms": 10,
+        "parent_name": "p-xylohydroquinonee",
+        "smiles": "Cc1cc(O)c(C)cc1O"
+    },
+    "para-xylohydroquinone": {
+        "atoms": 10,
+        "parent_name": "p-xylohydroquinonee",
+        "smiles": "Cc1cc(O)c(C)cc1O"
+    },
+    "paracetamol": {
+        "atoms": 11,
+        "parent_name": "paracetamole",
+        "smiles": "CC(=O)Nc1ccc(O)cc1"
+    },
+    "paraxanthin": {
+        "atoms": 13,
+        "parent_name": "paraxanthine",
+        "smiles": "Cn1c(=O)[nH]c2ncn(C)c2c1=O"
+    },
+    "perbenzoat": {
+        "atoms": 10,
+        "parent_name": "perbenzoatee",
+        "smiles": "O=C(O[O-])c1ccccc1"
+    },
+    "perbenzoate": {
+        "atoms": 10,
+        "parent_name": "perbenzoatee",
+        "smiles": "O=C(O[O-])c1ccccc1"
+    },
+    "perbenzoic": {
+        "atoms": 10,
+        "parent_name": "perbenzoice",
+        "smiles": "O=C(OO)c1ccccc1"
+    },
+    "perbenzoic acid": {
+        "atoms": 10,
+        "parent_name": "perbenzoice",
+        "smiles": "O=C(OO)c1ccccc1"
+    },
+    "perbenzoicacid": {
+        "atoms": 10,
+        "parent_name": "perbenzoice",
+        "smiles": "O=C(OO)c1ccccc1"
+    },
+    "perimidin": {
+        "atoms": 13,
+        "parent_name": "perimidine",
+        "smiles": "C1=Nc2cccc3cccc(c23)N1"
+    },
+    "perimidino": {
+        "atoms": 13,
+        "parent_name": "perimidine",
+        "smiles": "C1=Nc2cccc3cccc(c23)N1"
+    },
+    "perylen": {
+        "atoms": 20,
+        "parent_name": "perylene",
+        "smiles": "c1cc2cccc3c4cccc5cccc(c(c1)c23)c54"
+    },
+    "peryleno": {
+        "atoms": 20,
+        "parent_name": "perylene",
+        "smiles": "c1cc2cccc3c4cccc5cccc(c(c1)c23)c54"
+    },
+    "perylo": {
+        "atoms": 20,
+        "parent_name": "perylene",
+        "smiles": "c1cc2cccc3c4cccc5cccc(c(c1)c23)c54"
+    },
+    "phenalen": {
+        "atoms": 13,
+        "parent_name": "phenalene",
+        "smiles": "C1=Cc2cccc3cccc(c23)C1"
+    },
+    "phenaleno": {
+        "atoms": 13,
+        "parent_name": "phenalene",
+        "smiles": "C1=Cc2cccc3cccc(c23)C1"
+    },
+    "phenanthrazin": {
+        "atoms": 30,
+        "parent_name": "phenanthrazine",
+        "smiles": "c1ccc2c(c1)c1ccccc1c1nc3c4ccccc4c4ccccc4c3nc21"
+    },
+    "phenanthrazino": {
+        "atoms": 30,
+        "parent_name": "phenanthrazine",
+        "smiles": "c1ccc2c(c1)c1ccccc1c1nc3c4ccccc4c4ccccc4c3nc21"
+    },
+    "phenanthren": {
+        "atoms": 14,
+        "parent_name": "phenanthrene",
+        "smiles": "c1ccc2c(c1)ccc1ccccc12"
+    },
+    "phenanthreno": {
+        "atoms": 14,
+        "parent_name": "phenanthrene",
+        "smiles": "c1ccc2c(c1)ccc1ccccc12"
+    },
+    "phenanthridin": {
+        "atoms": 14,
+        "parent_name": "phenanthridine",
+        "smiles": "c1ccc2c(c1)cnc1ccccc12"
+    },
+    "phenanthridino": {
+        "atoms": 14,
+        "parent_name": "phenanthridine",
+        "smiles": "c1ccc2c(c1)cnc1ccccc12"
+    },
+    "phenanthro": {
+        "atoms": 14,
+        "parent_name": "phenanthrene",
+        "smiles": "c1ccc2c(c1)ccc1ccccc12"
+    },
+    "phenanthrolin": {
+        "atoms": 14,
+        "parent_name": "phenanthroline",
+        "smiles": "c1ccc2c(c1)ccc1ccccc12"
+    },
+    "phenanthrolino": {
+        "atoms": 14,
+        "parent_name": "phenanthroline",
+        "smiles": "c1ccc2c(c1)ccc1ccccc12"
+    },
+    "phenarsazinino": {
+        "atoms": 14,
+        "parent_name": "phenarsazinine",
+        "smiles": "c1ccc2c(c1)N=c1ccccc1=[As]2"
+    },
+    "phenazasilino": {
+        "atoms": 14,
+        "parent_name": "phenazasiline",
+        "smiles": "c1ccc2[siH]c3ccccc3nc2c1"
+    },
+    "phenazin": {
+        "atoms": 14,
+        "parent_name": "phenazine",
+        "smiles": "c1ccc2nc3ccccc3nc2c1"
+    },
+    "phenazino": {
+        "atoms": 14,
+        "parent_name": "phenazine",
+        "smiles": "c1ccc2nc3ccccc3nc2c1"
+    },
+    "phenetidin": {
+        "atoms": 9,
+        "parent_name": "phenetidine",
+        "smiles": "CCOc1ccccc1"
+    },
+    "phenetol": {
+        "atoms": 9,
+        "parent_name": "phenetole",
+        "smiles": "CCOc1ccccc1"
+    },
+    "phenol": {
+        "atoms": 7,
+        "parent_name": "phenole",
+        "smiles": "Oc1ccccc1"
+    },
+    "phenolat": {
+        "atoms": 7,
+        "parent_name": "phenolatee",
+        "smiles": "[O-]c1ccccc1"
+    },
+    "phenolate": {
+        "atoms": 7,
+        "parent_name": "phenolatee",
+        "smiles": "[O-]c1ccccc1"
+    },
+    "phenomercazino": {
+        "atoms": 14,
+        "parent_name": "phenomercurazine",
+        "smiles": "c1cc[c]2c(c1)Nc1cccc[c]1[Hg]2"
+    },
+    "phenomercurazino": {
+        "atoms": 14,
+        "parent_name": "phenomercurazine",
+        "smiles": "c1cc[c]2c(c1)Nc1cccc[c]1[Hg]2"
+    },
+    "phenophosphazinino": {
+        "atoms": 14,
+        "parent_name": "phenophosphazinine",
+        "smiles": "c1ccc2pc3ccccc3nc2c1"
+    },
+    "phenophosphazino": {
+        "atoms": 14,
+        "parent_name": "phenophosphazinine",
+        "smiles": "c1ccc2pc3ccccc3nc2c1"
+    },
+    "phenoselenazino": {
+        "atoms": 14,
+        "parent_name": "phenoselenazine",
+        "smiles": "c1ccc2c(c1)Nc1ccccc1[Se]2"
+    },
+    "phenotellurazino": {
+        "atoms": 14,
+        "parent_name": "phenotellurazine",
+        "smiles": "c1ccc2c(c1)Nc1ccccc1[Te]2"
+    },
+    "phenothiarsinino": {
+        "atoms": 14,
+        "parent_name": "phenothiarsinine",
+        "smiles": "c1ccc2c(c1)Sc1ccccc1[AsH]2"
+    },
+    "phenothiarsino": {
+        "atoms": 14,
+        "parent_name": "phenothiarsinine",
+        "smiles": "c1ccc2c(c1)Sc1ccccc1[AsH]2"
+    },
+    "phenothiazin": {
+        "atoms": 14,
+        "parent_name": "phenothiazine",
+        "smiles": "c1ccc2c(c1)Nc1ccccc1S2"
+    },
+    "phenothiazino": {
+        "atoms": 14,
+        "parent_name": "phenothiazine",
+        "smiles": "c1ccc2c(c1)Nc1ccccc1S2"
+    },
+    "phenoxaphosphinino": {
+        "atoms": 14,
+        "parent_name": "phenoxaphosphinine",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1P2"
+    },
+    "phenoxaphosphino": {
+        "atoms": 14,
+        "parent_name": "phenoxaphosphinine",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1P2"
+    },
+    "phenoxarsinino": {
+        "atoms": 14,
+        "parent_name": "phenoxarsinine",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1[AsH]2"
+    },
+    "phenoxarsino": {
+        "atoms": 14,
+        "parent_name": "phenoxarsinine",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1[AsH]2"
+    },
+    "phenoxaselenino": {
+        "atoms": 14,
+        "parent_name": "phenoxaselenine",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1[Se]2"
+    },
+    "phenoxasilin": {
+        "atoms": 14,
+        "parent_name": "phenoxasiline",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1[SiH2]2"
+    },
+    "phenoxatellurino": {
+        "atoms": 14,
+        "parent_name": "phenoxatellurine",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1[Te]2"
+    },
+    "phenoxathiin": {
+        "atoms": 14,
+        "parent_name": "phenoxathiine",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1S2"
+    },
+    "phenoxathiino": {
+        "atoms": 14,
+        "parent_name": "phenoxathiine",
+        "smiles": "c1ccc2c(c1)Oc1ccccc1S2"
+    },
+    "phenoxazin": {
+        "atoms": 14,
+        "parent_name": "phenoxazine",
+        "smiles": "c1ccc2c(c1)Nc1ccccc1O2"
+    },
+    "phenoxazino": {
+        "atoms": 14,
+        "parent_name": "phenoxazine",
+        "smiles": "c1ccc2c(c1)Nc1ccccc1O2"
+    },
+    "phenoxid": {
+        "atoms": 7,
+        "parent_name": "phenoxide",
+        "smiles": "[O-]c1ccccc1"
+    },
+    "phenoxylium": {
+        "atoms": 7,
+        "parent_name": "phenoxyliume",
+        "smiles": "[O+]c1ccccc1"
+    },
+    "phenylium": {
+        "atoms": 6,
+        "parent_name": "phenyliume",
+        "smiles": "[C+]1=CC=CC=C1"
+    },
+    "phloretin": {
+        "atoms": 20,
+        "parent_name": "phloretine",
+        "smiles": "O=C(CCc1ccc(O)cc1)c1c(O)cc(O)cc1O"
+    },
+    "phloroglucinol": {
+        "atoms": 9,
+        "parent_name": "phloroglucinole",
+        "smiles": "Oc1cc(O)cc(O)c1"
+    },
+    "phlorol": {
+        "atoms": 9,
+        "parent_name": "phlorole",
+        "smiles": "CCc1ccccc1O"
+    },
+    "phosphanthreno": {
+        "atoms": 14,
+        "parent_name": "phosphanthrene",
+        "smiles": "c1ccc2pc3ccccc3pc2c1"
+    },
+    "phosphanthridino": {
+        "atoms": 14,
+        "parent_name": "phosphanthridine",
+        "smiles": "c1ccc2c(c1)cpc1ccccc12"
+    },
+    "phosphindolin": {
+        "atoms": 9,
+        "parent_name": "phosphindoline",
+        "smiles": "c1ccc2c(c1)CCP2"
+    },
+    "phosphindolizidin": {
+        "atoms": 9,
+        "parent_name": "phosphindolizidine",
+        "smiles": "C1CCP2CCCC2C1"
+    },
+    "phosphindolizino": {
+        "atoms": 9,
+        "parent_name": "phosphindolizine",
+        "smiles": "c1ccp2cccc2c1"
+    },
+    "phosphindolo": {
+        "atoms": 9,
+        "parent_name": "phosphindole",
+        "smiles": "c1ccc2[pH]ccc2c1"
+    },
+    "phosphinolino": {
+        "atoms": 10,
+        "parent_name": "phosphinoline",
+        "smiles": "c1ccc2pcccc2c1"
+    },
+    "phosphinolizino": {
+        "atoms": 10,
+        "parent_name": "phosphinolizine",
+        "smiles": "C1=CCP2C=CC=CC2=C1"
+    },
+    "phthalazin": {
+        "atoms": 10,
+        "parent_name": "phthalazine",
+        "smiles": "c1ccc2cnncc2c1"
+    },
+    "phthalazino": {
+        "atoms": 10,
+        "parent_name": "phthalazine",
+        "smiles": "c1ccc2cnncc2c1"
+    },
+    "phthalhydrazid": {
+        "atoms": 12,
+        "parent_name": "phthalhydrazidee",
+        "smiles": "O=c1[nH][nH]c(=O)c2ccccc12"
+    },
+    "phthalhydrazide": {
+        "atoms": 12,
+        "parent_name": "phthalhydrazidee",
+        "smiles": "O=c1[nH][nH]c(=O)c2ccccc12"
+    },
+    "phthalid": {
+        "atoms": 10,
+        "parent_name": "phthalide",
+        "smiles": "O=C1OCc2ccccc21"
+    },
+    "phthalyl alcohol": {
+        "atoms": 10,
+        "parent_name": "phthalyl alcohole",
+        "smiles": "OCc1ccccc1CO"
+    },
+    "piaselenol": {
+        "atoms": 9,
+        "parent_name": "piaselenole",
+        "smiles": "c1ccc2n[se]nc2c1"
+    },
+    "piazselenol": {
+        "atoms": 9,
+        "parent_name": "piaselenole",
+        "smiles": "c1ccc2n[se]nc2c1"
+    },
+    "piazthiol": {
+        "atoms": 9,
+        "parent_name": "piazthiole",
+        "smiles": "c1ccc2nsnc2c1"
+    },
+    "picen": {
+        "atoms": 22,
+        "parent_name": "picene",
+        "smiles": "c1ccc2c(c1)ccc1c2ccc2c3ccccc3ccc21"
+    },
+    "piceno": {
+        "atoms": 22,
+        "parent_name": "picene",
+        "smiles": "c1ccc2c(c1)ccc1c2ccc2c3ccccc3ccc21"
+    },
+    "picrat": {
+        "atoms": 16,
+        "parent_name": "picratee",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1"
+    },
+    "picrate": {
+        "atoms": 16,
+        "parent_name": "picratee",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1"
+    },
+    "picric": {
+        "atoms": 16,
+        "parent_name": "picrice",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c(O)c([N+](=O)[O-])c1"
+    },
+    "picric acid": {
+        "atoms": 16,
+        "parent_name": "picrice",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c(O)c([N+](=O)[O-])c1"
+    },
+    "picricacid": {
+        "atoms": 16,
+        "parent_name": "picrice",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c(O)c([N+](=O)[O-])c1"
+    },
+    "pinolin": {
+        "atoms": 15,
+        "parent_name": "pinoline",
+        "smiles": "COc1ccc2[nH]c3c(c2c1)CCNC3"
+    },
+    "piperazin": {
+        "atoms": 6,
+        "parent_name": "piperazine",
+        "smiles": "C1CNCCN1"
+    },
+    "piperidin": {
+        "atoms": 6,
+        "parent_name": "piperidine",
+        "smiles": "C1CCNCC1"
+    },
+    "pleiaden": {
+        "atoms": 18,
+        "parent_name": "pleiadene",
+        "smiles": "C1=c2ccccc2=Cc2cccc3cccc1c23"
+    },
+    "pleiadeno": {
+        "atoms": 18,
+        "parent_name": "pleiadene",
+        "smiles": "C1=c2ccccc2=Cc2cccc3cccc1c23"
+    },
+    "plumbocen": {
+        "atoms": 11,
+        "parent_name": "plumbocene",
+        "smiles": "[Pb+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "porphin": {
+        "atoms": 24,
+        "parent_name": "porphyrine",
+        "smiles": "C1=Cc2cc3ccc(cc4nc(cc5ccc(cc1n2)[nH]5)C=C4)[nH]3"
+    },
+    "porphyrin": {
+        "atoms": 24,
+        "parent_name": "porphyrine",
+        "smiles": "C1=Cc2cc3ccc(cc4nc(cc5ccc(cc1n2)[nH]5)C=C4)[nH]3"
+    },
+    "prehniten": {
+        "atoms": 10,
+        "parent_name": "prehnitene",
+        "smiles": "Cc1ccc(C)c(C)c1C"
+    },
+    "pseudocumen": {
+        "atoms": 9,
+        "parent_name": "pseudocumene",
+        "smiles": "Cc1ccc(C)c(C)c1"
+    },
+    "pseudocumohydroquinon": {
+        "atoms": 11,
+        "parent_name": "pseudocumohydroquinonee",
+        "smiles": "Cc1cc(O)c(C)c(C)c1O"
+    },
+    "pseudocumohydroquinone": {
+        "atoms": 11,
+        "parent_name": "pseudocumohydroquinonee",
+        "smiles": "Cc1cc(O)c(C)c(C)c1O"
+    },
+    "pseudouridin": {
+        "atoms": 17,
+        "parent_name": "pseudouridine",
+        "smiles": "O=c1[nH]cc([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1"
+    },
+    "pteridin": {
+        "atoms": 10,
+        "parent_name": "pteridine",
+        "smiles": "c1cnc2ncncc2n1"
+    },
+    "pteridino": {
+        "atoms": 10,
+        "parent_name": "pteridine",
+        "smiles": "c1cnc2ncncc2n1"
+    },
+    "pterin": {
+        "atoms": 12,
+        "parent_name": "pterine",
+        "smiles": "Nc1nc2nccnc2c(=O)[nH]1"
+    },
+    "purin": {
+        "atoms": 9,
+        "parent_name": "purine",
+        "smiles": "c1ncc2[nH]cnc2n1"
+    },
+    "purino": {
+        "atoms": 9,
+        "parent_name": "purine",
+        "smiles": "c1ncc2[nH]cnc2n1"
+    },
+    "pyran": {
+        "atoms": 6,
+        "parent_name": "pyrane",
+        "smiles": "C1=CCOC=C1"
+    },
+    "pyrano": {
+        "atoms": 6,
+        "parent_name": "pyran",
+        "smiles": "C1=CCOC=C1"
+    },
+    "pyranthren": {
+        "atoms": 30,
+        "parent_name": "pyranthrene",
+        "smiles": "c1ccc2c(c1)cc1ccc3cc4c5ccccc5cc5ccc6cc2c1c3c6c54"
+    },
+    "pyranthreno": {
+        "atoms": 30,
+        "parent_name": "pyranthrene",
+        "smiles": "c1ccc2c(c1)cc1ccc3cc4c5ccccc5cc5ccc6cc2c1c3c6c54"
+    },
+    "pyrazin": {
+        "atoms": 6,
+        "parent_name": "pyrazine",
+        "smiles": "c1cnccn1"
+    },
+    "pyrazino": {
+        "atoms": 6,
+        "parent_name": "pyrazine",
+        "smiles": "c1cnccn1"
+    },
+    "pyrazol": {
+        "atoms": 5,
+        "parent_name": "pyrazole",
+        "smiles": "c1cn[nH]c1"
+    },
+    "pyrazolidin": {
+        "atoms": 5,
+        "parent_name": "pyrazolidine",
+        "smiles": "C1CNNC1"
+    },
+    "pyrazolin": {
+        "atoms": 5,
+        "parent_name": "pyrazoline",
+        "smiles": "C1CNNC1"
+    },
+    "pyrazolo": {
+        "atoms": 5,
+        "parent_name": "pyrazole",
+        "smiles": "c1cn[nH]c1"
+    },
+    "pyren": {
+        "atoms": 16,
+        "parent_name": "pyrene",
+        "smiles": "c1cc2ccc3cccc4ccc(c1)c2c34"
+    },
+    "pyreno": {
+        "atoms": 16,
+        "parent_name": "pyrene",
+        "smiles": "c1cc2ccc3cccc4ccc(c1)c2c34"
+    },
+    "pyridazin": {
+        "atoms": 6,
+        "parent_name": "pyridazine",
+        "smiles": "c1ccnnc1"
+    },
+    "pyridazino": {
+        "atoms": 6,
+        "parent_name": "pyridazine",
+        "smiles": "c1ccnnc1"
+    },
+    "pyridin": {
+        "atoms": 6,
+        "parent_name": "pyridine",
+        "smiles": "c1ccncc1"
+    },
+    "pyridino": {
+        "atoms": 6,
+        "parent_name": "pyridine",
+        "smiles": "c1ccncc1"
+    },
+    "pyrido": {
+        "atoms": 6,
+        "parent_name": "pyridine",
+        "smiles": "c1ccncc1"
+    },
+    "pyridoxal": {
+        "atoms": 12,
+        "parent_name": "pyridoxale",
+        "smiles": "Cc1ncc(CO)c(C=O)c1O"
+    },
+    "pyridoxal-p": {
+        "atoms": 16,
+        "parent_name": "pyridoxal-pe",
+        "smiles": "Cc1ncc(COP(=O)(O)O)c(C=O)c1O"
+    },
+    "pyridoxamin": {
+        "atoms": 12,
+        "parent_name": "pyridoxaminee",
+        "smiles": "Cc1ncc(CO)c(CN)c1O"
+    },
+    "pyridoxamin-p": {
+        "atoms": 16,
+        "parent_name": "pyridoxamine-pe",
+        "smiles": "Cc1ncc(COP(=O)(O)O)c(CN)c1O"
+    },
+    "pyridoxamine": {
+        "atoms": 12,
+        "parent_name": "pyridoxaminee",
+        "smiles": "Cc1ncc(CO)c(CN)c1O"
+    },
+    "pyridoxamine-p": {
+        "atoms": 16,
+        "parent_name": "pyridoxamine-pe",
+        "smiles": "Cc1ncc(COP(=O)(O)O)c(CN)c1O"
+    },
+    "pyridoxin": {
+        "atoms": 12,
+        "parent_name": "pyridoxinee",
+        "smiles": "Cc1ncc(CO)c(CO)c1O"
+    },
+    "pyridoxin-p": {
+        "atoms": 16,
+        "parent_name": "pyridoxine-pe",
+        "smiles": "Cc1ncc(COP(=O)(O)O)c(CO)c1O"
+    },
+    "pyridoxine": {
+        "atoms": 12,
+        "parent_name": "pyridoxinee",
+        "smiles": "Cc1ncc(CO)c(CO)c1O"
+    },
+    "pyridoxine-p": {
+        "atoms": 16,
+        "parent_name": "pyridoxine-pe",
+        "smiles": "Cc1ncc(COP(=O)(O)O)c(CO)c1O"
+    },
+    "pyridoxol": {
+        "atoms": 12,
+        "parent_name": "pyridoxinee",
+        "smiles": "Cc1ncc(CO)c(CO)c1O"
+    },
+    "pyridoxol-p": {
+        "atoms": 16,
+        "parent_name": "pyridoxine-pe",
+        "smiles": "Cc1ncc(COP(=O)(O)O)c(CO)c1O"
+    },
+    "pyrimidin": {
+        "atoms": 6,
+        "parent_name": "pyrimidine",
+        "smiles": "c1cncnc1"
+    },
+    "pyrimidino": {
+        "atoms": 6,
+        "parent_name": "pyrimidine",
+        "smiles": "c1cncnc1"
+    },
+    "pyrimido": {
+        "atoms": 6,
+        "parent_name": "pyrimidine",
+        "smiles": "c1cncnc1"
+    },
+    "pyrindan": {
+        "atoms": 9,
+        "parent_name": "pyrindane",
+        "smiles": "c1ccc2c(c1)CCC2"
+    },
+    "pyrocatechol": {
+        "atoms": 8,
+        "parent_name": "pyrocatechole",
+        "smiles": "Oc1ccccc1O"
+    },
+    "pyrocatecholat": {
+        "atoms": 8,
+        "parent_name": "pyrocatecholatee",
+        "smiles": "[O-]c1ccccc1[O-]"
+    },
+    "pyrocatecholate": {
+        "atoms": 8,
+        "parent_name": "pyrocatecholatee",
+        "smiles": "[O-]c1ccccc1[O-]"
+    },
+    "pyrogallol": {
+        "atoms": 9,
+        "parent_name": "pyrogallole",
+        "smiles": "Oc1cccc(O)c1O"
+    },
+    "pyrrol": {
+        "atoms": 5,
+        "parent_name": "pyrrole",
+        "smiles": "c1cc[nH]c1"
+    },
+    "pyrrolidin": {
+        "atoms": 5,
+        "parent_name": "pyrrolidine",
+        "smiles": "C1CCNC1"
+    },
+    "pyrrolidon": {
+        "atoms": 5,
+        "parent_name": "pyrrolidone",
+        "smiles": "C1CCNC1"
+    },
+    "pyrrolin": {
+        "atoms": 5,
+        "parent_name": "pyrroline",
+        "smiles": "C1CCNC1"
+    },
+    "pyrrolizidin": {
+        "atoms": 8,
+        "parent_name": "pyrrolizidine",
+        "smiles": "C1CC2CCCN2C1"
+    },
+    "pyrrolizidino": {
+        "atoms": 8,
+        "parent_name": "pyrrolizidine",
+        "smiles": "C1CC2CCCN2C1"
+    },
+    "pyrrolizin": {
+        "atoms": 8,
+        "parent_name": "pyrrolizine",
+        "smiles": "C1=Cn2cccc2C1"
+    },
+    "pyrrolizino": {
+        "atoms": 8,
+        "parent_name": "pyrrolizine",
+        "smiles": "C1=Cn2cccc2C1"
+    },
+    "pyrrolo": {
+        "atoms": 5,
+        "parent_name": "pyrrole",
+        "smiles": "c1cc[nH]c1"
+    },
+    "pyrylium": {
+        "atoms": 6,
+        "parent_name": "pyryliume",
+        "smiles": "c1cc[o+]cc1"
+    },
+    "quercetin": {
+        "atoms": 22,
+        "parent_name": "quercetine",
+        "smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12"
+    },
+    "quinaldin": {
+        "atoms": 11,
+        "parent_name": "quinaldine",
+        "smiles": "Cc1ccc2ccccc2n1"
+    },
+    "quinazolin": {
+        "atoms": 10,
+        "parent_name": "quinazoline",
+        "smiles": "c1ccc2ncncc2c1"
+    },
+    "quinazolino": {
+        "atoms": 10,
+        "parent_name": "quinazoline",
+        "smiles": "c1ccc2ncncc2c1"
+    },
+    "quino": {
+        "atoms": 10,
+        "parent_name": "quinoline",
+        "smiles": "c1ccc2ncccc2c1"
+    },
+    "quinol": {
+        "atoms": 8,
+        "parent_name": "quinole",
+        "smiles": "Oc1ccc(O)cc1"
+    },
+    "quinolin": {
+        "atoms": 10,
+        "parent_name": "quinoline",
+        "smiles": "c1ccc2ncccc2c1"
+    },
+    "quinolinic": {
+        "atoms": 12,
+        "parent_name": "quinolinice",
+        "smiles": "O=C(O)c1cccnc1C(=O)O"
+    },
+    "quinolinic acid": {
+        "atoms": 12,
+        "parent_name": "quinolinice",
+        "smiles": "O=C(O)c1cccnc1C(=O)O"
+    },
+    "quinolinicacid": {
+        "atoms": 12,
+        "parent_name": "quinolinice",
+        "smiles": "O=C(O)c1cccnc1C(=O)O"
+    },
+    "quinolino": {
+        "atoms": 10,
+        "parent_name": "quinoline",
+        "smiles": "c1ccc2ncccc2c1"
+    },
+    "quinolizidin": {
+        "atoms": 10,
+        "parent_name": "quinolizidine",
+        "smiles": "C1CCN2CCCCC2C1"
+    },
+    "quinolizidino": {
+        "atoms": 10,
+        "parent_name": "quinolizidine",
+        "smiles": "C1CCN2CCCCC2C1"
+    },
+    "quinolizin": {
+        "atoms": 10,
+        "parent_name": "quinolizine",
+        "smiles": "C1=CCN2C=CC=CC2=C1"
+    },
+    "quinolizino": {
+        "atoms": 10,
+        "parent_name": "quinolizine",
+        "smiles": "C1=CCN2C=CC=CC2=C1"
+    },
+    "quinolon": {
+        "atoms": 10,
+        "parent_name": "quinolone",
+        "smiles": "c1ccc2ncccc2c1"
+    },
+    "quinoxalin": {
+        "atoms": 10,
+        "parent_name": "quinoxaline",
+        "smiles": "c1ccc2nccnc2c1"
+    },
+    "quinoxalino": {
+        "atoms": 10,
+        "parent_name": "quinoxaline",
+        "smiles": "c1ccc2nccnc2c1"
+    },
+    "quinuclidin": {
+        "atoms": 8,
+        "parent_name": "quinuclidine",
+        "smiles": "C1CN2CCC1CC2"
+    },
+    "resorcin": {
+        "atoms": 8,
+        "parent_name": "resorcine",
+        "smiles": "Oc1cccc(O)c1"
+    },
+    "resorcinol": {
+        "atoms": 8,
+        "parent_name": "resorcinole",
+        "smiles": "Oc1cccc(O)c1"
+    },
+    "resveratrol": {
+        "atoms": 17,
+        "parent_name": "resveratrole",
+        "smiles": "Oc1ccc(C=Cc2cc(O)cc(O)c2)cc1"
+    },
+    "rhapontigenin": {
+        "atoms": 19,
+        "parent_name": "rhapontigenine",
+        "smiles": "COc1ccc(C=Cc2cc(O)cc(O)c2)cc1O"
+    },
+    "rhodanin": {
+        "atoms": 7,
+        "parent_name": "rhodanine",
+        "smiles": "O=C1CSC(=S)N1"
+    },
+    "rhodocen": {
+        "atoms": 11,
+        "parent_name": "rhodocene",
+        "smiles": "[Rh+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "ribosylthymin": {
+        "atoms": 18,
+        "parent_name": "ribosylthymine",
+        "smiles": "Cc1cn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]c1=O"
+    },
+    "rubicen": {
+        "atoms": 26,
+        "parent_name": "rubicene",
+        "smiles": "c1ccc2c(c1)c1cccc3c4c5ccccc5c5cccc(c2c13)c54"
+    },
+    "rubiceno": {
+        "atoms": 26,
+        "parent_name": "rubicene",
+        "smiles": "c1ccc2c(c1)c1cccc3c4c5ccccc5c5cccc(c2c13)c54"
+    },
+    "ruthenocen": {
+        "atoms": 11,
+        "parent_name": "ruthenocene",
+        "smiles": "[Ru+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "s-indacen": {
+        "atoms": 12,
+        "parent_name": "s-indacene",
+        "smiles": "C1=Cc2cc3c(cc2=C1)C=CC=3"
+    },
+    "s-indaceno": {
+        "atoms": 12,
+        "parent_name": "s-indacene",
+        "smiles": "C1=Cc2cc3c(cc2=C1)C=CC=3"
+    },
+    "s-triazin": {
+        "atoms": 6,
+        "parent_name": "s-triazine",
+        "smiles": "c1ncncn1"
+    },
+    "s-triazino": {
+        "atoms": 6,
+        "parent_name": "s-triazine",
+        "smiles": "c1ncncn1"
+    },
+    "s-triazol": {
+        "atoms": 5,
+        "parent_name": "s-triazole",
+        "smiles": "c1nc[nH]n1"
+    },
+    "s-triazolo": {
+        "atoms": 5,
+        "parent_name": "s-triazole",
+        "smiles": "c1nc[nH]n1"
+    },
+    "safrol": {
+        "atoms": 12,
+        "parent_name": "safrole",
+        "smiles": "C=CCc1ccc2c(c1)OCO2"
+    },
+    "saligenin": {
+        "atoms": 9,
+        "parent_name": "saligenine",
+        "smiles": "OCc1ccccc1O"
+    },
+    "selenanthreno": {
+        "atoms": 14,
+        "parent_name": "selenanthrene",
+        "smiles": "c1ccc2c(c1)[Se]c1ccccc1[Se]2"
+    },
+    "selenochroman": {
+        "atoms": 10,
+        "parent_name": "selenochromane",
+        "smiles": "c1ccc2c(c1)CCC[Se]2"
+    },
+    "selenochromeno": {
+        "atoms": 10,
+        "parent_name": "selenochromene",
+        "smiles": "C1=Cc2ccccc2[Se]C1"
+    },
+    "selenochromenylium": {
+        "atoms": 10,
+        "parent_name": "selenochromenyliume",
+        "smiles": "c1ccc2[se+]cccc2c1"
+    },
+    "selenohomomorpholin": {
+        "atoms": 7,
+        "parent_name": "selenohomomorpholine",
+        "smiles": "C1CNCC[Se]C1"
+    },
+    "selenomorpholin": {
+        "atoms": 6,
+        "parent_name": "selenomorpholine",
+        "smiles": "C1C[Se]CCN1"
+    },
+    "selenopheno": {
+        "atoms": 5,
+        "parent_name": "selenophene",
+        "smiles": "c1cc[se]c1"
+    },
+    "selenopyrano": {
+        "atoms": 6,
+        "parent_name": "selenopyrane",
+        "smiles": "C1=CC[Se]C=C1"
+    },
+    "selenoxantheno": {
+        "atoms": 14,
+        "parent_name": "selenoxanthene",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1[Se]2"
+    },
+    "silanthreno": {
+        "atoms": 14,
+        "parent_name": "silanthrene",
+        "smiles": "c1ccc2[siH]c3ccccc3[siH]c2c1"
+    },
+    "skatol": {
+        "atoms": 10,
+        "parent_name": "skatole",
+        "smiles": "Cc1c[nH]c2ccccc12"
+    },
+    "spiro-9,9'-bifluoren": {
+        "atoms": 25,
+        "parent_name": "spiro-9,9'-bifluorene",
+        "smiles": "c1ccc2c(c1)-c1ccccc1C21c2ccccc2-c2ccccc21"
+    },
+    "stilben": {
+        "atoms": 14,
+        "parent_name": "stilbene",
+        "smiles": "C(=Cc1ccccc1)c1ccccc1"
+    },
+    "styphnat": {
+        "atoms": 17,
+        "parent_name": "styphnatee",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1[O-]"
+    },
+    "styphnate": {
+        "atoms": 17,
+        "parent_name": "styphnatee",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c([O-])c([N+](=O)[O-])c1[O-]"
+    },
+    "styphnic": {
+        "atoms": 17,
+        "parent_name": "styphnice",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c(O)c([N+](=O)[O-])c1O"
+    },
+    "styphnic acid": {
+        "atoms": 17,
+        "parent_name": "styphnice",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c(O)c([N+](=O)[O-])c1O"
+    },
+    "styphnicacid": {
+        "atoms": 17,
+        "parent_name": "styphnice",
+        "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c(O)c([N+](=O)[O-])c1O"
+    },
+    "styren": {
+        "atoms": 8,
+        "parent_name": "styrene",
+        "smiles": "C=Cc1ccccc1"
+    },
+    "styrene carbonat": {
+        "atoms": 12,
+        "parent_name": "styrene carbonatee",
+        "smiles": "O=C1OCC(c2ccccc2)O1"
+    },
+    "styrene carbonate": {
+        "atoms": 12,
+        "parent_name": "styrene carbonatee",
+        "smiles": "O=C1OCC(c2ccccc2)O1"
+    },
+    "styrol": {
+        "atoms": 8,
+        "parent_name": "styrole",
+        "smiles": "C=Cc1ccccc1"
+    },
+    "sulfol-2-en": {
+        "atoms": 7,
+        "parent_name": "sulfol-2-ene",
+        "smiles": "O=S1(=O)C=CCC1"
+    },
+    "sulfol-3-en": {
+        "atoms": 7,
+        "parent_name": "sulfol-3-ene",
+        "smiles": "O=S1(=O)CC=CC1"
+    },
+    "sulfolan": {
+        "atoms": 7,
+        "parent_name": "sulfolane",
+        "smiles": "O=S1(=O)CCCC1"
+    },
+    "sulfolen": {
+        "atoms": 7,
+        "parent_name": "sulfolene",
+        "smiles": "O=S1(=O)CCCC1"
+    },
+    "sydnon": {
+        "atoms": 6,
+        "parent_name": "sydnonee",
+        "smiles": "O=c1c[nH+][n-]o1"
+    },
+    "sydnone": {
+        "atoms": 6,
+        "parent_name": "sydnonee",
+        "smiles": "O=c1c[nH+][n-]o1"
+    },
+    "sym-triazin": {
+        "atoms": 6,
+        "parent_name": "s-triazine",
+        "smiles": "c1ncncn1"
+    },
+    "sym-triazino": {
+        "atoms": 6,
+        "parent_name": "s-triazine",
+        "smiles": "c1ncncn1"
+    },
+    "sym-triazol": {
+        "atoms": 5,
+        "parent_name": "s-triazole",
+        "smiles": "c1nc[nH]n1"
+    },
+    "sym-triazolo": {
+        "atoms": 5,
+        "parent_name": "s-triazole",
+        "smiles": "c1nc[nH]n1"
+    },
+    "taxifolin": {
+        "atoms": 22,
+        "parent_name": "taxifoline",
+        "smiles": "O=C1c2c(O)cc(O)cc2O[C@H](c2ccc(O)c(O)c2)[C@H]1O"
+    },
+    "telluranthreno": {
+        "atoms": 14,
+        "parent_name": "telluranthrene",
+        "smiles": "c1ccc2c(c1)[Te]c1ccccc1[Te]2"
+    },
+    "tellurochroman": {
+        "atoms": 10,
+        "parent_name": "tellurochromane",
+        "smiles": "c1ccc2c(c1)CCC[Te]2"
+    },
+    "tellurochromeno": {
+        "atoms": 10,
+        "parent_name": "tellurochromene",
+        "smiles": "C1=Cc2ccccc2[Te]C1"
+    },
+    "tellurochromenylium": {
+        "atoms": 10,
+        "parent_name": "tellurochromenyliume",
+        "smiles": "c1ccc2[te+]cccc2c1"
+    },
+    "tellurohomomorpholin": {
+        "atoms": 7,
+        "parent_name": "tellurohomomorpholine",
+        "smiles": "C1CNCC[Te]C1"
+    },
+    "telluromorpholin": {
+        "atoms": 6,
+        "parent_name": "telluromorpholine",
+        "smiles": "C1C[Te]CCN1"
+    },
+    "telluropheno": {
+        "atoms": 5,
+        "parent_name": "tellurophene",
+        "smiles": "c1cc[te]c1"
+    },
+    "telluropyrano": {
+        "atoms": 6,
+        "parent_name": "telluropyrane",
+        "smiles": "C1=CC[Te]C=C1"
+    },
+    "telluroxantheno": {
+        "atoms": 14,
+        "parent_name": "telluroxanthene",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1[Te]2"
+    },
+    "terephthalyl alcohol": {
+        "atoms": 10,
+        "parent_name": "terephthalyl alcohole",
+        "smiles": "OCc1ccc(CO)cc1"
+    },
+    "tetrahydromethanopterin": {
+        "atoms": 53,
+        "parent_name": "tetrahydromethanopterine",
+        "smiles": "C[C@@H]1Nc2nc(N)[nH]c(=O)c2NC1[C@@H](C)Nc1ccc(C[C@H](O)[C@H](O)[C@H](O)CO[C@H]2O[C@H](COP(=O)(O)O[C@@H](CCC(=O)O)C(=O)O)[C@@H](O)[C@H]2O)cc1"
+    },
+    "tetrahydropterin": {
+        "atoms": 12,
+        "parent_name": "tetrahydropterine",
+        "smiles": "Nc1nc2c(c(=O)[nH]1)NCCN2"
+    },
+    "tetralin": {
+        "atoms": 10,
+        "parent_name": "tetraline",
+        "smiles": "c1ccc2c(c1)CCCC2"
+    },
+    "tetralon": {
+        "atoms": 10,
+        "parent_name": "tetralone",
+        "smiles": "c1ccc2c(c1)CCCC2"
+    },
+    "thebenidin": {
+        "atoms": 16,
+        "parent_name": "thebenidine",
+        "smiles": "c1cc2ccc3cccc4ncc(c1)c2c34"
+    },
+    "thebenidino": {
+        "atoms": 16,
+        "parent_name": "thebenidine",
+        "smiles": "c1cc2ccc3cccc4ncc(c1)c2c34"
+    },
+    "theobromin": {
+        "atoms": 13,
+        "parent_name": "theobromine",
+        "smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C"
+    },
+    "theophyllin": {
+        "atoms": 13,
+        "parent_name": "theophylline",
+        "smiles": "Cn1c(=O)c2[nH]cnc2n(C)c1=O"
+    },
+    "thiahomomorpholin": {
+        "atoms": 7,
+        "parent_name": "thiahomomorpholine",
+        "smiles": "C1CNCCSC1"
+    },
+    "thiamorpholin": {
+        "atoms": 6,
+        "parent_name": "thiamorpholine",
+        "smiles": "C1CSCCN1"
+    },
+    "thianthren": {
+        "atoms": 14,
+        "parent_name": "thianthrene",
+        "smiles": "c1ccc2c(c1)Sc1ccccc1S2"
+    },
+    "thianthreno": {
+        "atoms": 14,
+        "parent_name": "thianthrene",
+        "smiles": "c1ccc2c(c1)Sc1ccccc1S2"
+    },
+    "thieno": {
+        "atoms": 5,
+        "parent_name": "thiophene",
+        "smiles": "c1ccsc1"
+    },
+    "thiochroman": {
+        "atoms": 10,
+        "parent_name": "thiochromane",
+        "smiles": "c1ccc2c(c1)CCCS2"
+    },
+    "thiochromen": {
+        "atoms": 10,
+        "parent_name": "thiochromene",
+        "smiles": "C1=Cc2ccccc2SC1"
+    },
+    "thiochromeno": {
+        "atoms": 10,
+        "parent_name": "thiochromene",
+        "smiles": "C1=Cc2ccccc2SC1"
+    },
+    "thiochromenylium": {
+        "atoms": 10,
+        "parent_name": "thiochromenyliume",
+        "smiles": "c1ccc2[s+]cccc2c1"
+    },
+    "thiofuran": {
+        "atoms": 5,
+        "parent_name": "thiofurane",
+        "smiles": "c1ccsc1"
+    },
+    "thiohomomorpholin": {
+        "atoms": 7,
+        "parent_name": "thiahomomorpholine",
+        "smiles": "C1CNCCSC1"
+    },
+    "thiomorpholin": {
+        "atoms": 6,
+        "parent_name": "thiamorpholine",
+        "smiles": "C1CSCCN1"
+    },
+    "thiophen": {
+        "atoms": 5,
+        "parent_name": "thiophene",
+        "smiles": "c1ccsc1"
+    },
+    "thiopheno": {
+        "atoms": 5,
+        "parent_name": "thiophene",
+        "smiles": "c1ccsc1"
+    },
+    "thiopyran": {
+        "atoms": 6,
+        "parent_name": "thiopyrane",
+        "smiles": "C1=CCSC=C1"
+    },
+    "thiopyrano": {
+        "atoms": 6,
+        "parent_name": "thiopyrane",
+        "smiles": "C1=CCSC=C1"
+    },
+    "thioxanthen": {
+        "atoms": 14,
+        "parent_name": "thioxanthene",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1S2"
+    },
+    "thioxantheno": {
+        "atoms": 14,
+        "parent_name": "thioxanthene",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1S2"
+    },
+    "thymidin": {
+        "atoms": 17,
+        "parent_name": "thymidine",
+        "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]c1=O"
+    },
+    "thymin": {
+        "atoms": 9,
+        "parent_name": "thymine",
+        "smiles": "Cc1c[nH]c(=O)[nH]c1=O"
+    },
+    "thymohydroquinon": {
+        "atoms": 12,
+        "parent_name": "thymohydroquinonee",
+        "smiles": "Cc1cc(O)c(C(C)C)cc1O"
+    },
+    "thymohydroquinone": {
+        "atoms": 12,
+        "parent_name": "thymohydroquinonee",
+        "smiles": "Cc1cc(O)c(C(C)C)cc1O"
+    },
+    "thymol": {
+        "atoms": 11,
+        "parent_name": "thymole",
+        "smiles": "Cc1ccc(C(C)C)c(O)c1"
+    },
+    "titanocen": {
+        "atoms": 11,
+        "parent_name": "titanocene",
+        "smiles": "[Ti+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "tolan": {
+        "atoms": 14,
+        "parent_name": "tolane",
+        "smiles": "C(#Cc1ccccc1)c1ccccc1"
+    },
+    "toluen": {
+        "atoms": 7,
+        "parent_name": "toluene",
+        "smiles": "Cc1ccccc1"
+    },
+    "toluhydroquinon": {
+        "atoms": 9,
+        "parent_name": "toluhydroquinonee",
+        "smiles": "Cc1cc(O)ccc1O"
+    },
+    "toluhydroquinone": {
+        "atoms": 9,
+        "parent_name": "toluhydroquinonee",
+        "smiles": "Cc1cc(O)ccc1O"
+    },
+    "toluidin": {
+        "atoms": 7,
+        "parent_name": "toluidine",
+        "smiles": "Nc1ccccc1"
+    },
+    "toluol": {
+        "atoms": 7,
+        "parent_name": "toluole",
+        "smiles": "Cc1ccccc1"
+    },
+    "tribenzamid": {
+        "atoms": 25,
+        "parent_name": "tribenzamidee",
+        "smiles": "O=C(c1ccccc1)N(C(=O)c1ccccc1)C(=O)c1ccccc1"
+    },
+    "tribenzamide": {
+        "atoms": 25,
+        "parent_name": "tribenzamidee",
+        "smiles": "O=C(c1ccccc1)N(C(=O)c1ccccc1)C(=O)c1ccccc1"
+    },
+    "trinaphthylen": {
+        "atoms": 30,
+        "parent_name": "trinaphthylene",
+        "smiles": "c1ccc2cc3c(cc2c1)c1cc2ccccc2cc1c1cc2ccccc2cc31"
+    },
+    "trinaphthyleno": {
+        "atoms": 30,
+        "parent_name": "trinaphthylene",
+        "smiles": "c1ccc2cc3c(cc2c1)c1cc2ccccc2cc1c1cc2ccccc2cc31"
+    },
+    "trinden": {
+        "atoms": 15,
+        "parent_name": "trindene",
+        "smiles": "C1=Cc2c3c(c4c(c2=C1)=CC=C4)CC=C3"
+    },
+    "trindeno": {
+        "atoms": 15,
+        "parent_name": "trindene",
+        "smiles": "C1=Cc2c3c(c4c(c2=C1)=CC=C4)CC=C3"
+    },
+    "triphenodioxazin": {
+        "atoms": 22,
+        "parent_name": "triphenodioxazine",
+        "smiles": "c1ccc2c(c1)N=c1cc3c(cc1O2)=Nc1ccccc1O3"
+    },
+    "triphenodioxazino": {
+        "atoms": 22,
+        "parent_name": "triphenodioxazine",
+        "smiles": "c1ccc2c(c1)N=c1cc3c(cc1O2)=Nc1ccccc1O3"
+    },
+    "triphenodithiazin": {
+        "atoms": 22,
+        "parent_name": "triphenodithiazine",
+        "smiles": "c1ccc2c(c1)N=c1cc3c(cc1S2)=Nc1ccccc1S3"
+    },
+    "triphenodithiazino": {
+        "atoms": 22,
+        "parent_name": "triphenodithiazine",
+        "smiles": "c1ccc2c(c1)N=c1cc3c(cc1S2)=Nc1ccccc1S3"
+    },
+    "triphenylen": {
+        "atoms": 18,
+        "parent_name": "triphenylene",
+        "smiles": "c1ccc2c(c1)c1ccccc1c1ccccc21"
+    },
+    "triphenyleno": {
+        "atoms": 18,
+        "parent_name": "triphenylene",
+        "smiles": "c1ccc2c(c1)c1ccccc1c1ccccc21"
+    },
+    "tritan": {
+        "atoms": 19,
+        "parent_name": "tritane",
+        "smiles": "c1ccc(C(c2ccccc2)c2ccccc2)cc1"
+    },
+    "tryptamin": {
+        "atoms": 12,
+        "parent_name": "tryptamine",
+        "smiles": "NCCc1c[nH]c2ccccc12"
+    },
+    "tryptolin": {
+        "atoms": 13,
+        "parent_name": "tryptoline",
+        "smiles": "c1ccc2c3c([nH]c2c1)CNCC3"
+    },
+    "tyramin": {
+        "atoms": 10,
+        "parent_name": "tyramine",
+        "smiles": "NCCc1ccc(O)cc1"
+    },
+    "uracil": {
+        "atoms": 8,
+        "parent_name": "uracile",
+        "smiles": "O=c1cc[nH]c(=O)[nH]1"
+    },
+    "urazol": {
+        "atoms": 7,
+        "parent_name": "urazole",
+        "smiles": "O=c1[nH][nH]c(=O)[nH]1"
+    },
+    "uric": {
+        "atoms": 12,
+        "parent_name": "urice",
+        "smiles": "O=c1[nH]c(=O)c2[nH]c(=O)[nH]c2[nH]1"
+    },
+    "uric acid": {
+        "atoms": 12,
+        "parent_name": "urice",
+        "smiles": "O=c1[nH]c(=O)c2[nH]c(=O)[nH]c2[nH]1"
+    },
+    "uricacid": {
+        "atoms": 12,
+        "parent_name": "urice",
+        "smiles": "O=c1[nH]c(=O)c2[nH]c(=O)[nH]c2[nH]1"
+    },
+    "uridin": {
+        "atoms": 17,
+        "parent_name": "uridine",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1"
+    },
+    "v-triazin": {
+        "atoms": 6,
+        "parent_name": "v-triazine",
+        "smiles": "c1cnnnc1"
+    },
+    "vanadocen": {
+        "atoms": 11,
+        "parent_name": "vanadocene",
+        "smiles": "[V+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    },
+    "vanillin": {
+        "atoms": 11,
+        "parent_name": "vanilline",
+        "smiles": "COc1cc(C=O)ccc1O"
+    },
+    "veratrol": {
+        "atoms": 10,
+        "parent_name": "veratrole",
+        "smiles": "COc1ccccc1OC"
+    },
+    "violanthren": {
+        "atoms": 34,
+        "parent_name": "violanthrene",
+        "smiles": "c1ccc2c(c1)Cc1ccc3c4ccc5c6c(ccc(c7ccc-2c1c37)c64)-c1ccccc1C5"
+    },
+    "wybutosin": {
+        "atoms": 36,
+        "parent_name": "wybutosine",
+        "smiles": "COC(=O)N[C@@H](CCc1c(C)nc2n(C)c3c(ncn3[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)c(=O)n12)C(=O)OC"
+    },
+    "xanthen": {
+        "atoms": 14,
+        "parent_name": "xanthene",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1O2"
+    },
+    "xantheno": {
+        "atoms": 14,
+        "parent_name": "xanthene",
+        "smiles": "c1ccc2c(c1)Cc1ccccc1O2"
+    },
+    "xanthin": {
+        "atoms": 11,
+        "parent_name": "xanthine",
+        "smiles": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1"
+    },
+    "xanthosin": {
+        "atoms": 20,
+        "parent_name": "xanthosine",
+        "smiles": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)c2[nH]1"
+    },
+    "xanthylium": {
+        "atoms": 14,
+        "parent_name": "xanthyliume",
+        "smiles": "c1ccc2[o+]c3ccccc3cc2c1"
+    },
+    "xylen": {
+        "atoms": 6,
+        "parent_name": "xylene",
+        "smiles": "c1ccccc1"
+    },
+    "xylidin": {
+        "atoms": 7,
+        "parent_name": "xylidine",
+        "smiles": "Nc1ccccc1"
+    },
+    "xylol": {
+        "atoms": 6,
+        "parent_name": "xylole",
+        "smiles": "c1ccccc1"
+    },
+    "zingeron": {
+        "atoms": 14,
+        "parent_name": "zingeronee",
+        "smiles": "COc1cc(CCC(C)=O)ccc1O"
+    },
+    "zingerone": {
+        "atoms": 14,
+        "parent_name": "zingeronee",
+        "smiles": "COc1cc(CCC(C)=O)ccc1O"
+    },
+    "zirconocen": {
+        "atoms": 11,
+        "parent_name": "zirconocene",
+        "smiles": "[Zr+2].c1cc[cH-]c1.c1cc[cH-]c1"
+    }
+}

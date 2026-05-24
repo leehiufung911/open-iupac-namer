@@ -1,0 +1,567 @@
+[
+  {
+    "rank": 1,
+    "element": "F",
+    "a_term": "fluora"
+  },
+  {
+    "rank": 2,
+    "element": "Cl",
+    "a_term": "chlora"
+  },
+  {
+    "rank": 3,
+    "element": "Br",
+    "a_term": "broma"
+  },
+  {
+    "rank": 4,
+    "element": "I",
+    "a_term": "ioda"
+  },
+  {
+    "rank": 5,
+    "element": "At",
+    "a_term": "astata"
+  },
+  {
+    "rank": 6,
+    "element": "O",
+    "a_term": "oxa"
+  },
+  {
+    "rank": 7,
+    "element": "S",
+    "a_term": "thia"
+  },
+  {
+    "rank": 8,
+    "element": "Se",
+    "a_term": "selena"
+  },
+  {
+    "rank": 9,
+    "element": "Te",
+    "a_term": "tellura"
+  },
+  {
+    "rank": 10,
+    "element": "Po",
+    "a_term": "polona"
+  },
+  {
+    "rank": 11,
+    "element": "Lv",
+    "a_term": "livermora"
+  },
+  {
+    "rank": 12,
+    "element": "N",
+    "a_term": "aza"
+  },
+  {
+    "rank": 13,
+    "element": "P",
+    "a_term": "phospha"
+  },
+  {
+    "rank": 14,
+    "element": "As",
+    "a_term": "arsa"
+  },
+  {
+    "rank": 15,
+    "element": "Sb",
+    "a_term": "stiba"
+  },
+  {
+    "rank": 16,
+    "element": "Bi",
+    "a_term": "bisma"
+  },
+  {
+    "rank": 17,
+    "element": "C",
+    "a_term": "carba"
+  },
+  {
+    "rank": 18,
+    "element": "Si",
+    "a_term": "sila"
+  },
+  {
+    "rank": 19,
+    "element": "Ge",
+    "a_term": "germa"
+  },
+  {
+    "rank": 20,
+    "element": "Sn",
+    "a_term": "stanna"
+  },
+  {
+    "rank": 21,
+    "element": "Pb",
+    "a_term": "plumba"
+  },
+  {
+    "rank": 22,
+    "element": "Fl",
+    "a_term": "flerova"
+  },
+  {
+    "rank": 23,
+    "element": "B",
+    "a_term": "bora"
+  },
+  {
+    "rank": 24,
+    "element": "Al",
+    "a_term": "alumina"
+  },
+  {
+    "rank": 25,
+    "element": "Ga",
+    "a_term": "galla"
+  },
+  {
+    "rank": 26,
+    "element": "In",
+    "a_term": "inda"
+  },
+  {
+    "rank": 27,
+    "element": "Tl",
+    "a_term": "thalla"
+  },
+  {
+    "rank": 28,
+    "element": "Zn",
+    "a_term": "zinca"
+  },
+  {
+    "rank": 29,
+    "element": "Cd",
+    "a_term": "cadma"
+  },
+  {
+    "rank": 30,
+    "element": "Hg",
+    "a_term": "mercura"
+  },
+  {
+    "rank": 31,
+    "element": "Cn",
+    "a_term": "copernica"
+  },
+  {
+    "rank": 32,
+    "element": "Cu",
+    "a_term": "cupra"
+  },
+  {
+    "rank": 33,
+    "element": "Ag",
+    "a_term": "argenta"
+  },
+  {
+    "rank": 34,
+    "element": "Au",
+    "a_term": "aura"
+  },
+  {
+    "rank": 35,
+    "element": "Rg",
+    "a_term": "roentgena"
+  },
+  {
+    "rank": 36,
+    "element": "Ni",
+    "a_term": "nickela"
+  },
+  {
+    "rank": 37,
+    "element": "Pd",
+    "a_term": "pallada"
+  },
+  {
+    "rank": 38,
+    "element": "Pt",
+    "a_term": "platina"
+  },
+  {
+    "rank": 39,
+    "element": "Ds",
+    "a_term": "darmstadta"
+  },
+  {
+    "rank": 40,
+    "element": "Co",
+    "a_term": "cobalta"
+  },
+  {
+    "rank": 41,
+    "element": "Rh",
+    "a_term": "rhoda"
+  },
+  {
+    "rank": 42,
+    "element": "Ir",
+    "a_term": "irida"
+  },
+  {
+    "rank": 43,
+    "element": "Mt",
+    "a_term": "meitnera"
+  },
+  {
+    "rank": 44,
+    "element": "Fe",
+    "a_term": "ferra"
+  },
+  {
+    "rank": 45,
+    "element": "Ru",
+    "a_term": "ruthena"
+  },
+  {
+    "rank": 46,
+    "element": "Os",
+    "a_term": "osma"
+  },
+  {
+    "rank": 47,
+    "element": "Hs",
+    "a_term": "hassa"
+  },
+  {
+    "rank": 48,
+    "element": "Mn",
+    "a_term": "mangana"
+  },
+  {
+    "rank": 49,
+    "element": "Te",
+    "a_term": "techneta"
+  },
+  {
+    "rank": 50,
+    "element": "Re",
+    "a_term": "rhena"
+  },
+  {
+    "rank": 51,
+    "element": "Bh",
+    "a_term": "bohra"
+  },
+  {
+    "rank": 52,
+    "element": "Cr",
+    "a_term": "chroma"
+  },
+  {
+    "rank": 53,
+    "element": "Mo",
+    "a_term": "molybda"
+  },
+  {
+    "rank": 54,
+    "element": "W",
+    "a_term": "tungsta"
+  },
+  {
+    "rank": 55,
+    "element": "Sg",
+    "a_term": "seaborga"
+  },
+  {
+    "rank": 56,
+    "element": "V",
+    "a_term": "vanada"
+  },
+  {
+    "rank": 57,
+    "element": "Nb",
+    "a_term": "nioba"
+  },
+  {
+    "rank": 58,
+    "element": "Ta",
+    "a_term": "tantala"
+  },
+  {
+    "rank": 59,
+    "element": "Db",
+    "a_term": "dubna"
+  },
+  {
+    "rank": 60,
+    "element": "Ti",
+    "a_term": "titana"
+  },
+  {
+    "rank": 61,
+    "element": "Zr",
+    "a_term": "zircona"
+  },
+  {
+    "rank": 62,
+    "element": "Hf",
+    "a_term": "hafna"
+  },
+  {
+    "rank": 63,
+    "element": "Rf",
+    "a_term": "rutherforda"
+  },
+  {
+    "rank": 64,
+    "element": "Sc",
+    "a_term": "scanda"
+  },
+  {
+    "rank": 65,
+    "element": "Y",
+    "a_term": "yttra"
+  },
+  {
+    "rank": 66,
+    "element": "La",
+    "a_term": "lanthana"
+  },
+  {
+    "rank": 67,
+    "element": "Ce",
+    "a_term": "cera"
+  },
+  {
+    "rank": 68,
+    "element": "Pr",
+    "a_term": "praseodyma"
+  },
+  {
+    "rank": 69,
+    "element": "Nd",
+    "a_term": "neodyma"
+  },
+  {
+    "rank": 70,
+    "element": "Pm",
+    "a_term": "prometha"
+  },
+  {
+    "rank": 71,
+    "element": "Sm",
+    "a_term": "samara"
+  },
+  {
+    "rank": 72,
+    "element": "Eu",
+    "a_term": "europa"
+  },
+  {
+    "rank": 73,
+    "element": "Gd",
+    "a_term": "gadolina"
+  },
+  {
+    "rank": 74,
+    "element": "Tb",
+    "a_term": "terba"
+  },
+  {
+    "rank": 75,
+    "element": "Dy",
+    "a_term": "dysprosa"
+  },
+  {
+    "rank": 76,
+    "element": "Ho",
+    "a_term": "holma"
+  },
+  {
+    "rank": 77,
+    "element": "Er",
+    "a_term": "erba"
+  },
+  {
+    "rank": 78,
+    "element": "Tm",
+    "a_term": "thula"
+  },
+  {
+    "rank": 79,
+    "element": "Yb",
+    "a_term": "ytterba"
+  },
+  {
+    "rank": 80,
+    "element": "Lu",
+    "a_term": "luteta"
+  },
+  {
+    "rank": 81,
+    "element": "Ac",
+    "a_term": "actina"
+  },
+  {
+    "rank": 82,
+    "element": "Th",
+    "a_term": "thora"
+  },
+  {
+    "rank": 83,
+    "element": "Pa",
+    "a_term": "protactina"
+  },
+  {
+    "rank": 84,
+    "element": "U",
+    "a_term": "urana"
+  },
+  {
+    "rank": 85,
+    "element": "Np",
+    "a_term": "neptuna"
+  },
+  {
+    "rank": 86,
+    "element": "Pu",
+    "a_term": "plutona"
+  },
+  {
+    "rank": 87,
+    "element": "Am",
+    "a_term": "america"
+  },
+  {
+    "rank": 88,
+    "element": "Cm",
+    "a_term": "cura"
+  },
+  {
+    "rank": 89,
+    "element": "Bk",
+    "a_term": "berkela"
+  },
+  {
+    "rank": 90,
+    "element": "Cf",
+    "a_term": "californa"
+  },
+  {
+    "rank": 91,
+    "element": "Es",
+    "a_term": "einsteina"
+  },
+  {
+    "rank": 92,
+    "element": "Fm",
+    "a_term": "ferma"
+  },
+  {
+    "rank": 93,
+    "element": "Md",
+    "a_term": "mendeleva"
+  },
+  {
+    "rank": 94,
+    "element": "No",
+    "a_term": "nobela"
+  },
+  {
+    "rank": 95,
+    "element": "Lr",
+    "a_term": "lawrenca"
+  },
+  {
+    "rank": 96,
+    "element": "Be",
+    "a_term": "berylla"
+  },
+  {
+    "rank": 97,
+    "element": "Mg",
+    "a_term": "magnesa"
+  },
+  {
+    "rank": 98,
+    "element": "Ca",
+    "a_term": "calca"
+  },
+  {
+    "rank": 99,
+    "element": "Sr",
+    "a_term": "stronta"
+  },
+  {
+    "rank": 100,
+    "element": "Ba",
+    "a_term": "bara"
+  },
+  {
+    "rank": 101,
+    "element": "Ra",
+    "a_term": "rada"
+  },
+  {
+    "rank": 102,
+    "element": "Li",
+    "a_term": "litha"
+  },
+  {
+    "rank": 103,
+    "element": "Na",
+    "a_term": "soda"
+  },
+  {
+    "rank": 104,
+    "element": "K",
+    "a_term": "potassa"
+  },
+  {
+    "rank": 105,
+    "element": "Rb",
+    "a_term": "rubida"
+  },
+  {
+    "rank": 106,
+    "element": "Cs",
+    "a_term": "caesa"
+  },
+  {
+    "rank": 107,
+    "element": "Fr",
+    "a_term": "franca"
+  },
+  {
+    "rank": 108,
+    "element": "He",
+    "a_term": "hela"
+  },
+  {
+    "rank": 109,
+    "element": "Ne",
+    "a_term": "neona"
+  },
+  {
+    "rank": 110,
+    "element": "Ar",
+    "a_term": "argona"
+  },
+  {
+    "rank": 111,
+    "element": "Kr",
+    "a_term": "kryptona"
+  },
+  {
+    "rank": 112,
+    "element": "Xe",
+    "a_term": "xenona"
+  },
+  {
+    "rank": 113,
+    "element": "Rn",
+    "a_term": "radona"
+  }
+]

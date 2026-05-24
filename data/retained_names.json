@@ -1,0 +1,101 @@
+{
+    "functional_parents": {
+        "formic acid": {
+            "smiles": "O=CO",
+            "systematic": "methanoic acid",
+            "substitution": "limited"
+        },
+        "acetic acid": {
+            "smiles": "CC(=O)O",
+            "systematic": "ethanoic acid",
+            "substitution": "full"
+        },
+        "oxalic acid": {
+            "smiles": "OC(=O)C(=O)O",
+            "systematic": "ethanedioic acid",
+            "substitution": "full"
+        },
+        "benzoic acid": {
+            "smiles": "OC(=O)c1ccccc1",
+            "systematic": "benzenecarboxylic acid",
+            "substitution": "full"
+        },
+        "phenol": {
+            "smiles": "Oc1ccccc1",
+            "systematic": "benzenol",
+            "substitution": "full"
+        },
+        "aniline": {
+            "smiles": "Nc1ccccc1",
+            "systematic": "benzenamine",
+            "substitution": "full"
+        },
+        "anisole": {
+            "smiles": "COc1ccccc1",
+            "systematic": "methoxybenzene",
+            "substitution": "none_for_PIN"
+        },
+        "formaldehyde": {
+            "smiles": "C=O",
+            "systematic": "methanal",
+            "substitution": "limited"
+        },
+        "acetaldehyde": {
+            "smiles": "CC=O",
+            "systematic": "ethanal",
+            "substitution": "limited"
+        },
+        "benzaldehyde": {
+            "smiles": "O=Cc1ccccc1",
+            "systematic": "benzenecarbaldehyde",
+            "substitution": "limited"
+        },
+        "acetone": {
+            "smiles": "CC(C)=O",
+            "systematic": "propan-2-one",
+            "substitution": "none_for_PIN"
+        },
+        "acetamide": {
+            "smiles": "CC(N)=O",
+            "systematic": "ethanamide",
+            "substitution": "full_on_N_only"
+        },
+        "benzamide": {
+            "smiles": "NC(=O)c1ccccc1",
+            "systematic": "benzenecarboxamide",
+            "substitution": "full"
+        },
+        "formamide": {
+            "smiles": "NC=O",
+            "systematic": "methanamide",
+            "substitution": "limited"
+        },
+        "acetonitrile": {
+            "smiles": "CC#N",
+            "systematic": "ethanenitrile",
+            "substitution": "limited"
+        },
+        "benzonitrile": {
+            "smiles": "N#Cc1ccccc1",
+            "systematic": "benzenecarbonitrile",
+            "substitution": "limited"
+        },
+        "urea": {
+            "smiles": "NC(=O)N",
+            "systematic": "carbonic diamide",
+            "substitution": "full"
+        }
+    },
+    "acyl_groups": {
+        "formyl": {"formula": "HCO-", "systematic": "methanoyl", "pin": true},
+        "acetyl": {"formula": "CH3CO-", "systematic": "ethanoyl", "pin": true},
+        "benzoyl": {"formula": "C6H5CO-", "systematic": "benzenecarbonyl", "pin": true},
+        "oxalyl": {"formula": "-CO-CO-", "systematic": "ethanedioyl", "pin": true}
+    },
+    "hydrocarbons": {
+        "benzene": {"formula": "C6H6", "pin": true, "substitution": "full"},
+        "toluene": {"formula": "C7H8", "pin": true, "substitution": "limited"},
+        "naphthalene": {"formula": "C10H8", "pin": true, "substitution": "full"},
+        "acetylene": {"formula": "C2H2", "pin": true, "substitution": "none_as_acetylene"}
+    }
+}

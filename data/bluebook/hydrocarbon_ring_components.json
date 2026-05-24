@@ -1,0 +1,97 @@
+[
+  {
+    "rank": 1,
+    "name": "ovalene",
+    "pin": "ovalene"
+  },
+  {
+    "rank": 2,
+    "name": "pyranthrene",
+    "pin": "pyranthrene"
+  },
+  {
+    "rank": 3,
+    "name": "coronene",
+    "pin": "coronene"
+  },
+  {
+    "rank": 4,
+    "name": "rubicene",
+    "pin": "rubicene"
+  },
+  {
+    "rank": 5,
+    "name": "perylene",
+    "pin": "perylene"
+  },
+  {
+    "rank": 6,
+    "name": "picene",
+    "pin": "picene"
+  },
+  {
+    "rank": 7,
+    "name": "pleiadene",
+    "pin": "pleiadene"
+  },
+  {
+    "rank": 8,
+    "name": "chrysene",
+    "pin": "chrysene"
+  },
+  {
+    "rank": 9,
+    "name": "pyrene",
+    "pin": "pyrene"
+  },
+  {
+    "rank": 10,
+    "name": "fluoranthene",
+    "pin": "fluoranthene"
+  },
+  {
+    "rank": 11,
+    "name": "anthracene",
+    "pin": "anthracene"
+  },
+  {
+    "rank": 12,
+    "name": "phenanthrene",
+    "pin": "phenanthrene"
+  },
+  {
+    "rank": 13,
+    "name": "phenalene",
+    "pin": "1H-phenalene"
+  },
+  {
+    "rank": 14,
+    "name": "fluorene",
+    "pin": "9H-fluorene"
+  },
+  {
+    "rank": 15,
+    "name": "s-indacene",
+    "pin": "s-indacene"
+  },
+  {
+    "rank": 16,
+    "name": "as-indacene",
+    "pin": "as-indacene"
+  },
+  {
+    "rank": 17,
+    "name": "azulene",
+    "pin": "azulene"
+  },
+  {
+    "rank": 18,
+    "name": "naphthalene",
+    "pin": "naphthalene"
+  },
+  {
+    "rank": 19,
+    "name": "indene",
+    "pin": "1H-indene"
+  }
+]

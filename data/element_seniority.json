@@ -1,0 +1,20 @@
+{
+    "parent_selection": [
+        "N", "P", "As", "Sb", "Bi", "Si", "Ge", "Sn", "Pb",
+        "B", "Al", "Ga", "In", "Tl", "O", "S", "Se", "Te", "C"
+    ],
+    "ring_heteroatom_no_N": [
+        "F", "Cl", "Br", "I", "O", "S", "Se", "Te",
+        "P", "As", "Sb", "Bi", "Si", "Ge", "Sn", "Pb",
+        "B", "Al", "Ga", "In", "Tl"
+    ],
+    "heteroatom_with_N": [
+        "F", "Cl", "Br", "I", "O", "S", "Se", "Te",
+        "N", "P", "As", "Sb", "Bi", "Si", "Ge", "Sn", "Pb",
+        "B", "Al", "Ga", "In", "Tl"
+    ],
+    "chain_heteroatom": [
+        "O", "S", "Se", "Te", "N", "P", "As", "Sb", "Bi",
+        "Si", "Ge", "Sn", "Pb", "B", "Al", "Ga", "In", "Tl"
+    ]
+}

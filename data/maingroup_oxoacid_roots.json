@@ -1,0 +1,102 @@
+{
+    "_comment": [
+        "Structural element-root table for the GENERATIVE main-group oxoacid namer",
+        "(iupac_namer/perception/fg/maingroup_oxoacids.py).",
+        "",
+        "This is NOT a whole-molecule SMILES->name pin table.  It maps a central",
+        "element to its IUPAC acid-root forms; the namer computes the full name",
+        "from perceived structural features (oxo count, hydroxy/oxido count,",
+        "polynuclear bridge count, peroxy/anion modifiers).  Because every member",
+        "of an element family shares these roots, the table generalises to all",
+        "members of the family -- adding e.g. a new selenium chain length needs no",
+        "new data.",
+        "",
+        "Citations: IUPAC 2013 Blue Book P-67.1.1.1 (mononuclear acid preselected",
+        "names) and P-67.2.1 (polynuclear preselected names).  The 'tier' keys map",
+        "the count of single-bonded acidic oxygens on the central atom to the",
+        "element-specific root; '-ic' (with central oxo) vs '-ous' (without) is the",
+        "oxidation-state suffix.  Pnictogens (N, P, As, Sb) use the systematic",
+        "-or-/-on-/-in- infix scheme baked into the per-tier roots; chalcogens",
+        "(S, Se, Te) and boron use element-specific roots.",
+        "",
+        "tier = number of single-bonded O substituents on the centre",
+        "  (-OH, [O-], -O- anhydride bridge, -OO- peroxy, and X-X direct bonds",
+        "   each count as one acidic position for tier purposes).",
+        "suffix 'ic' chosen when the centre bears at least one oxo (=O, or a",
+        "  charge-balancing [O-] on a cationic centre); 'ous' otherwise.",
+        "  For elements with no lower oxidation state (B) only the 'ic'-form root",
+        "  is given and it is used regardless of oxo count."
+    ],
+
+    "elements": {
+        "N": {
+            "scheme": "pnictogen",
+            "tiers": {
+                "3": {"ic": "nitror", "ous": "azor"},
+                "2": {"ic": "azon",   "ous": "azon"},
+                "1": {"ic": "azin",   "ous": "azin"}
+            }
+        },
+        "P": {
+            "scheme": "pnictogen",
+            "tiers": {
+                "3": {"ic": "phosphor", "ous": "phosphor"},
+                "2": {"ic": "phosphon", "ous": "phosphon"},
+                "1": {"ic": "phosphin", "ous": "phosphin"}
+            }
+        },
+        "As": {
+            "scheme": "pnictogen",
+            "tiers": {
+                "3": {"ic": "arsor",  "ous": "arsor"},
+                "2": {"ic": "arson",  "ous": "arson"},
+                "1": {"ic": "arsin",  "ous": "arsin"}
+            }
+        },
+        "Sb": {
+            "scheme": "pnictogen",
+            "tiers": {
+                "3": {"ic": "stibor", "ous": "stibor"},
+                "2": {"ic": "stibon", "ous": "stibon"},
+                "1": {"ic": "stibin", "ous": "stibin"}
+            }
+        },
+        "B": {
+            "scheme": "boron",
+            "tiers": {
+                "3": {"ic": "bor",    "ous": "bor"},
+                "2": {"ic": "boron",  "ous": "boron"},
+                "1": {"ic": "borin",  "ous": "borin"}
+            }
+        },
+        "S": {
+            "scheme": "chalcogen",
+            "tiers": {"2": {"ic": "sulfur", "ous": "sulfur"}},
+            "thionic": "thion",
+            "anion_root": "sulf"
+        },
+        "Se": {
+            "scheme": "chalcogen",
+            "tiers": {"2": {"ic": "selen", "ous": "selen"}},
+            "anion_root": "selen"
+        },
+        "Te": {
+            "scheme": "chalcogen",
+            "tiers": {"2": {"ic": "tellur", "ous": "tellur"}},
+            "anion_root": "tellur"
+        }
+    },
+
+    "_halogen_comment": [
+        "Halogens (F, Cl, Br, I) are mono-hydroxy oxoacids whose oxo count equals",
+        "the central formal charge: 0 -> hypo-X-ous, 1 -> X-ous, 2 -> X-ic,",
+        "3 -> per-X-ic.  P-67.1.2.2 / P-67.1.1.1 preselected names.  Root forms are",
+        "the halogen acid stems."
+    ],
+    "halogens": {
+        "F":  "fluor",
+        "Cl": "chlor",
+        "Br": "brom",
+        "I":  "iod"
+    }
+}
