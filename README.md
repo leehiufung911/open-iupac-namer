@@ -14,11 +14,7 @@ name_smiles("O=C(O)c1ccccc1")                   # 'benzoic acid'
 name_smiles("c1ccc2ccccc2c1")                   # 'naphthalene'
 name_smiles("CC(C)Cc1ccc(cc1)C(C)C(=O)O")       # 'ibuprofen'
 
-# ...and structures with no catalogued name, derived straight from the graph:
-
-# 1-bromomorphine (a structurally correct name, though not the canonical one)
-name_smiles("CN1CC[C@]23c4c5cc(Br)c(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5")
-# -> '(7R,8S,11R,12S,16R)-3-bromo-8-hydroxy-15-methyl-6-oxa-15-azapentacyclo[10.5.1.0^{5,18}.0^{7,12}.0^{11,16}]octadeca-1(18),2,4,9-tetraen-4-ol'
+# ...and more complex structures:
 
 # a thieno[2,3-d]pyrimidine bisphosphonate
 name_smiles("O=C(C(C1)CCCN1C(N=C2NC(P(OCC)(OCC)=O)P(OCC)(OCC)=O)=NC3=C2C=CS3)OCC")
